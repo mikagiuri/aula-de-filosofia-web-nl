@@ -48,6 +48,29 @@ const BIOGRAFIAS = {
    "fil-presocraticos"
   ]
  },
+ "solon": {
+  "name": "Solon",
+  "dates": "ca. 640 – ca. 560 v.Chr.",
+  "born": -640,
+  "died": -560,
+  "place": "Athene",
+  "role": "Atheense wetgever en dichter",
+  "idea": "Met zijn hervormingen schafte hij de schulden af, verbood hij slavernij wegens schulden en verdeelde hij de politieke rechten naar rijkdom, waarmee hij de weg bereidde voor de Atheense democratie.",
+  "bio": "<p>Solon was een Atheense politicus, wetgever en dichter. Hij werd rond 640 v.Chr. geboren in een adellijke familie, en de Grieken rekenden hem tot de Zeven Wijzen. Rond 594 v.Chr. werd hij gekozen tot archont, de hoogste magistraat van de stad, midden in een sociale crisis: veel boeren met schulden hadden hun land verloren of waren tot slaaf gemaakt. Hij verdedigde zijn hervormingen in gedichten waarvan fragmenten bewaard zijn gebleven.</p>\n<p>Met de <strong>seisachtheia</strong> (afschudding van lasten) schafte hij de schulden af en verbood hij om iemand tot slaaf te maken vanwege schulden. Hij verdeelde de politieke rechten op basis van rijkdom, en niet op basis van afkomst, en stelde de volksvergadering en de rechtbanken open voor alle burgers. Hij komt in het curriculum voor omdat zijn hervormingen, samen met die van Cleisthenes, de Atheense <strong>democratie</strong> van de 5e eeuw v.Chr. voorbereidden.</p>",
+  "obras": [
+   "Elegieën (fragmenten)"
+  ],
+  "anecdota": "<p>Herodotus vertelt dat Solon tijdens zijn reizen in Sardis Croesus bezocht, de koning van Lydië, beroemd om zijn rijkdommen. Nadat hij hem zijn schatten had laten zien, vroeg Croesus hem wie de gelukkigste man was die hij had gekend, in de hoop zijn eigen naam te horen. Solon noemde een eenvoudige Athener, Tellus, die zijn kinderen zag opgroeien en met eer stierf terwijl hij zijn stad verdedigde. En hij voegde eraan toe dat niemand gelukkig genoemd kan worden zolang hij leeft, omdat het fortuin verandert. Croesus stuurde hem minachtend weg, hoewel hij later, na zijn koninkrijk te hebben verloren, zijn woorden zou herinneren. De chronologie doet twijfelen of de ontmoeting echt heeft plaatsgevonden.</p>",
+  "fuente": "Herodotus, Historiën I",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1"
+  ]
+ },
  "tales": {
   "name": "Thales van Milete",
   "dates": "ca. 624 – ca. 546 v.Chr.",
@@ -429,6 +452,48 @@ const BIOGRAFIAS = {
    "fil-grandes-preguntas"
   ]
  },
+ "hipias": {
+  "name": "Hippias van Elis",
+  "dates": "ca. 460 – ca. 400 v.Chr.",
+  "born": -460,
+  "died": -400,
+  "place": "Elis (Peloponnesos)",
+  "role": "Griekse sofist",
+  "idea": "De wetten van elke stad zijn menselijke conventies, veranderlijk en wisselend, anders dan de natuurwetten, die universeel zijn en voor iedereen gelijk gelden.",
+  "bio": "<p>Hippias werd geboren in Elis, de streek op de Peloponnesos waar de Olympische Spelen werden gehouden, en was een tijdgenoot van Socrates. Zijn stad stuurde hem verschillende keren als ambassadeur, en hij maakte van zijn reizen gebruik om lessen en lezingen te geven tegen betaling, net als de andere <strong>sofisten</strong>. Hij was beroemd om zijn encyclopedische kennis: hij onderwees wiskunde, astronomie, muziek, geschiedenis en poëzie, en pochte op een wonderbaarlijk geheugen. Zijn werken zijn verloren gegaan; we kennen hem vooral via Plato's dialogen <em>Hippias maior</em>, <em>Hippias minor</em> en <em>Protagoras</em>, die hem met enige ironie portretteren.</p>\n<p>Zijn belangrijkste bijdrage aan het curriculum is het onderscheid tussen <strong>physis</strong> en <strong>nomos</strong>. Natuurwetten zijn onveranderlijk en universeel; wetten die door mensen zijn vastgesteld, zijn daarentegen conventies die van gemeenschap tot gemeenschap verschillen. Als wetten conventie zijn, kunnen ze worden veranderd. In de <em>Protagoras</em> laat Plato hem zeggen dat de wet een tiran is die veel dingen afdwingt die tegen de natuur ingaan, en dat mensen van nature verwanten zijn, niet door de wet.</p>\n<p>Dit idee opent een centraal debat in de politieke filosofie: of normen natuurlijk zijn of afgesproken. Zijn conventionalisme sluit aan bij het relativisme van Protagoras, en Socrates en Plato bestreden het door een universele rechtvaardigheid te zoeken. Het idee van een natuurlijke verwantschap tussen alle mensen loopt vooruit op het kosmopolitisme van de cynici en de stoïcijnen.</p>",
+  "obras": [],
+  "anecdota": "<p>In de <em>Hippias minor</em> laat Plato Socrates terugdenken aan een beroemd optreden van Hippias op de Olympische Spelen. De sofist pochte tegenover iedereen dat alles wat hij droeg door hemzelf was gemaakt: de ring en het zegel dat hij graveerde, het olieflesje, de schraper voor het bad, de sandalen, de mantel en de tuniek, en zelfs de geborduurde gordel. Bovendien had hij gedichten, tragedies en redevoeringen van eigen makelij bij zich. Plato vertelt het met ironie, maar de scène geeft goed het ideaal weer van encyclopedische en zelfvoorzienende kennis waarop Hippias trots was.</p>",
+  "fuente": "Plato, Hippias minor",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
+ "antistenes": {
+  "name": "Antisthenes",
+  "dates": "ca. 445 – ca. 365 v.Chr.",
+  "born": -445,
+  "died": -365,
+  "place": "Athene",
+  "role": "socratisch filosoof",
+  "idea": "De deugd volstaat om gelukkig te zijn; om haar te bereiken moet je een sober leven leiden, je lusten beheersen en niet afhankelijk zijn van rijkdom of eer.",
+  "bio": "<p>Antisthenes werd geboren in Athene. Hij was eerst leerling van de sofist Gorgias, van wie hij retorica leerde, en werd later een van de trouwste discipelen van <strong>Socrates</strong>: volgens Plato was hij aanwezig bij diens dood. Hij gaf les in het gymnasium van Cynosarges, aan de rand van Athene. Hij schreef veel werken, maar die zijn allemaal verloren gegaan en er resteren alleen fragmenten en getuigenissen.</p>\n<p>Hij nam van Socrates het idee over dat deugd kan worden onderwezen en overdreef het: deugd is genoeg voor geluk, en al het andere (rijkdom, roem, genot) is onverschillig of schadelijk. Daarom pleitte hij voor een sobere levenswijze en <strong>zelfbeheersing</strong>. De traditie beschouwt hem als grondlegger van het <strong>cynisme</strong>, dat Diogenes van Sinope tot het uiterste dreef, en zo komt hij in het curriculum voor, hoewel sommige historici dat directe verband betwisten.</p>",
+  "obras": [],
+  "anecdota": "<p>Diogenes Laërtius vertelt dat Antisthenes elke dag te voet ongeveer veertig stadiën liep, meer dan zeven kilometer, van Piraeus naar Athene om naar Socrates te luisteren. Hij imiteerde de soberheid van zijn leermeester tot het uiterste, en droeg gewoonlijk een oude, gescheurde mantel, met de kant met gaten goed zichtbaar. Op een dag merkte Socrates het op en zei tegen hem: “Door de gaten in je mantel zie ik je ijdelheid.” De anekdote toont het risico om armoede tot een schouwspel te maken, iets wat de latere cynici nog verder zouden doorvoeren.</p>",
+  "fuente": "Diogenes Laërtius, Levens VI",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t5"
+  ]
+ },
  "aristipo": {
   "name": "Aristipo de Cirene",
   "dates": "ca. 435 – ca. 356 v.Chr.",
@@ -590,6 +655,24 @@ const BIOGRAFIAS = {
    "fil-montaigne-ensayos"
   ]
  },
+ "crates": {
+  "name": "Crates van Thebe",
+  "dates": "ca. 365 – ca. 285 v.Chr.",
+  "born": -365,
+  "died": -285,
+  "place": "Thebe (Boeotië)",
+  "role": "cynisch filosoof",
+  "idea": "Geluk bestaat erin weinig nodig te hebben: wie afziet van rijkdom en van de mening van anderen is vrij.",
+  "bio": "<p>Crates kwam uit een rijke familie in Thebe, maar hij verdeelde zijn fortuin en werd een leerling van <strong>Diogenes van Sinope</strong>. In tegenstelling tot zijn leermeester, beroemd om zijn provocaties, stond Crates bekend als vriendelijk: hij ging de huizen binnen om te helpen en te adviseren wie het nodig had, en daarom noemde men hem “degene die de deuren opent”.</p>\n<p>Hij trouwde met <strong>Hipparchia</strong>, een jonge vrouw uit een goede familie die, tegen de wil van haar ouders, zijn leven van armoede wilde delen en een van de weinige vrouwelijke filosofen uit de oudheid werd van wie we weten. Crates was bovendien de leermeester van Zeno van Citium: via hem ging de cynische ethiek van soberheid en onafhankelijkheid over naar het <strong>stoïcisme</strong>.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t5"
+  ]
+ },
  "pirron": {
   "name": "Pirrón de Elis",
   "dates": "c. 360 – c. 270 v.Chr.",
@@ -664,6 +747,44 @@ const BIOGRAFIAS = {
    "fil-helenismo"
   ]
  },
+ "timon": {
+  "name": "Timon van Phlius",
+  "dates": "ca. 320 – ca. 230 v.Chr.",
+  "born": -320,
+  "died": -230,
+  "place": "Phlius (Peloponnesos)",
+  "role": "sceptisch filosoof en satirisch dichter",
+  "idea": "Wie gelukkig wil zijn, moet zich afvragen hoe de dingen zijn, welke houding hij tegenover hen moet aannemen en wat hij met die houding wint; het sceptische antwoord is het oordeel opschorten.",
+  "bio": "<p>Timon werd geboren in Phlius, op de Peloponnesos. Hij was danser in zijn jeugd en werd later een leerling van <strong>Pyrrho</strong>, die niets schreef: bijna alles wat we weten over het eerste scepticisme komt tot ons via Timon.</p>\n<p>Hij vatte de leer van zijn meester samen in drie vragen: hoe de dingen zijn (dat kunnen we niet weten), welke houding we tegenover ze moeten aannemen (niets bevestigen of ontkennen) en wat het resultaat is van die houding (de <strong>ataraxia</strong>, de rust van de ziel). Hij schreef ook de <em>Silloi</em>, satirische gedichten waarin hij de filosofen bespotte die meenden de waarheid te bezitten, van de presocraten tot Plato.</p>",
+  "obras": [
+   "Silloi"
+  ],
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
+ "carneades": {
+  "name": "Carneades van Cyrene",
+  "dates": "ca. 214 – ca. 129 v.Chr.",
+  "born": -214,
+  "died": -129,
+  "place": "Cyrene (Noord-Afrika)",
+  "role": "academisch sceptisch filosoof",
+  "idea": "We kunnen geen zekere waarheid bereiken, maar wel onderscheiden wat meer of minder waarschijnlijk is, en dat is genoeg om te beslissen hoe te handelen.",
+  "bio": "<p>Carneades, geboren in Cyrene, in Noord-Afrika, leidde de <strong>Academie</strong> in haar sceptische periode en was de briljantste filosoof van zijn tijd. Hij schreef niets; we kennen zijn ideeën via zijn leerling Clitomachus en via Cicero. In 155 v.Chr. reisde hij naar Rome als ambassadeur van Athene en hield daar twee toespraken achter elkaar: op de eerste dag verdedigde hij de rechtvaardigheid en op de tweede weerlegde hij die met evenveel kracht. Cato de Oudere, geschokt, vroeg om die ambassadeurs zo snel mogelijk weg te sturen zodat ze de Romeinse jeugd niet zouden bederven.</p>\n<p>Carneades bekritiseerde vooral de stoïcijnen: geen enkele indruk garandeert op zichzelf de waarheid. Maar om niet verlamd te raken door de twijfel stelde hij het <strong>probabilisme</strong> voor: hoewel we geen zekerheden bereiken, kunnen we ons laten leiden door wat <strong>overtuigend of waarschijnlijk</strong> is, vooral als het is geverifieerd en niets het tegenspreekt. Het is een scepticisme dat bedacht is om te kunnen leven.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
  "ciceron": {
   "name": "Marcus Tullius Cicero",
   "dates": "106 – 43 v.Chr.",
@@ -715,6 +836,81 @@ const BIOGRAFIAS = {
   "temas": [
    "fil-helenismo",
    "fil-montaigne-ensayos"
+  ]
+ },
+ "epicteto": {
+  "name": "Epictetus",
+  "dates": "ca. 50 – ca. 135",
+  "born": 50,
+  "died": 135,
+  "place": "Hiërapolis (Frygië, huidig Turkije)",
+  "role": "Grieks stoïcijns filosoof",
+  "idea": "Er zijn dingen die van ons afhangen, onze oordelen en beslissingen, en dingen die dat niet doen; vrijheid bestaat erin je geluk niet afhankelijk te maken van wat niet van jou afhangt.",
+  "bio": "<p>Epictetus werd als slaaf geboren; zijn naam betekent in het Grieks “verworven”. In Rome behoorde hij toe aan Epaphroditus, een vrijgelatene die secretaris van Nero was geweest, die hem toestond te studeren bij de stoïcijn Musonius Rufus. Nadat hij zijn vrijheid had verkregen, gaf hij les in filosofie in Rome totdat, rond het jaar 93, keizer Domitianus de filosofen uit Italië verdreef. Hij vestigde zich toen in Nicopolis, in het noordwesten van Griekenland, waar hij een school opende waar jongeren uit het hele Rijk naartoe kwamen. Hij leefde zeer eenvoudig. Hij liep mank aan één been.</p>\n<p>Epictetus schreef niets. Zijn leerling Arrianus maakte aantekeningen van zijn lessen en publiceerde ze in de <em>Diatriben</em> en in een samenvatting, het <em>Handboekje</em> (<em>Encheiridion</em>). Alles begint met een onderscheid: <strong>wat van ons afhangt</strong> (onze meningen, verlangens en beslissingen) en <strong>wat niet</strong> (het lichaam, de roem, de bezittingen, wat anderen doen). Niet de dingen verontrusten ons, maar de meningen die we erover hebben. Wie zijn welzijn stelt in wat hij niet beheerst, leeft als een slaaf; wie het stelt in zijn eigen oordelen is vrij, ook al is hij geketend. Zijn handboekje beïnvloedde Marcus Aurelius en, vele eeuwen later, de humanisten van de renaissance en sommige huidige psychologische therapieën.</p>",
+  "obras": [
+   "Colleges (opgetekend door Arrianus)",
+   "Handboekje of Encheiridion (samenvatting van Arrianus)"
+  ],
+  "anecdota": "<p>De christelijke schrijver Origenes vertelt dat de meester van Epictetus, om hem op de proef te stellen, zijn been omdraaide. Epictetus waarschuwde hem rustig: “Je gaat hem breken.” Toen het been brak, zei hij alleen: “Had ik het je niet gezegd?” Het verhaal wordt vaak aangehaald als voorbeeld van stoïcijnse gelijkmoedigheid, maar andere antieke bronnen zeggen dat zijn kreupelheid aangeboren was of het gevolg van reuma, dus het kan een legende zijn.</p>",
+  "fuente": "Origenes, Tegen Celsus VII, 53",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1",
+   "fil-utilidad",
+   "fil-t5"
+  ]
+ },
+ "marco_aurelio": {
+  "name": "Marcus Aurelius",
+  "dates": "121 – 180",
+  "born": 121,
+  "died": 180,
+  "place": "Rome",
+  "role": "Romeins keizer en stoïcijns filosoof",
+  "idea": "Elke dag moet je je eigen plicht vervullen, rustig aanvaarden wat niet van jou afhangt en onthouden dat alles vergankelijk is.",
+  "bio": "<p>Marcus Aurelius werd op jonge leeftijd geadopteerd door keizer Antoninus Pius en kreeg de beste opleiding van zijn tijd. Al vroeg raakte hij in de ban van de stoïcijnse filosofie, en zijn leraar Junius Rusticus maakte hem vertrouwd met de leer van Epictetus. Hij was keizer van Rome van 161 tot aan zijn dood in 180. Zijn regering werd gekenmerkt door oorlogen aan de Donaugrenzen en door een grote epidemie, de Antonijnse pest; hij bracht vele jaren door op veldtocht en stierf tijdens een daarvan.</p>\n<p>Tijdens die veldtochten schreef hij in het Grieks aantekeningen voor zichzelf, die hij niet van plan was te publiceren en die we tegenwoordig kennen als <em>Meditaties</em> (de oude titel is <em>Aan zichzelf</em>). Het zijn oefeningen om zijn gedachten te ordenen: eraan herinneren dat alles verandert en voorbijgaat, dat de dood natuurlijk is, dat de anderen samen met ons een redelijke gemeenschap vormen en dat we iemand die ons beledigt eerder moeten begrijpen dan haten. Hij is een stoïcijn die een rijk bestuurt en van zichzelf eist dat hij volgens de rede leeft. Zijn werk laat ook de spanning zien tussen het filosofische ideaal en de macht: tijdens zijn regering gingen de oorlogen en de vervolging van de christenen door.</p>",
+  "obras": [
+   "Meditaties of Aan zichzelf (geschreven rond 170-180)"
+  ],
+  "anecdota": "<p>Het eerste boek van de <em>Meditaties</em> is een lijst van dankbetuigingen: Marcus Aurelius noteert wat hij van elke persoon in zijn leven heeft geleerd. Van zijn leraar Rusticus is hij onder andere dankbaar dat deze hem uit zijn eigen bibliotheek de aantekeningen van de lessen van Epictetus leende. En aan het eind van dat boek, of aan het begin van het volgende afhankelijk van de uitgave, noteert hij waar hij schrijft: “Bij de Quaden, aan de oevers van de Gran”, dat wil zeggen in een legerkamp aan de oevers van de rivier de Hron, in het huidige Slowakije.</p>",
+  "fuente": "Marcus Aurelius, Meditaties I, 7 en I, 17",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1",
+   "fil-utilidad",
+   "fil-t5",
+   "fil-helenismo"
+  ]
+ },
+ "tertuliano": {
+  "name": "Tertullianus",
+  "dates": "c. 155 – c. 220",
+  "born": 155,
+  "died": 220,
+  "place": "Carthago (huidig Tunesië)",
+  "role": "christelijk apologeet",
+  "idea": "Het christelijk geloof heeft de steun van de Griekse filosofie niet nodig: wat geopenbaard is moet geloofd worden, ook als de menselijke rede het niet begrijpt of het absurd vindt.",
+  "bio": "<p>Quintus Septimius Florens Tertullianus werd rond het jaar 155 geboren in Carthago, in Romeins Noord-Afrika. Hij kreeg een gedegen opleiding in retorica en recht en bekeerde zich op volwassen leeftijd tot het christendom. Hij was de eerste grote christelijke auteur die in het Latijn schreef, en hij droeg bij aan de vorming van de theologische woordenschat van het Westen: aan hem danken we bijvoorbeeld het gebruik van de term <strong>Drie-eenheid</strong>. In zijn laatste jaren neigde hij naar het montanisme, een rigoristische beweging die de Kerk uiteindelijk verwierp.</p>\n<p>Tertullianus was een <strong>apologeet</strong>, dat wil zeggen een verdediger van het christendom tegen de beschuldigingen van de heidenen. Wat de verhouding tussen geloof en rede betreft nam hij het meest wantrouwende standpunt in: de Griekse filosofie was volgens hem een bron van ketterijen. Daarom vroeg hij zich af wat Athene, symbool van de filosofie, met Jeruzalem, symbool van het geloof, te maken had. Aan hem wordt de formule <strong>“Ik geloof omdat het absurd is”</strong> toegeschreven, die niet letterlijk in zijn werken voorkomt, maar zijn idee goed samenvat dat geopenbaarde waarheden, zoals de menswording of de verrijzenis, aanvaard moeten worden ook al lijken ze voor de rede onmogelijk.</p>\n<p>Zijn standpunt, soms <strong>fideïsme</strong> genoemd, vormt een uiterste in het middeleeuwse debat. Daartegenover zal Augustinus van Hippo voorstellen dat het geloof de rede leidt, en Thomas van Aquino dat beide samenwerken. Zijn invloed was groot in de latere Latijnse theologie.</p>",
+  "obras": [
+   "Apologeticum (197)",
+   "Over de verjaring tegen de ketters",
+   "Over het vlees van Christus"
+  ],
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1",
+   "fil-metafisica"
   ]
  },
  "plotino": {
@@ -896,6 +1092,33 @@ const BIOGRAFIAS = {
    "fil-grandes-preguntas"
   ]
  },
+ "abelardo": {
+  "name": "Petrus Abaelardus",
+  "dates": "1079 – 1142",
+  "born": 1079,
+  "died": 1142,
+  "place": "Le Pallet (Bretagne, Frankrijk)",
+  "role": "scholastisch filosoof en logicus",
+  "idea": "De universalia zijn geen reële dingen en ook geen loutere woorden, maar begrippen van de geest die uitdrukken wat de afzonderlijke individuen gemeen hebben.",
+  "bio": "<p>Petrus Abaelardus werd in 1079 geboren in Le Pallet, in Bretagne. Hij zag af van een militaire loopbaan om zich aan de logica te wijden en was een van de beroemdste leraren van Parijs. Zijn leven werd getekend door zijn relatie met Héloïse, zijn leerlinge, met wie hij een kind kreeg: haar familie nam wraak door hem te verminken, en beiden traden in het kloosterleven. Hij vertelde deze ervaringen in zijn <em>Geschiedenis van mijn rampen</em>. Zijn theologische stellingen werden veroordeeld op de concilies van Soissons (1121) en Sens (1141), dit laatste op aandringen van Bernardus van Clairvaux. Hij stierf in 1142.</p>\n<p>Abaelardus verdedigde het gebruik van de <strong>dialectiek</strong> (de logica) in de theologie. In <em>Ja en nee</em> verzamelde hij tegenstrijdige meningen van de autoriteiten over dezelfde kwesties, zodat de rede ze kon onderzoeken: een beslissende stap naar de scholastieke methode van de <em>quaestio</em> en de <em>disputatio</em>. In het <strong>probleem van de universalia</strong>, dat wil zeggen de vraag naar de status van algemene begrippen zoals ‘menselijkheid’, nam hij een tussenpositie in tussen het realisme en het nominalisme, bekend als <strong>conceptualisme</strong>: de universalia bestaan als begrippen in de geest, die ze vormt op basis van wat de individuen gemeen hebben.</p>\n<p>Zijn kritische geest en zijn vertrouwen in de rede beïnvloedden de ontwikkeling van de universiteiten. Zijn oplossing voor de universalia bereidt die van Thomas van Aquino voor en staat tegenover het nominalisme van Willem van Ockham.</p>",
+  "obras": [
+   "Ja en nee (Sic et non)",
+   "Geschiedenis van mijn rampspoed",
+   "Ethiek of Ken jezelf",
+   "Dialoog tussen een filosoof, een jood en een christen"
+  ],
+  "anecdota": "<p>Net aangekomen in Parijs werd de jonge Abaelardus leerling van Willem van Champeaux, de beroemdste leraar van de stad en verdediger van een extreem realisme over de universalia. Al snel begon hij hem midden in de les tegen te spreken, en soms leek hij de discussie te winnen. Volgens zijn eigen verhaal dwong hij Willem uiteindelijk zijn these te corrigeren, en veel studenten verlieten de meester om de leerling te volgen. Hij vertelt het zelf in de <em>Geschiedenis van mijn rampen</em>, een waardevol getuigenis maar, logischerwijs, weinig onpartijdig.</p>",
+  "fuente": "Petrus Abaelardus, Geschiedenis van mijn rampspoed",
+  "tradicion": false,
+  "block": "med",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-metafisica",
+   "fil-t4"
+  ]
+ },
  "hildegarda": {
   "name": "Hildegard van Bingen",
   "dates": "1098 – 1179",
@@ -1052,6 +1275,49 @@ const BIOGRAFIAS = {
    "fil-montaigne-ensayos"
   ]
  },
+ "llull": {
+  "name": "Ramon Llull",
+  "dates": "c. 1232 – c. 1316",
+  "born": 1232,
+  "died": 1316,
+  "place": "Palma (Mallorca)",
+  "role": "filosoof, mysticus en schrijver",
+  "idea": "Door enkele basisbegrippen te combineren kan men de waarheden van het geloof aan iedereen aantonen, of hij nu christen, moslim of jood is, alleen met de rede.",
+  "bio": "<p>Ramon Llull (Raimundo Lulio in het Castiliaans) werd geboren op Mallorca, kort nadat koning Jacobus I het eiland had veroverd, en was een edelman aan het hof. Toen hij ongeveer dertig was, kreeg hij volgens zijn eigen verhaal verschillende visioenen van de gekruisigde Christus die zijn leven veranderden: hij verliet zijn familie en wijdde zich aan het bekeren van moslims door middel van de rede. Hij leerde Arabisch, stichtte een talenschool voor missionarissen en reisde meerdere keren naar Noord-Afrika. Hij schreef ongeveer 260 werken in het Catalaans, Latijn en Arabisch, en is een van de grondleggers van het literaire proza in het Catalaans.</p>\n<p>Zijn grote uitvinding is de <strong>Ars</strong>: een systeem dat met figuren en draaiende cirkels een paar basisprincipes (goedheid, grootheid, eeuwigheid…) combineert om alle mogelijke antwoorden op een vraag te verkrijgen. Llull geloofde dat hij zo de waarheid van het christendom aan iedereen zou kunnen aantonen zonder een beroep te doen op autoriteiten. Het is een voorloper van de <strong>combinatoriek</strong> en van het idee van een mechanisch redeneren, dat Leibniz bewonderde. In het <em>Boek van de heiden en de drie wijzen</em> zetten een jood, een christen en een moslim hun geloofsovertuigingen respectvol uiteen tegenover een heiden, die niet zegt welke hij kiest.</p>",
+  "obras": [
+   "Ars magna",
+   "Boek van de heiden en de drie wijzen",
+   "Blanquerna"
+  ],
+  "block": "med",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t4"
+  ]
+ },
+ "duns_escoto": {
+  "name": "Johannes Duns Scotus",
+  "dates": "c. 1266 – 1308",
+  "born": 1266,
+  "died": 1308,
+  "place": "Duns (Schotland)",
+  "role": "filosoof en franciscaans theoloog",
+  "idea": "Elk individu heeft iets eigens dat hem uniek maakt, zijn “ditheid”; en in God en in de mens staat de wil boven het verstand.",
+  "bio": "<p>Johannes Duns Scotus werd geboren in Duns, in Schotland, en was franciscaner monnik. Hij doceerde in Oxford, in Parijs, waar hij een tijd moest vertrekken omdat hij de paus steunde tegen de koning van Frankrijk, en in Keulen, waar hij jong stierf. Vanwege de fijnzinnigheid van zijn redeneringen noemde men hem de “subtiele doctor”.</p>\n<p>Tegenover Thomas van Aquino verdedigde hij dat het begrip <strong>zijn</strong> in dezelfde zin op God en op de schepselen van toepassing is, wat het mogelijk maakt om op een strikte manier over God te spreken. Om te verklaren wat elk individu uniek maakt, introduceerde hij de <strong>ditheid</strong> (<em>haecceitas</em>, van <em>haec</em>, ‘deze’): datgene wat maakt dat Socrates deze mens is en geen andere. Hij stelde ook het primaat van de <strong>wil</strong> boven het verstand: God wil iets niet omdat het goed is, maar het is goed omdat God het wil, binnen de grenzen van de logica. Zijn ideeën baanden de weg voor Willem van Ockham. Merkwaardig genoeg spotten humanisten in de 16e eeuw met zijn volgelingen door hen <em>dunces</em> te noemen, en daar komt het Engelse woord <em>dunce</em> vandaan, ‘ezel’, ‘domkop’.</p>",
+  "obras": [
+   "Ordinatio",
+   "Verhandeling over het eerste beginsel"
+  ],
+  "block": "med",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-metafisica"
+  ]
+ },
  "ockham": {
   "name": "Willem van Ockham",
   "dates": "c. 1287 – 1347",
@@ -1117,6 +1383,48 @@ const BIOGRAFIAS = {
    "fil-t1-filosofia-mujer"
   ]
  },
+ "nicolas_cusa": {
+  "name": "Nicolaas van Cusa",
+  "dates": "1401 – 1464",
+  "born": 1401,
+  "died": 1464,
+  "place": "Kues (aan de Moezel, Duitsland)",
+  "role": "filosoof, theoloog en kardinaal",
+  "idea": "Het hoogste wat we kunnen weten is dat we niet weten: een “geleerde onwetendheid”; in God, de oneindige, vallen de tegenstellingen samen.",
+  "bio": "<p>Nicolaas werd geboren in Kues, aan de oevers van de rivier de Moezel, en zijn Latijnse naam, Cusanus, komt daarvandaan. Hij studeerde rechten en wiskunde, was kardinaal en diplomaat in dienst van de paus, en reisde door half Europa en zelfs tot Constantinopel. Hij leefde tussen de Middeleeuwen en de Renaissance, en zijn denken kondigt de nieuwe tijd aan.</p>\n<p>In zijn werk <em>De docta ignorantia</em> stelt hij dat onze kennis voortschrijdt door vergelijking, door het onbekende af te meten aan het bekende; daarom kan het <strong>oneindige</strong> niet gekend worden, en is ware wijsheid te weten dat we niet weten. In God, die oneindig is, vindt de <strong>coïncidentie van de tegenstellingen</strong> plaats: het grootste en het kleinste zijn hetzelfde. Hij zei ook dat het heelal geen vast middelpunt en geen grens heeft, zodat de aarde geen bevoorrechte plaats inneemt, een idee dat Giordano Bruno later zou oppakken. Na de val van Constantinopel schreef hij <em>De pace fidei</em>, een dialoog waarin vertegenwoordigers van verschillende religies zoeken naar wat hen verbindt.</p>",
+  "obras": [
+   "De geleerde onwetendheid",
+   "De vrede van het geloof"
+  ],
+  "block": "ren",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
+ "pico": {
+  "name": "Giovanni Pico della Mirandola",
+  "dates": "1463 – 1494",
+  "born": 1463,
+  "died": 1494,
+  "place": "Mirandola (Italië)",
+  "role": "humanist en filosoof",
+  "idea": "De mens heeft geen vaste natuur: hij kan kiezen wat hij wil zijn, zich verlagen tot de beesten of zich verheffen tot het goddelijke.",
+  "bio": "<p>Pico werd geboren in een adellijke familie in Noord-Italië en had een wonderbaarlijk geheugen. Hij studeerde in Bologna, Padua en Parijs, leerde Grieks, Hebreeuws en Arabisch, en sloot zich in Florence aan bij de platonische kring van Marsilio Ficino, onder de bescherming van Lorenzo de' Medici. In 1486 stelde hij voor om in Rome publiekelijk <strong>900 stellingen</strong> te verdedigen, afkomstig uit alle tradities: Plato, Aristoteles, de Arabieren, de joodse kabbala… Hij wilde laten zien dat alle filosofieën een deel van de waarheid bevatten. De paus schortte het debat op en veroordeelde verschillende stellingen, en Pico moest naar Frankrijk vluchten, waar hij een tijd werd vastgehouden. Hij stierf in Florence op slechts 31-jarige leeftijd; recente analyses van zijn stoffelijk overschot wijzen op een vergiftiging met arsenicum.</p>\n<p>De redevoering waarmee hij dat debat wilde openen, bekend als <em>Rede over de waardigheid van de mens</em>, wordt beschouwd als een manifest van de renaissance. Daarin zegt God tegen de mens dat hij hem geen vaste plaats en geen eigen vorm heeft gegeven, zodat hij die zelf kan kiezen: hij kan ontaarden tot beesten of zich verheffen tot het goddelijke. De <strong>menselijke waardigheid</strong> ligt voor Pico in die <strong>vrijheid</strong>.</p>",
+  "obras": [
+   "Oratie over de waardigheid van de mens",
+   "900 tesis"
+  ],
+  "block": "ren",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2"
+  ]
+ },
  "erasmo": {
   "name": "Erasmus",
   "dates": "c. 1466 – 1536",
@@ -1141,6 +1449,55 @@ const BIOGRAFIAS = {
   ],
   "temas": [
    "fil-grandes-preguntas"
+  ]
+ },
+ "maquiavelo": {
+  "name": "Niccolò Machiavelli",
+  "dates": "1469 – 1527",
+  "born": 1469,
+  "died": 1527,
+  "place": "Florence (Italië)",
+  "role": "politiek denker en diplomaat",
+  "idea": "De politiek moet bestudeerd worden zoals ze is en niet zoals ze zou moeten zijn: het is een autonome techniek, los van moraal en religie, met als doel de staat in stand te houden.",
+  "bio": "<p>Niccolò Machiavelli werd in 1469 in Florence geboren, midden in de renaissance. Tussen 1498 en 1512 was hij secretaris van de Florentijnse Republiek en voerde hij talrijke diplomatieke missies uit bij koningen, de paus en figuren als Cesare Borgia, waardoor hij de uitoefening van de macht van dichtbij kon observeren. Toen de Medici in 1512 de regering weer overnamen, werd hij afgezet, gevangengezet en gemarteld. Teruggetrokken op een landgoed nabij de stad schreef hij <em>De vorst</em>, dat pas in 1532 werd gepubliceerd, na zijn dood in 1527.</p>\n<p>Machiavelli luidt het <strong>politiek realisme</strong> in. Hij scheidt de politiek van de moraal en de religie en beschrijft de macht <strong>zoals die is</strong>, niet zoals die zou moeten zijn. De heerser moet de orde en de veiligheid van de staat verzekeren, en daarvoor kan hij indien nodig geweld en bedrog gebruiken. Zijn succes hangt af van de <strong>virtù</strong>, dat wil zeggen de vaardigheid en vastberadenheid om op het juiste moment te handelen, tegenover de <strong>fortuna</strong>, het toeval van de omstandigheden. De politiek wordt zo een autonome techniek, met een eigen logica. De zin “het doel heiligt de middelen”, die hem vaak wordt toegeschreven, komt letterlijk niet in zijn werk voor.</p>\n<p>Hij wordt beschouwd als de grondlegger van de moderne politieke wetenschap. Zijn pessimistische kijk op de mens en zijn belangstelling voor de oorsprong en het behoud van de macht bereiden de weg voor de theorieën van het maatschappelijk verdrag van Hobbes, Locke en Rousseau. Het bijvoeglijk naamwoord “machiavellistisch” vereenvoudigt een complexer denken.</p>",
+  "obras": [
+   "De vorst (1513)",
+   "Verhandelingen over de eerste tien boeken van Titus Livius",
+   "Over de krijgskunst (1521)",
+   "De alruin"
+  ],
+  "anecdota": "<p>Verbannen naar zijn landgoed in Sant'Andrea in Percussina, beschreef Machiavelli zijn dagelijkse routine aan zijn vriend Francesco Vettori. Overdag jaagde hij op lijsters, praatte hij met houthakkers en speelde hij kaart in de herberg onder geschreeuw en ruzies. Bij het vallen van de avond trok hij zijn met modder besmeurde kleren uit, deed hij zijn hofkleding aan en ging hij zijn studeerkamer binnen om te “converseren” met de klassieken, die hem genereus antwoordden. Uit die gesprekken, voegde hij eraan toe, ontstond een klein werk over de vorstendommen: <em>De vorst</em>.</p>",
+  "fuente": "Machiavelli, brief aan Francesco Vettori van 10 december 1513",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
+ "copernico": {
+  "name": "Nicolaas Copernicus",
+  "dates": "1473 – 1543",
+  "born": 1473,
+  "died": 1543,
+  "place": "Toruń (Polen)",
+  "role": "astronoom en wiskundige",
+  "idea": "De aarde is niet het stilstaande middelpunt van het heelal, maar draait om haar eigen as en om de zon, net als de andere planeten.",
+  "bio": "<p>Nicolaas Copernicus werd in 1473 geboren in Toruń, in Polen. Hij studeerde in Krakau en daarna aan de Italiaanse universiteiten van Bologna en Padua, waar hij zich bekwaamde in astronomie, canoniek recht en geneeskunde. Hij was kanunnik van de kathedraal van Frombork, waar hij zijn waarnemingen deed. Zijn hoofdwerk werd in 1543 gepubliceerd, het jaar van zijn dood.</p>\n<p>Copernicus stelde het <strong>heliocentrisme</strong> voor: de zon, en niet de aarde, staat in het middelpunt van het heelal. Deze these luidde de <strong>wetenschappelijke revolutie</strong> in, die werd voortgezet door Kepler, Galilei en Newton en die de kosmologie van Aristoteles en Ptolemaeus onderuithaalde. Hij komt in de leerstof voor vanwege die verandering in het wereldbeeld en omdat Freud hem noemt als de eerste grote “vernedering” van de mens: we zijn niet het middelpunt van het heelal.</p>",
+  "obras": [
+   "Over de omwentelingen van de hemelsferen (1543)"
+  ],
+  "anecdota": "<p>Copernicus stelde de publicatie van zijn grote werk tientallen jaren uit, totdat zijn jonge leerling Rheticus hem overtuigde. Volgens een brief van zijn vriend Tiedemann Giese kreeg hij het eerste gedrukte exemplaar in handen op de dag van zijn dood. Het boek bevatte bovendien een verrassing: een anoniem voorwoord, toegevoegd door de theoloog Andreas Osiander, dat het heliocentrisme voorstelde als een loutere hypothese om de berekeningen te vergemakkelijken. Tientallen jaren later onthulde Kepler wie het had geschreven.</p>",
+  "fuente": "Brief van Tiedemann Giese aan Rheticus (1543)",
+  "tradicion": true,
+  "block": "ren",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
   ]
  },
  "tomas_moro": {
@@ -1870,6 +2227,32 @@ const BIOGRAFIAS = {
    "fil-montaigne-ensayos"
   ]
  },
+ "diderot": {
+  "name": "Denis Diderot",
+  "dates": "1713 – 1784",
+  "born": 1713,
+  "died": 1784,
+  "place": "Langres (Frankrijk)",
+  "role": "verlichtingsfilosoof en schrijver",
+  "idea": "Kennis moet verzameld, geordend en verspreid worden om mensen te bevrijden van onwetendheid en vooroordelen, ten dienste van de sociale vooruitgang.",
+  "bio": "<p>Denis Diderot werd geboren in Langres in 1713, als zoon van een messenmaker, en vestigde zich in Parijs, waar hij leefde van vertalingen en opdrachten. Zijn <em>Brief over de blinden</em>, met een materialistische toon en kritisch ten opzichte van religie, kostte hem enkele maanden gevangenisstraf in 1749. Hij schreef ook romans, toneel en kunstkritiek. Hij overleed in Parijs in 1784.</p>\n<p>Zijn grote werk was de <strong><em>Encyclopédie</em></strong>, die hij meer dan twintig jaar leidde, aanvankelijk samen met D'Alembert. Het was de bedoeling alle kennis van die tijd te verzamelen, inclusief de kunsten en ambachten, en die met een kritische geest te verspreiden, ondanks censuur en verboden. Hij komt in de leerstof voor als symbool van het verlichte vertrouwen in de rede en in de <strong>vooruitgang</strong>: gedeelde kennis moest de samenleving verbeteren.</p>",
+  "obras": [
+   "Brief over de blinden (1749)",
+   "Encyclopédie (1751-1772)",
+   "De neef van Rameau",
+   "Jacques de fatalist"
+  ],
+  "anecdota": "<p>Rond 1765 had Diderot geld nodig om zijn dochter een bruidsschat te geven en besloot hij zijn bibliotheek te verkopen, zijn kostbaarste bezit. Keizerin Catharina II van Rusland, een bewonderaarster van de verlichters, kocht de bibliotheek voor een mooi bedrag, maar op een genereuze voorwaarde: Diderot mocht de boeken in Parijs houden zolang hij leefde en zou een salaris ontvangen als haar bibliothecaris. Toen de betaling op zich liet wachten, betaalde de tsarina hem vijftig jaar salaris in één keer vooruit. In 1773 reisde Diderot naar Sint-Petersburg om haar te bedanken en sprak hij uitgebreid met haar over politiek en hervormingen.</p>",
+  "fuente": "Correspondentie van Diderot; getuigenissen uit die tijd (Grimm, Correspondance littéraire)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
  "baumgarten": {
   "name": "Alexander Baumgarten",
   "dates": "1714 – 1762",
@@ -1892,6 +2275,30 @@ const BIOGRAFIAS = {
    "fil-t7"
   ]
  },
+ "dalembert": {
+  "name": "Jean le Rond d'Alembert",
+  "dates": "1717 – 1783",
+  "born": 1717,
+  "died": 1783,
+  "place": "Parijs",
+  "role": "wiskundige en verlichtingsfilosoof",
+  "idea": "Menselijke kennis kan systematisch geordend worden op basis van ervaring en rede, en de wetenschap is het model van kennis dat vooruitgang bevordert.",
+  "bio": "<p>Jean le Rond d'Alembert werd geboren in Parijs in 1717. Hij werd bij zijn geboorte achtergelaten bij de kerk van Saint-Jean-le-Rond, waaraan hij zijn naam ontleende, en werd opgevoed door een bescheiden gezin. Hij blonk al vroeg uit als wiskundige en natuurkundige: zijn <em>Traîté de dynamique</em> leverde belangrijke bijdragen aan de mechanica, en hij werd lid van de Académie des sciences toen hij in de twintig was. Hij overleed in Parijs in 1783.</p>\n<p>Samen met Diderot leidde hij de eerste delen van de <strong><em>Encyclopédie</em></strong> en hij nam het wetenschappelijke deel voor zijn rekening. Hij schreef het <em>Discours préliminaire</em>, dat een geordende boom van de menselijke kennis presenteert en de waarde van de wetenschap tegenover traditie en autoriteit verdedigt. Daarom komt hij in de leerstof voor naast Diderot, als voorbeeld van het verlichte streven om kennis te <strong>systematiseren</strong> ten dienste van de vooruitgang.</p>",
+  "obras": [
+   "Verhandeling over de dynamica (1743)",
+   "Inleiding tot de Encyclopédie (1751)"
+  ],
+  "anecdota": "<p>De baby die op de trappen van Saint-Jean-le-Rond werd achtergelaten, werd opgevoed door de vrouw van een glazenmaker, en D'Alembert, inmiddels een beroemd academicus, bleef in haar bescheiden huis wonen tot hij de veertig was gepasseerd. Volgens de overlevering probeerde zijn biologische moeder, de aristocrate Madame de Tencin, hem te erkennen toen hij beroemd werd, en antwoordde hij dat zijn enige moeder de glazenmakersvrouw was. Of die uitspraak nu precies klopt of niet, D'Alembert toonde altijd dankbaarheid aan degene die voor hem had gezorgd, en zijn succes werd een voorbeeld van de Verlichting: verdienste woog zwaarder dan afkomst.</p>",
+  "fuente": "Condorcet, Lofrede op D'Alembert; biografische traditie",
+  "tradicion": true,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
  "holbach": {
   "name": "Baron d'Holbach",
   "dates": "1723 – 1789",
@@ -1912,6 +2319,31 @@ const BIOGRAFIAS = {
   "temas": [
    "fil-metafisica",
    "fil-grandes-preguntas"
+  ]
+ },
+ "smith": {
+  "name": "Adam Smith",
+  "dates": "1723 – 1790",
+  "born": 1723,
+  "died": 1790,
+  "place": "Kirkcaldy (Schotland)",
+  "role": "moraalfilosoof en econoom",
+  "idea": "Door ieder zijn eigen belang na te streven op een vrije markt, dragen individuen zonder dat ze het bedoelen bij aan het algemeen welzijn, alsof ze door een onzichtbare hand worden geleid.",
+  "bio": "<p>Adam Smith werd geboren in Kirkcaldy, Schotland, in 1723. Hij studeerde in Glasgow en Oxford en was hoogleraar moraalfilosofie aan de Universiteit van Glasgow. Hij was bevriend met David Hume en een centrale figuur van de Schotse Verlichting. Hij reisde door Frankrijk als huisleraar van een jonge edelman, waardoor hij de Franse economen leerde kennen. In zijn laatste jaren werkte hij bij de douaneadministratie van Edinburgh, waar hij in 1790 overleed.</p>\n<p>In de <em>Theorie van de morele gevoelens</em> verklaarde hij de moraal vanuit de <strong>sympathie</strong>, het vermogen om ons in de plaats van anderen te verplaatsen. Maar zijn invloedrijkste werk is <em>De rijkdom van de naties</em>, beschouwd als het startpunt van de moderne economie. Daarin verdedigt hij dat de <strong>arbeidsdeling</strong> de productie vermenigvuldigt en dat het nastreven van eigenbelang, zonder het te willen, leidt tot het welzijn van de samenleving: een <strong>onzichtbare hand</strong> harmoniseert de individuele egoïsmen. Daarom vraagt hij dat de staat de markt niet hindert, hoewel hij hem functies voorbehoudt zoals defensie, justitie en bepaalde openbare werken.</p>\n<p>Smith is de grote referentie van het <strong>economisch liberalisme</strong>. Het leerplan verbindt hem met het utilitarisme omdat beide handelingen en instellingen beoordelen op hun maatschappelijk nut, en Bentham en John Stuart Mill kenden zijn werk goed. Later zou Marx de klassieke politieke economie die Smith had gegrondvest grondig bekritiseren.</p>",
+  "obras": [
+   "Theorie van de morele gevoelens (1759)",
+   "De rijkdom van de naties (1776)"
+  ],
+  "anecdota": "<p>Adam Smith was beroemd om zijn verstrooidheid. Zijn tijdgenoten beschreven hem pratend in zichzelf op straat en zijn lippen bewegend alsof hij met iemand onzichtbaars discussieerde. Er wordt verteld dat hij op een ochtend in zijn ochtendjas de tuin in liep, verdiept in zijn gedachten, en bleef doorlopen tot hij in een andere plaats aankwam, kilometers verderop, waar de kerkklokken hem wekten. Een ander verhaal beweert dat hij, terwijl hij de arbeidsdeling uitlegde tijdens een bezoek aan een leerlooierij, in een van de kuipen viel. Het zijn overdreven verhalen, maar ze weerspiegelen de verstrooide denker die zijn buren zich voorstelden.</p>",
+  "fuente": "Dugald Stewart, Account of the Life and Writings of Adam Smith (over zijn verstrooidheid); anekdotes uit de Schotse traditie",
+  "tradicion": true,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t5",
+   "fil-t6"
   ]
  },
  "kant": {
@@ -1946,6 +2378,58 @@ const BIOGRAFIAS = {
    "fil-t7",
    "fil-grandes-preguntas",
    "fil-montaigne-ensayos"
+  ]
+ },
+ "hamann": {
+  "name": "Johann Georg Hamann",
+  "dates": "1730 – 1788",
+  "born": 1730,
+  "died": 1788,
+  "place": "Koningsbergen (nu Kaliningrad, Rusland)",
+  "role": "religieus denker, de “Magiër van het Noorden”",
+  "idea": "Er is geen zuivere rede los van taal, traditie en geschiedenis: we denken altijd met overgeleverde woorden.",
+  "bio": "<p>Johann Georg Hamann werd in 1730 in Königsberg geboren, als zoon van een barbier-chirurgijn. Hij studeerde aan de universiteit van zijn stad zonder af te studeren en werkte als huisonderwijzer in adellijke huizen in het Balticum. Na een persoonlijke crisis in Londen keerde hij terug naar Königsberg, waar hij bijna zijn hele leven doorbracht als bescheiden ambtenaar bij de douane. Hij leefde met moeite en schreef korte teksten, vol citaten en toespelingen, zo duister dat een tijdgenoot hem de “Magiër van het Noorden” noemde. Hij stierf in 1788 in Münster, tijdens een reis om zijn vrienden te bezoeken, onder wie Jacobi.</p>\n<p>Hamann was vriend en buurman van Kant en tegelijk diens scherpste criticus. Tegen de Verlichting verdedigde hij het <strong>geloof</strong> en het gevoel, en hield vol dat <strong>rede taal is</strong>: er is geen zuivere rede die losgemaakt kan worden van de woorden en de geschiedenis waarin men denkt. Daarom schreef hij tegen de <em>Kritiek van de zuivere rede</em> een <em>Metakritiek</em> (1784), die na zijn dood werd gepubliceerd. Hij was leraar van Herder en inspireerde de Sturm und Drang. In <em>Golgotha en Scheblimini</em> (1784) bekritiseerde hij het <em>Jerusalem</em> van Mendelssohn, en tijdens de pantheïsmestrijd steunde hij Jacobi met zijn brieven.</p>",
+  "obras": [
+   "Socratische gedenkwaardigheden (1759)",
+   "Kruistochten van de filoloog (1762)",
+   "Golgotha en Scheblimini (1784)",
+   "Metakritiek over het purisme van de rede (1784)"
+  ],
+  "anecdota": "<p>In 1757 stuurde een handelshuis in Riga de jonge Hamann naar Londen met een handelsmissie. Hij faalde volledig. Alleen in de stad gaf hij het geld uit aan kleding, vermaak en slecht gezelschap, maakte schulden en eindigde ziek en geïsoleerd in een pension. In maart 1758, zonder te weten wat te doen, begon hij de Bijbel van begin tot eind te lezen. Hij vertelde later dat die lectuur hem zichzelf deed zien in het verhaal dat hij las en dat hij er bekeerd uitkwam. Hij schreef het op in <em>Gedachten over de loop van mijn leven</em>. Toen hij naar Königsberg terugkeerde was hij geen verlicht denker meer: hij was de gelovige die Kant tevergeefs zou proberen terug te brengen naar de rede.</p>",
+  "fuente": "Hamann, Gedachten over de loop van mijn leven (1758)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
+ "jefferson": {
+  "name": "Thomas Jefferson",
+  "dates": "1743 – 1826",
+  "born": 1743,
+  "died": 1826,
+  "place": "Shadwell, Virginia (Britse koloniën in Amerika)",
+  "role": "Amerikaans verlicht politicus, auteur van de Onafhankelijkheidsverklaring",
+  "idea": "Alle mensen hebben natuurlijke rechten, zoals leven, vrijheid en het streven naar geluk; regeringen bestaan om die te beschermen, ontlenen hun macht aan de instemming van de geregeerden en moeten gescheiden zijn van religie.",
+  "bio": "<p>Thomas Jefferson werd geboren in Virginia, in een familie van plantagehouders, en studeerde rechten aan het College of William &amp; Mary. Hij was de hoofdopsteller van de <strong>Onafhankelijkheidsverklaring</strong> van de Verenigde Staten (1776), ambassadeur in Frankrijk aan de vooravond van de Revolutie, minister van Buitenlandse Zaken onder Washington en derde president van het land (1801-1809). Op zijn oude dag stichtte hij de Universiteit van Virginia. Hij stierf in zijn huis Monticello op 4 juli 1826, exact vijftig jaar na de Verklaring.</p>\n<p>De Onafhankelijkheidsverklaring bevat de theorie van de natuurlijke rechten en het maatschappelijk verdrag van <strong>Locke</strong>: alle mensen zijn als gelijken geschapen, met onvervreemdbare rechten op “leven, vrijheid en het nastreven van geluk”, en als een regering deze schendt, kan het volk haar vervangen. Jefferson verdedigde ook de <strong>godsdienstvrijheid</strong> en een “muur van scheiding” tussen kerk en staat. Zijn grote tegenstrijdigheid: hij verkondigde de gelijkheid en was tegelijkertijd zijn hele leven lang eigenaar van honderden tot slaaf gemaakte mensen.</p>",
+  "obras": [
+   "Onafhankelijkheidsverklaring (1776)",
+   "Aantekeningen over de staat Virginia (1785)",
+   "Statuut van Virginia voor godsdienstvrijheid (1786)",
+   "Het leven en de moraal van Jezus van Nazareth (1820)"
+  ],
+  "anecdota": "<p>Jefferson stelde zijn eigen versie van de evangeliën samen: met een mesje sneed hij uit verschillende exemplaren van de Bijbel de verzen die morele leringen van Jezus bevatten en plakte ze in de juiste volgorde, waarbij hij de wonderen en het bovennatuurlijke wegliet. Aan John Adams schreef hij dat het scheiden van het echte net zo makkelijk was als het onderscheiden van diamanten in een mesthoop. Het boek, bekend als de “Jeffersonbijbel”, wordt bewaard in het Smithsonian Institution.</p>",
+  "fuente": "Brief van Jefferson aan John Adams (12-10-1813); origineel exemplaar in het Smithsonian Institution (Washington)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
   ]
  },
  "paley": {
@@ -2023,6 +2507,33 @@ const BIOGRAFIAS = {
   ],
   "temas": [
    "fil-t2"
+  ]
+ },
+ "herder": {
+  "name": "Johann Gottfried Herder",
+  "dates": "1744 – 1803",
+  "born": 1744,
+  "died": 1803,
+  "place": "Mohrungen (tegenwoordig Morąg, Polen)",
+  "role": "filosoof van de taal en van de geschiedenis",
+  "idea": "Elk volk en elk tijdperk heeft zijn eigen taal, zijn eigen cultuur en zijn eigen waarde; de geschiedenis is geen ladder die naar het verlichte Europa leidt.",
+  "bio": "<p>Johann Gottfried Herder werd in 1744 in Mohrungen, in Oost-Pruisen, in een eenvoudig gezin geboren. Tussen 1762 en 1764 studeerde hij theologie in Koningsbergen, waar hij een leerling van Kant en een vriend van Hamann was. Hij werkte als leraar en predikant in Riga, ontmoette Goethe in 1770 in Straatsburg en was hofprediker in Bückeburg. In 1776 vestigde hij zich dankzij Goethe in Weimar als hoogste gezagsdrager van de protestantse kerk van het hertogdom. Daar stierf hij in 1803.</p>\n<p>Herder verdedigde dat de <strong>taal</strong> uit de eigen menselijke natuur voortkomt en dat elk volk door zijn taal denkt en voelt. Daarom waardeerde hij de volkspoëzie, verzamelde hij liederen uit veel landen en stelde hij dat elke cultuur zijn eigen waarde heeft. Van de leermeester van zijn jeugd werd hij uiteindelijk een tegenstander: Kant bekritiseerde zijn <em>Ideen</em> in 1785, en Herder antwoordde jaren later met een <em>Metakritik</em> tegen de <em>Kritiek van de zuivere rede</em>. Ook mengde hij zich in de pantheïsmecontroverse. In <em>Gott. Einige Gespräche</em> (1787) verdedigde hij Spinoza, die hij las als de filosoof van een God die in de hele natuur als een levende <strong>kracht</strong> aanwezig is.</p>",
+  "obras": [
+   "Verhandeling over de oorsprong van de taal (1772)",
+   "Een andere filosofie van de geschiedenis (1774)",
+   "Ideeën voor de filosofie van de geschiedenis van de mensheid (1784-1791)",
+   "God. Enkele gesprekken (1787)"
+  ],
+  "anecdota": "<p>In 1769, op vierentwintigjarige leeftijd, was Herder Riga zat. Hij diende zijn ontslag in als leraar en predikant en scheepte zich in op een koopvaardijschip richting Frankrijk, zonder duidelijk plan. Wekenlang, op volle zee, zonder boeken of verplichtingen, wijdde hij zich aan denken en schrijven. In zijn reisdagboek bedenkt hij schoolhervormingen, boekprojecten en een geschiedenis van de mensheid. Hij verwijt zichzelf ook dat hij tot dan toe tussen papieren had geleefd, ver van het echte leven. Het schip kwam aan in Nantes, en vandaar reisde Herder door naar Parijs. Zijn <em>Journal meiner Reise im Jahr 1769</em> werd pas lang na zijn dood gepubliceerd.</p>",
+  "fuente": "Herder, Dagboek van mijn reis in het jaar 1769",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2",
+   "fil-t6"
   ]
  },
  "bentham": {
@@ -2130,6 +2641,31 @@ const BIOGRAFIAS = {
    "fil-t7"
   ]
  },
+ "schleiermacher": {
+  "name": "Friedrich Schleiermacher",
+  "dates": "1768 – 1834",
+  "born": 1768,
+  "died": 1834,
+  "place": "Breslau (tegenwoordig Wrocław, Polen)",
+  "role": "theoloog, filosoof en vertaler",
+  "idea": "Religie is geen vorm van weten en geen moraal, maar het gevoel en de aanschouwing van het oneindige in het eindige.",
+  "bio": "<p>Friedrich Schleiermacher werd in 1768 in Breslau geboren als zoon van een protestantse legerpredikant. Hij werd opgevoed bij de Hernhutters, een zeer vrome gemeenschap, maar twijfels brachten hem ertoe te gaan studeren aan de universiteit van Halle, waar hij Kant grondig las. Hij was predikant in Berlijn, waar hij met de romantici omging en in het bijzonder met Friedrich Schlegel. Hij hielp bij de oprichting van de universiteit van Berlijn, waar hij theologie doceerde, en vertaalde het grootste deel van de dialogen van Plato in het Duits. Hij stierf in 1834 in Berlijn.</p>\n<p>In 1799 publiceerde hij anoniem <em>Über die Religion. Reden an die Gebildeten unter ihren Verächtern</em>. Voor hem is religie geen verzameling leerstellingen, zoals voor de metafysica, en ook geen steun voor de moraal, zoals bij Kant, maar <strong>gevoel en aanschouwing van het universum</strong>: de ervaring van het oneindige in het eindige. Daarom vroeg hij zijn lezers eer te bewijzen aan “de heilige, verworpen Spinoza”, die velen voor atheïst hielden. Later definieerde hij religie als een <strong>gevoel van absolute afhankelijkheid</strong>. Hij is ook de grondlegger van de moderne <strong>hermeneutiek</strong>, de kunst van het interpreteren van teksten.</p>",
+  "obras": [
+   "Redevoeringen over de religie aan haar beschaafde minachters (1799)",
+   "Monologen (1800)",
+   "Het christelijk geloof (1821-1822)"
+  ],
+  "anecdota": "<p>Op 21 november 1797 werd Schleiermacher negenentwintig en zijn romantische vrienden in Berlijn organiseerden een feest voor hem. Friedrich Schlegel, die toen bij hem woonde, maakte van de viering gebruik om hem een belofte te ontfutselen: voor zijn dertigste moest hij een eigen boek schrijven. Schleiermacher, die tot dan toe nauwelijks iets eigens had gepubliceerd, verzette zich maandenlang; in een brief aan zijn zus Charlotte in 1798 bekende hij dat hij zich niet in staat achtte iets omvangrijks te voltooien. Maar uiteindelijk hield hij woord. Het boek werden de <em>Über die Religion</em> (Reden over de religie), die in 1799 anoniem verschenen en hem in heel Duitsland beroemd maakten.</p>",
+  "fuente": "Brieven van Schleiermacher aan zijn zuster Charlotte (1797-1798)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
  "hegel": {
   "name": "Georg Wilhelm Friedrich Hegel",
   "dates": "1770 – 1831",
@@ -2184,6 +2720,57 @@ const BIOGRAFIAS = {
   ],
   "temas": [
    "fil-marxismos"
+  ]
+ },
+ "schopenhauer": {
+  "name": "Arthur Schopenhauer",
+  "dates": "1788 – 1860",
+  "born": 1788,
+  "died": 1860,
+  "place": "Danzig (tegenwoordig Gdansk, Polen)",
+  "role": "Duits filosoof van het pessimisme",
+  "idea": "Achter alles wat bestaat zit een blinde wil die nooit verzadigd raakt; daarom is het leven vooral pijn, en alleen kunst, medelijden en verzaking bevrijden ons een beetje.",
+  "bio": "<p>Arthur Schopenhauer was de zoon van een rijke koopman en van Johanna Schopenhauer, een succesvolle romanschrijfster met wie hij een zeer moeizame relatie had. Na de dood van zijn vader verliet hij de handel om filosofie te gaan studeren. Op zijn dertigste publiceerde hij zijn hoofdwerk, <em>Die Welt als Wille und Vorstellung</em> (De wereld als wil en voorstelling, 1819), dat nauwelijks verkocht werd. Hij mislukte als docent in Berlijn, leefde van zijn erfenis en bracht zijn laatste decennia in Frankfurt door, eenzaam en verbitterd over het gebrek aan erkenning, die pas aan het einde kwam, met <em>Parerga und Paralipomena</em> (1851).</p>\n<p>Schopenhauer gaat uit van Kant: de wereld die wij kennen is <strong>voorstelling</strong>, fenomeen dat door onze geest wordt geordend. Maar hij voegt eraan toe dat we een glimp kunnen opvangen van wat daarachter ligt, van binnenuit onszelf: wij zijn <strong>wil</strong>, verlangen. Die wil, blind, doelloos en onverzadigbaar, is de kern van al het werkelijke. Daarom schommelt het leven tussen de pijn van onbevredigd verlangen en de verveling van vervuld verlangen. Er zijn drie uitwegen: de contemplatie van de <strong>kunst</strong>, vooral de muziek; het <strong>medelijden</strong>, dat voor hem de grondslag van de moraal is; en de verzaking van de asceet, die dicht bij de ideeën van het boeddhisme en de Upanishads staat, die hij als een van de eerste Europese filosofen bestudeerde. Hij had een beslissende invloed op Nietzsche, Wagner en Freud.</p>",
+  "obras": [
+   "De wereld als wil en voorstelling (1819; uitgebreid in 1844)",
+   "De twee grondproblemen van de ethiek (1841)",
+   "Parerga en paralipomena (1851)"
+  ],
+  "anecdota": "<p>In 1820 kreeg Schopenhauer een aanstelling als docent aan de Universiteit van Berlijn, waar Hegel de grote figuur was. Overtuigd dat Hegel een charlatan was, kondigde hij zijn college op hetzelfde tijdstip aan als de colleges van Hegel, zodat de studenten moesten kiezen. Ze kozen voor Hegel: bij de colleges van Schopenhauer kwamen zeer weinig studenten opdagen en het college werd niet herhaald. Hij heeft de academische filosofie dat falen nooit vergeven en bleef Hegel nog decennialang in zijn boeken aanvallen.</p>",
+  "fuente": "R. Safranski, Schopenhauer en de wilde jaren van de filosofie (1987)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2",
+   "fil-t5"
+  ]
+ },
+ "comte": {
+  "name": "Auguste Comte",
+  "dates": "1798 – 1857",
+  "born": 1798,
+  "died": 1857,
+  "place": "Montpellier (Frankrijk)",
+  "role": "positivistisch filosoof en socioloog",
+  "idea": "De enige geldige kennis is de positieve, gebaseerd op waarneembare feiten en wetenschappelijke wetten; de mensheid gaat vooruit van het theologische stadium naar het metafysische en het positieve.",
+  "bio": "<p>Auguste Comte werd in 1798 in Montpellier geboren. Hij studeerde aan de École Polytechnique in Parijs, waarvan hij na een studentenprotest werd weggestuurd. Hij was secretaris van de socialistische denker Saint-Simon, met wie hij uiteindelijk brak. Hij kreeg nooit een universitaire leerstoel en leefde van privélessen en de steun van zijn volgelingen. Hij stierf in 1857 in Parijs.</p>\n<p>Comte is de grondlegger van het <strong>positivisme</strong>. Hij stelt dat de enige ware kennis gebaseerd is op observatie en op <strong>verifieerbare feiten</strong>, en verwerpt de metafysische speculatie. Volgens zijn <strong>wet van de drie stadia</strong> doorloopt de mensheid een theologisch stadium, waarin ze verschijnselen door goden verklaart; een metafysisch stadium, waarin ze haar toevlucht neemt tot abstracte wezens; en een positief stadium, waarin ze wetenschappelijke wetten zoekt. Hij stelde ook een wetenschap van de samenleving voor, die hij <strong>sociologie</strong> noemde, om het sociale leven in overeenstemming met de wetenschap te reorganiseren. In zijn laatste fase bedacht hij een religie van de mensheid.</p>\n<p>Het positivisme vormt het hoogtepunt van het moderne vertrouwen in wetenschap en vooruitgang. Het beïnvloedde John Stuart Mill en de sociale wetenschap van de 19e eeuw, en de geest ervan duikt weer op in het neopositivisme van de Wiener Kreis. Later bekritiseerde de Frankfurter Schule, met Horkheimer, deze visie omdat ze de rede tot louter instrument reduceerde.</p>",
+  "obras": [
+   "Cursus in positieve filosofie (1830-1842)",
+   "Verhandeling over de positieve geest (1844)",
+   "Systeem van positieve politiek (1851-1854)"
+  ],
+  "anecdota": "<p>In zijn latere jaren beoefende Comte wat hij zelf “cerebrale hygiëne” noemde: hij besloot te stoppen met het lezen van kranten, tijdschriften en boeken van andere auteurs, zodat andermans ideeën de uitwerking van zijn eigen systeem niet zouden verstoren. Hij stond zichzelf alleen toe enkele klassieken te herlezen, zoals dichters die hem als ontspanning dienden. De gewoonte verbaasde zelfs zijn bewonderaars, omdat de grondlegger van een op feiten gebaseerde filosofie zich afzonderde van de nieuwigheden van zijn tijd. Het toont de ambitie van Comte: in zijn eentje een volledige synthese van alle wetenschappen op te bouwen.</p>",
+  "fuente": "Getuigenissen van Comte zelf en van zijn leerlingen",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
   ]
  },
  "feuerbach": {
@@ -2467,6 +3054,32 @@ const BIOGRAFIAS = {
    "fil-t4"
   ]
  },
+ "kropotkin": {
+  "name": "Pjotr Kropotkin",
+  "dates": "1842 – 1921",
+  "born": 1842,
+  "died": 1921,
+  "place": "Moskou",
+  "role": "geograaf en anarchistisch denker",
+  "idea": "Wederzijdse hulp is een even belangrijke factor in de evolutie als de strijd: soorten die samenwerken floreren, en op dat sociale instinct berust de moraal.",
+  "bio": "<p>Pjotr Kropotkin werd in Moskou geboren in een familie van de hoge Russische adel; hij had de titel van prins. Als officier en geograaf deed hij wetenschappelijke expedities in Siberië. Hij deed afstand van zijn privileges, werd anarchist en zat gevangen in Rusland en Frankrijk. Hij leefde vele jaren in ballingschap in Engeland en keerde na de revolutie van 1917 terug naar Rusland, hoewel hij kritiek had op het bolsjewistische autoritarisme.</p>\n<p>In <em>Wederzijdse hulp</em> bekritiseert hij de lezingen van het darwinisme die alleen concurrentie in de natuur zien. Met talloze voorbeelden van dieren en menselijke samenlevingen stelt hij dat <strong>samenwerking</strong> een beslissende factor in de evolutie is en dat het <strong>sociale instinct</strong> aan de basis van de moraal ligt. Het komt in de leerstof voor als alternatief voor het sociaal darwinisme en voor de visie van de mens als van nature egoïstisch en competitief.</p>",
+  "obras": [
+   "De verovering van het brood (1892)",
+   "Velden, fabrieken en werkplaatsen (1899)",
+   "Wederzijdse hulp (1902)"
+  ],
+  "anecdota": "<p>In 1876 zat Kropotkin opgesloten in de Petrus- en Paulusvesting in Sint-Petersburg en, omdat hij ziek was, werd hij overgebracht naar het militaire ziekenhuis van de gevangenis. Daar bereidden zijn kameraden een nauwgezette ontsnapping voor: tijdens de wandeling op de binnenplaats speelde een violist vanuit een nabijgelegen huis als signaal dat de weg vrij was. Kropotkin trok zijn zware gevangenisjas uit, rende naar de poort en sprong in een rijtuig dat op hem wachtte. Enkele dagen later vluchtte hij uit Rusland en begon een lange ballingschap in Europa.</p>",
+  "fuente": "Pjotr Kropotkin, Memoires van een revolutionair",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2",
+   "fil-t6"
+  ]
+ },
  "james": {
   "name": "William James",
   "dates": "1842 – 1910",
@@ -2574,6 +3187,85 @@ const BIOGRAFIAS = {
   "temas": [
    "fil-t2",
    "fil-t5"
+  ]
+ },
+ "zetkin": {
+  "name": "Clara Zetkin",
+  "dates": "1857 – 1933",
+  "born": 1857,
+  "died": 1933,
+  "place": "Wiederau (Saksen, Duitsland)",
+  "role": "Duitse politica, journaliste en socialistisch theoretica",
+  "idea": "Zij verbond de emancipatie van vrouwen met de klassenstrijd: zonder economische onafhankelijkheid en zonder de kapitalistische samenleving te veranderen, blijft gelijkheid voor de wet half werk.",
+  "bio": "<p>Clara Eißner werd in 1857 in Wiederau, een dorp in Saksen, geboren als dochter van een schoolmeester. Ze studeerde voor onderwijzeres in Leipzig en leerde daar de arbeidersbeweging kennen en een Russische balling, Ossip Zetkin, wiens achternaam ze aannam, hoewel ze nooit trouwden. Tijdens de antisocialistenwetten van Bismarck (1878-1890) leefde ze in ballingschap in Zürich en later in Parijs, waar haar twee kinderen werden geboren. In 1889, op het oprichtingscongres van de Tweede Internationale, verdedigde ze dat vrouwen het recht hadden om onder dezelfde voorwaarden als mannen te werken en dat hun emancipatie afhing van hun <strong>economische onafhankelijkheid</strong>.</p>\n<p>Terug in Duitsland gaf ze vijfentwintig jaar lang leiding aan <em>Die Gleichheit</em> (“De gelijkheid”), het tijdschrift van de vrouwen van de Sociaaldemocratische Partij, en organiseerde ze de socialistische vrouwenbeweging. Ze weigerde samen te werken met het <strong>burgerlijk feminisme</strong>, dat volgens haar alleen juridische gelijkheid binnen de bestaande samenleving nastreefde; die scheiding was al in haar tijd omstreden. In 1910 stelde ze op de internationale conferentie van socialistische vrouwen in Kopenhagen, samen met Käte Duncker en andere afgevaardigden, voor om elk jaar een internationale vrouwendag te vieren, nog zonder vaste datum; 8 maart werd later de vaste dag. Ze verzette zich tegen de Eerste Wereldoorlog: in 1915 bracht ze in Bern socialisten uit de strijdende landen bijeen tegen de oorlog en werd daarvoor enkele maanden gearresteerd; in 1917 ontnam de sociaaldemocratische leiding haar de leiding van <em>Die Gleichheit</em>. Dat jaar stapte ze over naar de Onafhankelijke Sociaaldemocratische Partij, dicht bij de Spartacusbond van Rosa Luxemburg en Karl Liebknecht, en in 1919 werd ze lid van de Communistische Partij van Duitsland, waarvoor ze van 1920 tot 1933 afgevaardigde was in de Reichstag (het Duitse parlement). Vanaf 1921 maakte ze deel uit van de leiding van de Communistische Internationale en bracht ze haar laatste jaren vooral door in de Sovjet-Unie, waarvan ze het regime in het openbaar verdedigde, hoewel ze het oneens was met enkele beslissingen van de communistische leiding. Haar figuur blijft omstreden: sommigen benadrukken haar strijd voor de rechten van de vrouw en tegen het fascisme; anderen haar steun aan de Sovjet-Unie van Stalin. Ze stierf in Archangelskoje, vlak bij Moskou, op 20 juni 1933, enkele maanden na Hitlers machtsovername. De website behandelt haar bij de kritiek op het kapitalisme na Marx, samen met Lenin en Rosa Luxemburg, als voorbeeld dat er binnen het marxisme een open debat bestond over de relatie tussen de gelijkheid van vrouwen en de <strong>klassenstrijd</strong>.</p>",
+  "obras": [
+   "De kwestie van de arbeidsters en de vrouwen in het heden (1889)",
+   "Die Gleichheit (“De gelijkheid”), tijdschrift dat zij van 1892 tot 1917 leidde",
+   "Herinneringen aan Lenin (geschreven in 1924)"
+  ],
+  "anecdota": "<p>In augustus 1932, vijfenzeventig jaar oud, ziek en bijna blind, keerde Clara Zetkin terug uit Moskou om de nieuwe Reichstag te openen, want als oudste afgevaardigde kwam het haar toe de openingszitting voor te zitten. Voor een kamer waarin de nazi’s al de grootste fractie waren, vroeg ze om een eenheidsfront van alle arbeiders tegen het fascisme, en ze eindigde met de wens te blijven leven om, ook als oudste voorzitter, het eerste congres van de raden van een sovjet-Duitsland te openen. Na afloop van de zitting koos de Reichstag Hermann Göring tot voorzitter.</p>",
+  "fuente": "Verhandlungen des Reichstags, VI. Wahlperiode 1932, Stenographische Berichte, 1e zitting, 30 augustus 1932 (stenografische verslagen van de Reichstag)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
+ "husserl": {
+  "name": "Edmund Husserl",
+  "dates": "1859 – 1938",
+  "born": 1859,
+  "died": 1938,
+  "place": "Prossnitz (Moravië, tegenwoordig Prostějov, Tsjechië)",
+  "role": "Duitse filosoof, grondlegger van de fenomenologie",
+  "idea": "Men moet “terug naar de zaken zelf”: zonder vooroordelen beschrijven hoe de dingen in het bewustzijn verschijnen, dat altijd bewustzijn van iets is.",
+  "bio": "<p>Edmund Husserl werd geboren in een joods gezin in Moravië en begon met een studie wiskunde. Beïnvloed door Franz Brentano stapte hij over naar de filosofie en was hij hoogleraar in Göttingen en Freiburg, waar hij Edith Stein en Martin Heidegger als studenten en assistenten had. Toen de nazi’s aan de macht kwamen, werd hij vanwege zijn joodse afkomst van de universiteit verwijderd en als een outcast behandeld; hij stierf in 1938 in Freiburg.</p>\n<p>Husserl is de grondlegger van de <strong>fenomenologie</strong>, die een strenge filosofie zonder vooronderstellingen wil zijn. Zijn leus is “terug naar de zaken zelf”: zorgvuldig beschrijven hoe de dingen zich in de ervaring aan ons voordoen. De sleutel is de <strong>intentionaliteit</strong>: elk bewustzijn is bewustzijn <em>van</em> iets; zien is iets zien, verlangen is iets verlangen. Om die relatie te bestuderen moet men de <strong>epoché</strong> beoefenen, onze gebruikelijke overtuigingen over de wereld “tussen haakjes zetten”, zonder ze te ontkennen, om te letten op hoe ze verschijnt. In zijn laatste fase spreekt hij over de <strong>leefwereld</strong>, de alledaagse wereld die we als vanzelfsprekend aannemen, en beschuldigt hij de wetenschappen ervan die te zijn vergeten door alles tot getallen te herleiden. Zijn methode beïnvloedde Heidegger, Sartre, Merleau-Ponty en een groot deel van de filosofie van de 20e eeuw.</p>",
+  "obras": [
+   "Logische onderzoekingen (1900-1901)",
+   "Ideeën voor een zuivere fenomenologie (1913)",
+   "Cartesiaanse meditaties (1931)",
+   "De crisis van de Europese wetenschappen en de transcendentale fenomenologie (1936)"
+  ],
+  "anecdota": "<p>Bij zijn dood liet Husserl ongeveer 40.000 pagina’s aan in steno geschreven manuscripten na, vrijwel allemaal ongepubliceerd. In 1938 waren ze een schat in gevaar: de nazi’s konden ze vernietigen omdat ze van een joodse auteur waren. Een jonge Belgische franciscaan, Herman Van Breda, slaagde erin ze clandestien uit Duitsland weg te krijgen, via de Belgische ambassade, en ze naar Leuven te brengen. Daar werd het Husserl-archief opgericht, dat ze tot op de dag van vandaag bestudeert en publiceert.</p>",
+  "fuente": "H. L. Van Breda, “De redding van de husserliaanse nalatenschap” (1959)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1",
+   "fil-t2",
+   "fil-t3"
+  ]
+ },
+ "dewey": {
+  "name": "John Dewey",
+  "dates": "1859 – 1952",
+  "born": 1859,
+  "died": 1952,
+  "place": "Burlington (Verenigde Staten)",
+  "role": "Amerikaanse pragmatistische filosoof en onderwijshervormer",
+  "idea": "Denken is onderzoeken om de problemen op te lossen die de ervaring stelt; daarom bestaat onderwijs niet uit memoriseren, maar uit “leren door doen”, en democratie is vooral een gedeelde levensvorm.",
+  "bio": "<p>John Dewey werd geboren in Burlington, in de staat Vermont (Verenigde Staten), in 1859. Hij studeerde aan de Universiteit van Vermont en promoveerde aan de Johns Hopkins-universiteit. Hij was professor in Michigan en, vanaf 1894, aan de Universiteit van Chicago, waar hij een beroemde experimentele school leidde; in 1904 ging hij naar de Columbia-universiteit in New York, waar hij de rest van zijn leven doceerde. Hij nam zeer actief deel aan de publieke debatten over onderwijs, democratie en rechten, reisde naar landen als Japan, China, Mexico en de Sovjet-Unie, en stierf in New York in 1952, op tweeënnegentigjarige leeftijd.</p>\n<p>Dewey is, samen met Charles S. Peirce en William James, een van de grote figuren van het Amerikaanse <strong>pragmatisme</strong>, een stroming waarin de waarde van een idee wordt afgemeten aan de praktische gevolgen ervan. Zijn versie, het <strong>instrumentalisme</strong>, vat het denken op als een instrument om problemen op te lossen die zich voordoen in de <strong>ervaring</strong>: denken is in wezen onderzoeken. Daaruit komt zijn bekendste onderwijsopvatting voort, “leren door te doen”, in tegenstelling tot onderwijs dat alleen op het geheugen is gebaseerd, en zijn verdediging van de <strong>democratie</strong> niet als een eenvoudig regeringssysteem, maar als een levenswijze waarin mensen samenwerken en samen beslissen. Hij komt in het curriculum voor als vertegenwoordiger van het pragmatisme en van een manier om waarheid, kennis en onderwijs te begrijpen die verschilt van de Europese rationalistische traditie.</p>",
+  "obras": [
+   "De school en de maatschappij (1899)",
+   "Hoe wij denken (1910)",
+   "Democratie en opvoeding (1916)",
+   "Kunst als ervaring (1934)"
+  ],
+  "anecdota": "<p>In januari 1896, toen hij professor was aan de Universiteit van Chicago, startte Dewey een experimentele school, bekend als de “School-Laboratorium”. Ze begon met een handvol leerlingen en twee onderwijzeressen, en functioneerde als een laboratorium waar hij kon nagaan of zijn pedagogische ideeën echt werkten in de klas: de kinderen leerden door te koken, te naaien of dingen te bouwen, in plaats van zich te beperken tot memoriseren. Binnen enkele jaren groeide ze van die aanvankelijke groep tot meer dan honderd leerlingen. De ervaring, later vastgelegd door twee van zijn onderwijzeressen, werd een model dat werd aangehaald door de onderwijsvernieuwingsbewegingen van de 20e eeuw.</p>",
+  "fuente": "K. C. Mayhew en A. C. Edwards, The Dewey School (1936)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
   ]
  },
  "whitehead": {
@@ -2756,6 +3448,32 @@ const BIOGRAFIAS = {
    "fil-marxismos"
   ]
  },
+ "moore": {
+  "name": "George Edward Moore",
+  "dates": "1873 – 1958",
+  "born": 1873,
+  "died": 1958,
+  "place": "Londen (Engeland)",
+  "role": "Brits filosoof",
+  "idea": "De filosofie moet uitgaan van het gezond verstand en nauwkeurig verhelderen wat we zeggen; het goede is een eenvoudige eigenschap die niet gedefinieerd kan worden.",
+  "bio": "<p>George Edward Moore studeerde aan Trinity College in Cambridge, waar hij bijna zijn hele leven professor was. Daar raakte hij bevriend met Bertrand Russell, met wie hij brak met het idealisme dat toen de Britse filosofie beheerste. Hij maakte deel uit van het intellectuele klimaat van Cambridge samen met Russell en Wittgenstein.</p>\n<p>Hij komt in het curriculum voor als een van de grondleggers van de <strong>analytische filosofie</strong>. Zijn methode bestond erin zorgvuldig de betekenis van filosofische uitspraken te analyseren en de overtuigingen van het <strong>gezond verstand</strong> te verdedigen (dat er een buitenwereld bestaat, dat ik een lichaam heb) tegenover theorieën die deze ontkennen. In de ethiek betoogde hij in <em>Principia Ethica</em> dat het goede een eenvoudige en ondefinieerbare eigenschap is, en hij noemde de <strong>naturalistische drogreden</strong> de fout om het te identificeren met iets natuurlijks, zoals genot.</p>",
+  "obras": [
+   "Principia Ethica (1903)",
+   "De weerlegging van het idealisme (1903)",
+   "Verdediging van het gezond verstand (1925)"
+  ],
+  "anecdota": "<p>In 1939 gaf Moore voor de British Academy wat hij presenteerde als een bewijs voor het bestaan van de buitenwereld. Hij stak een hand op en zei ongeveer: “Hier is een hand.” Daarna stak hij de andere op: “En hier is er nog een.” Daarom, concludeerde hij, bestaan er minstens twee externe objecten. Veel toehoorders vatten het op als een grap, maar Moore was serieus: hij was zekerder van het hebben van handen dan van welke premisse van een sceptisch argument dan ook. Het gebaar vat zijn verdediging van het <strong>gezond verstand</strong> samen tegenover filosofieën die het in twijfel trekken.</p>",
+  "fuente": "Moore, “Bewijs van de buitenwereld” (1939)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2",
+   "fil-t5"
+  ]
+ },
  "scheler": {
   "name": "Max Scheler",
   "dates": "1874 – 1928",
@@ -2824,6 +3542,27 @@ const BIOGRAFIAS = {
    "fil-t6"
   ]
  },
+ "schlick": {
+  "name": "Moritz Schlick",
+  "dates": "1882 – 1936",
+  "born": 1882,
+  "died": 1936,
+  "place": "Berlijn (Duitsland)",
+  "role": "Duitse filosoof en natuurkundige",
+  "idea": "De betekenis van een propositie is haar verificatiemethode: wat niet empirisch geverifieerd kan worden en ook geen logische waarheid is, is zinloos.",
+  "bio": "<p>Moritz Schlick promoveerde in de natuurkunde in Berlijn bij Max Planck en raakte al vroeg geïnteresseerd in de relativiteitstheorie van Einstein. In 1922 kreeg hij een leerstoel aan de Universiteit van Wenen, waar hij een groep filosofen en wetenschappers om zich heen verzamelde die uiteindelijk bekend zou worden als de <strong>Wiener Kreis</strong>. In 1936 werd hij op de universiteit vermoord door een oud-leerling.</p>\n<p>Hij was de grondlegger en belangrijkste organisator van het <strong>logisch neopositivisme</strong>. Beïnvloed door Wittgensteins <em>Tractatus</em> betoogde hij dat de betekenis van een propositie afhangt van de vraag of ze geverifieerd kan worden: alleen uitspraken die door de ervaring kunnen worden geverifieerd en de waarheden van de logica hebben betekenis. Daaruit volgt de conclusie, centraal in het curriculum, dat de <strong>metafysica</strong> niet onwaar is, maar zonder betekenis.</p>",
+  "obras": [
+   "Algemene kennistheorie (1918)",
+   "Problemen van de ethiek (1930)"
+  ],
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
  "ortega": {
   "name": "José Ortega y Gasset",
   "dates": "1883 – 1955",
@@ -2849,6 +3588,30 @@ const BIOGRAFIAS = {
    "fil-t2",
    "fil-t3",
    "fil-t6"
+  ]
+ },
+ "sapir": {
+  "name": "Edward Sapir",
+  "dates": "1884 – 1939",
+  "born": 1884,
+  "died": 1939,
+  "place": "Lauenburg (Pommeren, nu Polen)",
+  "role": "Amerikaanse taalkundige en antropoloog",
+  "idea": "De taal die we spreken drukt niet alleen het denken uit, maar beïnvloedt ook hoe we de werkelijkheid waarnemen en ordenen.",
+  "bio": "<p>Edward Sapir werd geboren in Pomerania, in een joods gezin dat naar de Verenigde Staten emigreerde toen hij een kind was. Hij studeerde aan de Columbia-universiteit bij de antropoloog Franz Boas en specialiseerde zich in de inheemse talen van Noord-Amerika. Hij was hoogleraar in Chicago en Yale, waar hij Benjamin Lee Whorf als student had.</p>\n<p>Hij komt in de lesstof voor vanwege de zogenaamde <strong>hypothese van Sapir-Whorf</strong>, vooral geformuleerd door Whorf op basis van zijn ideeën: de structuur van elke taal beïnvloedt de manier waarop de sprekers denken en de werkelijkheid ordenen. In de sterke versie zou de taal het denken bepalen; in de zwakke versie zou het denken er alleen door beïnvloed worden. Dit idee, dat verband houdt met de <strong>linguïstische wending</strong>, inspireerde Txillardegi in zijn verdediging dat elke taal een wereldbeeld bevat.</p>",
+  "obras": [
+   "De taal (1921)"
+  ],
+  "anecdota": "<p>In de zomer van 1915 werkte Sapir in San Francisco met Ishi, een man die werd beschouwd als de laatste spreker van het Yahi, een inheemse taal van Californië. Ishi had tientallen jaren verborgen geleefd met zijn kleine groep en nadat hij alleen was achtergebleven, was hij gaan wonen in het antropologisch museum van de Universiteit van Californië. Wekenlang noteerde Sapir samen met hem woorden, verhalen en grammaticale structuren zodat de taal niet verloren zou gaan. Dit tafereel vat het werk van Sapir samen: het documenteren van bedreigde talen, overtuigd dat elke taal een unieke manier bevat om de wereld te ordenen.</p>",
+  "fuente": "Getuigenissen van Alfred Kroeber en documentatie van het antropologisch museum van de Universiteit van Californië; Theodora Kroeber, Ishi in twee werelden",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2",
+   "fil-t4"
   ]
  },
  "duchamp": {
@@ -2929,6 +3692,32 @@ const BIOGRAFIAS = {
    "fil-t7"
   ]
  },
+ "carnap": {
+  "name": "Rudolf Carnap",
+  "dates": "1891 – 1970",
+  "born": 1891,
+  "died": 1970,
+  "place": "Ronsdorf (Duitsland)",
+  "role": "Duitse filosoof en logicus",
+  "idea": "Met de logische analyse van de taal wordt aangetoond dat uitspraken van de metafysica niet onwaar zijn, maar betekenisloos, omdat ze niet geverifieerd kunnen worden.",
+  "bio": "<p>Rudolf Carnap studeerde natuurkunde, wiskunde en filosofie in Jena, waar hij colleges bij Frege volgde. In 1926 trad hij toe tot de Universiteit van Wenen en was hij een van de meest vooraanstaande leden van de <strong>Wiener Kreis</strong>. Daarna doceerde hij in Praag en vanwege de opkomst van het nazisme emigreerde hij in 1935 naar de Verenigde Staten, waar hij hoogleraar was in Chicago en Los Angeles.</p>\n<p>Hij komt in de lesstof voor als een van de grote vertegenwoordigers van het <strong>logisch positivisme</strong>. Hij wilde de wetenschappelijke kennis reconstrueren op basis van ervaring en logica. In een beroemd artikel uit 1932 stelde hij dat de <strong>metafysica</strong> overwonnen wordt door de logische analyse van de taal: de uitspraken ervan kunnen niet geverifieerd worden, dus zeggen ze niets, ook al kunnen ze een levensgevoel uitdrukken.</p>",
+  "obras": [
+   "De logische opbouw van de wereld (1928)",
+   "De overwinning van de metafysica door logische analyse van de taal (1932)",
+   "Logische syntaxis van de taal (1934)"
+  ],
+  "anecdota": "<p>Als tiener leerde Carnap op eigen houtje het <strong>Esperanto</strong>, de kunsttaal die werd gecreëerd om het begrip tussen volkeren te vergemakkelijken. In 1908 woonde hij in Dresden een wereldcongres van esperantisten bij en het maakte indruk op hem om mensen uit veel landen vloeiend te zien converseren in een verzonnen taal. Zoals hij in zijn intellectuele autobiografie vertelde, overtuigde die ervaring hem ervan dat een geconstrueerde taal net zo kon functioneren als een natuurlijke. Later zou hij een groot deel van zijn filosofie wijden aan het ontwerpen van precieze logische talen, die in staat zijn om wetenschappelijke kennis zonder dubbelzinnigheden uit te drukken.</p>",
+  "fuente": "Carnap, “Intellectuele autobiografie”, in P. A. Schilpp (red.), The Philosophy of Rudolf Carnap",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-metafisica",
+   "fil-t4"
+  ]
+ },
  "gramsci": {
   "name": "Antonio Gramsci",
   "dates": "1891 – 1937",
@@ -3005,6 +3794,30 @@ const BIOGRAFIAS = {
   ],
   "temas": [
    "fil-marxismos"
+  ]
+ },
+ "whorf": {
+  "name": "Benjamin Lee Whorf",
+  "dates": "1897 – 1941",
+  "born": 1897,
+  "died": 1941,
+  "place": "Winthrop (Massachusetts, VS)",
+  "role": "Amerikaanse taalkundige",
+  "idea": "De grammatica van elke taal bepaalt mede hoe de sprekers ervan de werkelijkheid waarnemen, indelen en denken: dat is de these van het linguïstisch relativisme.",
+  "bio": "<p>Benjamin Lee Whorf werd in 1897 geboren in Winthrop (Massachusetts). Hij werd opgeleid tot chemisch ingenieur en werkte zijn hele leven als brandpreventie-inspecteur voor een verzekeringsmaatschappij. Uit liefhebberij hield hij zich bezig met taalkunde: hij bestudeerde inheemse Amerikaanse talen, vooral het Hopi, en vanaf 1931 volgde hij aan de Yale-universiteit de colleges van de antropoloog en taalkundige Edward Sapir. Hij overleed in 1941.</p>\n<p>Whorf verdedigde het <strong>taalkundig relativisme</strong>: de grammaticale structuur van elke taal beïnvloedt de manier waarop de sprekers de werkelijkheid waarnemen en ordenen, bijvoorbeeld tijd of causaliteit. Deze stelling, bekend als de <strong>hypothese van Sapir-Whorf</strong>, is nog steeds onderwerp van debat en wordt tegenwoordig meestal alleen in een gematigde versie aanvaard. Hij komt in de lesstof voor omdat hij het idee van Txillardegi inspireerde dat elke taal een eigen wereldbeeld bevat.</p>",
+  "obras": [
+   "Taal, denken en werkelijkheid (1956)"
+  ],
+  "anecdota": "<p>Zijn werk als brandinspecteur gaf Whorf een van zijn favoriete voorbeelden. In een magazijn merkte hij dat de arbeiders voorzichtig waren in de buurt van volle benzinevaten, maar rustig rookten naast de vaten met het etiket “leeg”. Die vaten zaten echter vol ontvlambare dampen, veel gevaarlijker. Het woord “leeg”, dat afwezigheid van risico suggereert, stuurde het gedrag meer dan de fysieke werkelijkheid. Whorf gebruikte zulke gevallen om te verdedigen dat taal beïnvloedt hoe we situaties waarnemen en hoe we erin handelen.</p>",
+  "fuente": "Whorf, “De relatie van gewoonte-denken en -gedrag tot taal” (1939)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2",
+   "fil-t4"
   ]
  },
  "marcuse": {
@@ -3452,6 +4265,32 @@ const BIOGRAFIAS = {
    "fil-grandes-preguntas"
   ]
  },
+ "lyotard": {
+  "name": "Jean-François Lyotard",
+  "dates": "1924 – 1998",
+  "born": 1924,
+  "died": 1998,
+  "place": "Versailles (Frankrijk)",
+  "role": "Franse filosoof van de postmoderniteit",
+  "idea": "Postmoderniteit is het ongeloof in de metanarratieven: we geloven niet meer in grote verhalen die aan de hele geschiedenis zin geven, maar in kleine, pluralistische verhalen.",
+  "bio": "<p>Jean-François Lyotard werd geboren in Versailles. Hij was leraar filosofie aan een middelbare school in Constantina, in het koloniale Algerije, en was jarenlang actief in de kritische marxistische groep <em>Socialismo o Barbarie</em>. Later nam hij afstand van het marxisme. Hij doceerde aan de Université Paris VIII (Vincennes) en was betrokken bij de oprichting van het Collège international de philosophie.</p>\n<p>Zijn bekendste werk, <em>De postmoderne conditie</em> (1979), ontstond als een rapport over kennis in de meest ontwikkelde samenlevingen. Daarin definieert hij de postmoderniteit als het <strong>ongeloof ten opzichte van de metanarratieven</strong>. Een metanarratief is een groot verhaal dat de hele werkelijkheid wil verklaren en een doel aan de geschiedenis wil geven: de emancipatie van de mens in de Verlichting en het marxisme, of de oneindige vooruitgang dankzij de wetenschap. Na de wereldoorlogen en de totalitaire systemen hebben deze verhalen aan geloofwaardigheid verloren. In de plaats daarvan blijven er <strong>kleine verhalen</strong> over, lokaal en divers, zonder één waarheid die ze ordent. Lyotard merkt bovendien op dat kennis zich steeds meer legitimeert door technische en economische efficiëntie, wat hij <strong>performativiteit</strong> noemt.</p>\n<p>Als erfgenaam van Nietzsches achterdocht werd Lyotard de referentie in het debat over de postmoderniteit. Zijn belangrijkste tegenstander was Habermas, die de moderniteit verdedigde als een onvoltooid project dat gecorrigeerd moest worden, niet opgegeven.</p>",
+  "obras": [
+   "Discours, figure (1971)",
+   "Économie libidinale (1974)",
+   "Het postmoderne weten (1979)",
+   "Le différend (1983)"
+  ],
+  "anecdota": "<p>In 1985 deed Lyotard iets ongebruikelijks voor een filosoof: hij was curator van een grote tentoonstelling in het Centre Pompidou in Parijs, getiteld <em>Les Immatériaux</em> (“De immateriële dingen”). In plaats van schilderijen die netjes opgehangen waren, liep het publiek door een labyrint van schemerige ruimtes, met koptelefoons die verschillende teksten uitzonden afhankelijk van de zone, en kwam het schermen tegen, synthetische objecten en nieuwe informatietechnologieën. Er was geen vaste route en geen conclusie: de tentoonstelling wilde dat de bezoeker de postmoderne conditie in zijn eigen lichaam zou ervaren, zonder een groot verhaal dat hem leidde.</p>",
+  "fuente": "Tentoonstelling Les Immatériaux (Centre Pompidou, 1985) en de bijbehorende catalogus",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
  "danto": {
   "name": "Arthur Danto",
   "dates": "1924 – 2013",
@@ -3477,6 +4316,83 @@ const BIOGRAFIAS = {
   "temas": [
    "fil-t7",
    "fil-grandes-preguntas"
+  ]
+ },
+ "feyerabend": {
+  "name": "Paul Feyerabend",
+  "dates": "1924 – 1994",
+  "born": 1924,
+  "died": 1994,
+  "place": "Wenen (Oostenrijk)",
+  "role": "wetenschapsfilosoof",
+  "idea": "Er bestaat geen enkele wetenschappelijke methode die voor altijd geldig is; de grote vooruitgangen van de wetenschap werden vaak bereikt door de regels te breken, daarom “alles mag”.",
+  "bio": "<p>Paul Feyerabend werd in 1924 in Wenen geboren. Tijdens de Tweede Wereldoorlog werd hij opgeroepen door het Duitse leger en raakte hij ernstig gewond aan het front: een kogel in zijn ruggengraat dwong hem om met een stok te lopen en bezorgde hem de rest van zijn leven pijn. Na de oorlog studeerde hij in Wenen en kwam hij in aanraking met de wetenschapsfilosofie via Karl Popper in Londen. Vanaf 1958 was hij tientallen jaren hoogleraar aan de University of California in Berkeley, en hij doceerde ook in Zürich. Hij stierf in 1994 in Zwitserland.</p>\n<p>Feyerabend staat bekend om zijn <strong>methodologisch anarchisme</strong>, verdedigd in <em>Tegen de methode</em> (1975): hij stelde dat er geen enkele regel van de wetenschappelijke methode is die niet ooit overtreden heeft moeten worden om de wetenschap vooruit te helpen, en vatte dit samen in het motto <strong>“alles mag”</strong>. Hij wilde de wetenschap niet afwijzen, maar haar autoriteit ter discussie stellen: hij pleitte voor de <strong>scheiding van wetenschap en staat</strong>, net als die van religie en staat, zodat geen enkele wereldvisie aan de andere zou worden opgelegd. In het curriculum verschijnt hij als de meest radicale schakel in de wetenschapsfilosofie, in debat met Poppers falsifieerbaarheid en Kuhns paradigma’s.</p>",
+  "obras": [
+   "Tegen de methode (1975)",
+   "Wetenschap in een vrije samenleving (1978)",
+   "Vaarwel rede (1987)",
+   "De tijd doden (autobiografie, 1995)"
+  ],
+  "anecdota": "<p>De pijn die Feyerabend zijn hele leven vergezelde, kwam uit de oorlog. Zoals hij in zijn autobiografie vertelt, werd hij in 1945, als officier van het Duitse leger tijdens de terugtocht, door meerdere schoten geraakt terwijl hij het verkeer van de troepen regelde; een van de kogels bleef in zijn ruggengraat steken. Hij hield er blijvende gevolgen aan over en liep sindsdien met een stok. Hijzelf vertelde het voorval met bittere humor, zonder heldhaftigheid, als weer een toevalligheid die zijn biografie had getekend.</p>",
+  "fuente": "Paul Feyerabend, De tijd doden (autobiografie, 1995); het motto “alles mag” in Tegen de methode (1975)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
+ "bauman": {
+  "name": "Zygmunt Bauman",
+  "dates": "1925 – 2017",
+  "born": 1925,
+  "died": 2017,
+  "place": "Poznań (Polen)",
+  "role": "Poolse socioloog en filosoof",
+  "idea": "We leven in een vloeibare moderniteit, waarin banden, instituties en identiteiten niet langer solide zijn, maar precair en veranderlijk, en de burger een consument wordt.",
+  "bio": "<p>Zygmunt Bauman werd geboren in Poznań in een joods gezin. In 1939 vluchtte hij met zijn gezin naar de Sovjet-Unie vanwege de nazi-invasie en vocht hij in het daar gevormde Poolse leger. Na de oorlog was hij hoogleraar sociologie aan de Universiteit van Warschau, maar in 1968 werd hij ontslagen tijdens een antisemitische campagne van het communistische regime. Na een verblijf in Israël doceerde hij vanaf 1971 aan de University of Leeds (Verenigd Koninkrijk). In 2010 ontving hij de Prins van Asturiëprijs voor Communicatie en Geesteswetenschappen.</p>\n<p>Bauman onderscheidt een solide moderniteit, met stabiele instellingen, banen voor het leven en duurzame projecten, van de huidige <strong>vloeibare moderniteit</strong>. Net als vloeistoffen, die hun vorm niet behouden, zijn banen, relaties, gemeenschappen en identiteiten tegenwoordig fragiel en veranderlijk. De maatschappij behandelt ons niet langer vooral als producenten of burgers, maar als <strong>consumenten</strong>, en vrijheid wordt verward met het kiezen tussen producten. Wie niet kan consumeren en niet nuttig is voor de markt, blijft achter als <strong>menselijk afval</strong>: overbodige mensen, zoals langdurig werklozen of vluchtelingen.</p>\n<p>Eerder had hij in <em>Moderniteit en de Holocaust</em> (1989) geanalyseerd hoe bureaucratie en technische rationaliteit genocide mogelijk maakten, in de lijn van de kritiek op de instrumentele rede van Adorno en Horkheimer en van de reflecties van Hannah Arendt. Zijn diagnose van de consumptiemaatschappij gaat in dialoog met auteurs als Byung-Chul Han.</p>",
+  "obras": [
+   "Moderniteit en de Holocaust (1989)",
+   "Vloeibare moderniteit (2000)",
+   "Vloeibare liefde (2003)",
+   "Verspilde levens (2004)"
+  ],
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2",
+   "fil-t6"
+  ]
+ },
+ "deleuze": {
+  "name": "Gilles Deleuze",
+  "dates": "1925 – 1995",
+  "born": 1925,
+  "died": 1995,
+  "place": "Parijs (Frankrijk)",
+  "role": "Frans filosoof van het verschil en het verlangen",
+  "idea": "De filosofie beschrijft geen eeuwige essenties, maar schept concepten om het verschil en de verandering te denken; en het verlangen is geen gebrek, maar een kracht die banden en werelden voortbrengt.",
+  "bio": "<p>Gilles Deleuze werd in 1925 in Parijs geboren en bracht er bijna zijn hele leven door. Hij was hoogleraar aan de Université Paris VIII (Vincennes), waar zijn colleges, die voor iedereen toegankelijk waren, beroemd werden. Vanaf 1969 schreef hij samen met de psychoanalyticus Félix Guattari verschillende boeken. Jarenlang aan zijn longen lijdend, overleed hij in 1995 in Parijs.</p>\n<p>In <em>Différence et répétition</em> (1968) stelt hij dat de filosofie te veel belang heeft gehecht aan het identieke en het algemene, en eist hij de <strong>verschil</strong> op als iets primairs, niet als een simpele vergelijking tussen reeds gegeven dingen. Met Guattari verdedigt hij dat het <strong>verlangen</strong> geen privégebrek is, maar een kracht die relaties, beelden en instituties voortbrengt, en stelt hij het beeld van de <strong>rizoom</strong> voor: een manier van denken die bestaat uit meervoudige verbindingen, zonder centrum of vaste hiërarchie, tegenover het model van de boom. In het curriculum verschijnt hij als een van de stemmen van het postmodernisme (thema 23) en vooral door zijn lezing van Spinoza: voor Deleuze is Spinoza de filosoof van de vreugde en van de <strong>macht</strong>, en de vraag “wat kan een lichaam?” vat zijn manier om de ethiek te begrijpen samen.</p>",
+  "obras": [
+   "Nietzsche en de filosofie (1962)",
+   "Verschil en herhaling (1968)",
+   "De anti-Oedipus (1972, met Félix Guattari)",
+   "Duizend plateaus (1980, met Félix Guattari)"
+  ],
+  "anecdota": "<p>In 1988 en 1989 stemde Deleuze ermee in om met journaliste Claire Parnet een lang interview van ongeveer acht uur op te nemen, georganiseerd als een alfabet: één woord per letter, van de A van “Animal” tot de Z van “Zigzag”. Hij stelde als aanvankelijke voorwaarde dat het pas na zijn dood mocht worden uitgezonden, hoewel hij uiteindelijk toestemming gaf voor de verspreiding: de serie, bekend als <em>L'Abécédaire de Gilles Deleuze</em>, werd tussen 1994 en 1995 uitgezonden op de zender Arte, in zijn laatste levensjaar, en is een van de meest verspreide manieren geworden om kennis te maken met zijn denken.</p>",
+  "fuente": "François Dosse, Gilles Deleuze en Félix Guattari. Gekruiste biografie (2007)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6",
+   "fil-t7"
   ]
  },
  "dickie": {
@@ -3532,6 +4448,54 @@ const BIOGRAFIAS = {
    "fil-marxismos"
   ]
  },
+ "wilson": {
+  "name": "Edward O. Wilson",
+  "dates": "1929 – 2021",
+  "born": 1929,
+  "died": 2021,
+  "place": "Birmingham (Alabama, Verenigde Staten)",
+  "role": "bioloog en naturalist",
+  "idea": "Sociaal gedrag heeft biologische grondslagen, en het evolutionaire succes van soorten als de mens wordt voor een groot deel verklaard door samenwerking binnen groepen.",
+  "bio": "<p>Edward O. Wilson werd geboren in Birmingham (Alabama) en was gedurende zijn hele carrière hoogleraar aan de Harvard-universiteit. Hij was de grootste mierenspecialist ter wereld en een pionier in de verdediging van de <strong>biodiversiteit</strong>. Hij won twee Pulitzerprijzen voor zijn populairwetenschappelijke boeken.</p>\n<p>In <em>Sociobiology</em> (1975) stelde hij voor om de biologische basis van sociaal gedrag te bestuderen, ook bij de mens, wat tot felle controverse leidde. In <em>The Social Conquest of Earth</em> (2012) betoogde hij dat het succes van sociale insecten en van mensen grotendeels te danken is aan <strong>samenwerking</strong> binnen de groep, een these die door andere biologen wordt betwist. Het curriculum noemt hem samen met Kropotkin en Azurmendi tegenover het sociaal darwinisme: de menselijke natuur is niet alleen competitief.</p>",
+  "obras": [
+   "Sociobiologie (1975)",
+   "Over de menselijke natuur (1978)",
+   "De mieren (1990, met B. Hölldobler)",
+   "De sociale verovering van de aarde (2012)"
+  ],
+  "anecdota": "<p>Op zevenjarige leeftijd, terwijl hij aan het vissen was op een pier in Florida, trok de kleine Edward te hard aan de vislijn en de stekelige vin van een vis verwondde zijn rechteroog, dat hij bijna volledig verloor. Met zijn linkeroog daarentegen zag hij van dichtbij met veel detail. Hij vertelde zelf dat hij daarom stopte met het kijken naar vogels en zoogdieren, die moeilijk van een afstand te observeren zijn, en zich richtte op kleine wezens die hij kon onderzoeken door ze dicht bij zijn gezicht te houden. Zo begon zijn passie voor mieren.</p>",
+  "fuente": "E. O. Wilson, De naturalist (autobiografie, 1994)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2"
+  ]
+ },
+ "txillardegi": {
+  "name": "Txillardegi",
+  "dates": "1929 – 2012",
+  "born": 1929,
+  "died": 2012,
+  "place": "San Sebastián (Gipuzkoa)",
+  "role": "Baskische taalkundige, schrijver en politicus",
+  "idea": "We denken niet voordat we spreken, maar dankzij een taal die onze kijk op de wereld structureert; daarom is het Baskisch de ruggengraat van de Baskische identiteit.",
+  "bio": "<p>Txillardegi is het pseudoniem van José Luis Álvarez Enparantza, geboren in San Sebastián in een Spaanstalig gezin. Hij studeerde industriële ingenieurswetenschappen en leerde op jonge leeftijd Baskisch. In de jaren vijftig nam hij deel aan de groep Ekin en in 1959 was hij een van de oprichters van ETA, die hij in 1967 verliet vanwege ideologische meningsverschillen. Hij leefde jaren in ballingschap. Hij was een sleutelfiguur in de totstandkoming van het <strong>euskera batua</strong>, het verenigde Baskisch, en later hoogleraar sociolinguïstiek aan de Universiteit van Baskenland en politicus van de abertzale-linkse beweging.</p>\n<p>In zijn essays over taal en denken volgde hij Humboldt en de <strong>Sapir-Whorfhypothese</strong>, volgens welke taal de manier van denken conditioneert. Voor Txillardegi is taal geen instrument dat we gebruiken nadat we hebben gedacht: we denken omdat we taal hebben, en de structuur van elke taal organiseert onbewust hoe we de werkelijkheid waarnemen. Elke taal draagt een <strong>wereldbeeld</strong> (<em>Weltanschauung</em>) met zich mee. Vandaar zijn verdediging van het Baskisch als kern van de Baskische identiteit: als een taal verdwijnt, gaat een eigen manier om de wereld te structureren verloren.</p>\n<p>Hij was ook schrijver: zijn roman <em>Leturiaren egunkari ezkutua</em> (1957), beïnvloed door het existentialisme, wordt beschouwd als de eerste moderne roman in het Baskisch. Zijn invloed op de normalisering van het Baskisch was zeer groot. In het leerplan vormt hij een aanvulling op Wittgensteins reflectie over taal met een perspectief dat zich richt op de relatie tussen taal, denken en gemeenschap.</p>",
+  "obras": [
+   "Leturiaren egunkari ezkutua (1957)",
+   "Huntaz eta hartaz (1965)",
+   "Hizkuntza eta pentsakera (1983)"
+  ],
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t4"
+  ]
+ },
  "baudrillard": {
   "name": "Jean Baudrillard",
   "dates": "1929 – 2007",
@@ -3558,6 +4522,32 @@ const BIOGRAFIAS = {
    "fil-t7"
   ]
  },
+ "derrida": {
+  "name": "Jacques Derrida",
+  "dates": "1930 – 2004",
+  "born": 1930,
+  "died": 2004,
+  "place": "El Biar (Algerije)",
+  "role": "Frans filosoof",
+  "idea": "De deconstructie laat zien dat de concepten van de filosofie steunen op verborgen hiërarchische tegenstellingen en dat geen enkele betekenis volledig ontsnapt aan het taalspel.",
+  "bio": "<p>Jacques Derrida werd geboren in 1930 in El Biar, nabij Algiers, in een joodse familie, toen Algerije een Franse kolonie was. Hij studeerde aan de École Normale Supérieure in Parijs, waar hij later jarenlang doceerde. In 1967 publiceerde hij drie boeken die hem internationale bekendheid gaven, waaronder <em>De la gramatología</em>. Hij was gastdocent aan universiteiten in de Verenigde Staten, waar zijn invloed enorm was. Hij overleed in 2004 in Parijs.</p>\n<p>Derrida stelt dat we geen directe toegang tot de dingen hebben: alles wordt bemiddeld door taal en teksten. Hij bekritiseert het <strong>logocentrisme</strong>, het geloof van de westerse traditie in een volledige en aanwezige betekenis, voorafgaand aan de taal. Zijn methode, de <strong>deconstructie</strong>, analyseert de paren van concepten waarmee we denken (spraak en schrift, rede en emotie, mannelijk en vrouwelijk) en laat zien dat een van de termen zich altijd als superieur aan de andere presenteert. Het ontmantelen van die hiërarchieën onthult hun interne tegenstrijdigheden en de machtsverhoudingen die ze verbergen. Om het voortdurende uitstel van betekenis te benoemen, bedacht hij de term <strong>différance</strong>.</p>\n<p>Als erfgenaam van Nietzsche en Heidegger is Derrida een centrale figuur in het postmoderne denken, samen met Foucault, Lyotard of Vattimo. Habermas bekritiseerde zijn positie omdat hij naar zijn oordeel afstand doet van een rede die in staat is sociale kritiek te funderen. Zijn invloed reikt tot de literatuurtheorie, het recht, de architectuur en genderstudies.</p>",
+  "obras": [
+   "De la grammatologie (1967)",
+   "L'écriture et la différence (1967)",
+   "Marges de la philosophie (1972)",
+   "Spectres de Marx (1993)"
+  ],
+  "anecdota": "<p>Eind 1981 reisde Derrida naar Praag om een clandestien seminar te geven aan dissidente intellectuelen van het communistische regime in Tsjecho-Slowakije. Bij vertrek werd hij op het vliegveld aangehouden door de politie: ze beweerden drugs in zijn koffer te hebben gevonden, die ze in werkelijkheid zelf hadden neergelegd. Hij bracht een nacht in de gevangenis door en werd beschuldigd van drugshandel. Het protest van de Franse regering, onder leiding van president Mitterrand, leidde tot zijn vrijlating en uitzetting uit het land. De filosoof van de achterdocht ten aanzien van teksten werd uiteindelijk het slachtoffer van een gefabriceerd dossier.</p>",
+  "fuente": "Benoît Peeters, Derrida (biografie, 2010); pers van die tijd",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
  "debord": {
   "name": "Guy Debord",
   "dates": "1931 – 1994",
@@ -3581,6 +4571,76 @@ const BIOGRAFIAS = {
   ],
   "temas": [
    "fil-t7"
+  ]
+ },
+ "rorty": {
+  "name": "Richard Rorty",
+  "dates": "1931 – 2007",
+  "born": 1931,
+  "died": 2007,
+  "place": "New York (Verenigde Staten)",
+  "role": "Amerikaans filosoof, vertegenwoordiger van het neopragmatisme",
+  "idea": "Er is geen waarheid die een exacte kopie van de werkelijkheid is, noch een ultieme grondslag van het weten; in een democratie is het beter de zoektocht naar de Waarheid te vervangen door gesprek, ironie en solidariteit.",
+  "bio": "<p>Richard Rorty werd geboren in New York in 1931, als zoon van twee linkse schrijvers die tegen Stalin waren. Hij studeerde aan de universiteiten van Chicago en Yale. Hij doceerde filosofie in Princeton, waar hij werd opgeleid binnen de analytische filosofie, en later aan de Universiteit van Virginia en aan Stanford, inmiddels als hoogleraar geesteswetenschappen. Hij overleed in 2007 in Palo Alto, Californië.</p>\n<p>Rorty hernam de Amerikaanse pragmatistische traditie van Dewey en James en brak met het idee dat de geest een <strong>spiegel</strong> is die de werkelijkheid weerspiegelt zoals ze is: aan dat beeld wijdde hij <em>Filosofie en de spiegel van de natuur</em> (1979). Voor hem bestaat er geen <strong>waarheid</strong> opgevat als exacte kopie van de wereld en geen laatste fundament van de kennis; waarheid is veeleer wat een gemeenschap aanvaardt nadat ze die op de proef heeft gesteld. In <em>Contingentie, ironie en solidariteit</em> (1989) betoogde hij dat men in een liberale democratie, in plaats van een absoluut fundament te zoeken, beter zorg kan dragen voor het <strong>gesprek</strong>, de ironie (weten dat het eigen vocabulaire niet heilig is) en de <strong>solidariteit</strong>. Op de website komt hij aan bod in het thema postmoderniteit van Filosofie: na de kritiek van de achterdocht stelt hij voor om het dispuut over wie de Waarheid bezit te vervangen door het democratische gesprek, zonder dat waarheid of rechtvaardigheid daardoor ophouden belangrijk te zijn.</p>",
+  "obras": [
+   "De filosofie en de spiegel van de natuur (1979)",
+   "Consequences of Pragmatism (1982)",
+   "Contingency, Irony, and Solidarity (1989)",
+   "Achieving Our Country (1998)"
+  ],
+  "anecdota": "<p>In 1992 publiceerde Rorty een autobiografisch essay, “Trotski en de wilde orchideeën”, waarin hij vertelde hoe hij als kind twee dingen probeerde te verzoenen die niet leken samen te gaan: de inzet voor sociale rechtvaardigheid die hij van zijn ouders had geërfd en zijn privéhobby, bijna geheim, om wilde orchideeën te zoeken in de heuvels van het noordwesten van New Jersey. Jarenlang, zei hij, zocht hij naar één waarheid die “Trotski” en “de orchideeën” zou verbinden, totdat hij ging denken dat dat niet nodig was: het publieke, dat wil zeggen de solidariteit, en het private, de schoonheid die voor ieder persoon belangrijk is, konden verschillende wegen volgen. Uit die poging ontstond een groot deel van zijn filosofie.</p>",
+  "fuente": "Richard Rorty, “Trotski en de wilde orchideeën” (1992), opgenomen in Filosofie en toekomst (Spaanse uitg. Gedisa, 2002)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
+ "vattimo": {
+  "name": "Gianni Vattimo",
+  "dates": "1936 – 2023",
+  "born": 1936,
+  "died": 2023,
+  "place": "Turijn (Italië)",
+  "role": "Italiaans filosoof",
+  "idea": "Het zwakke denken doet afstand van absolute waarheden en ultieme grondslagen en aanvaardt de veelheid aan interpretaties als basis voor een ethiek van tolerantie.",
+  "bio": "<p>Gianni Vattimo werd in 1936 in Turijn geboren. Hij studeerde filosofie in zijn stad bij Luigi Pareyson en vervolgde zijn studie in Heidelberg bij Hans-Georg Gadamer, wiens werk hij in het Italiaans vertaalde. Hij was decennialang hoogleraar aan de Universiteit van Turijn en was ook politiek actief: hij was lid van het Europees Parlement. Hij overleed in 2023.</p>\n<p>Vattimo is een van de belangrijkste vertegenwoordigers van de <strong>hermeneutiek</strong>, de filosofie van de interpretatie. In navolging van Nietzsche en Heidegger stelt hij dat er geen zuivere feiten zijn, maar interpretaties. In het postmoderne tijdperk zijn de grote verhalen en de laatste fundamenten van de waarheid gevallen. In plaats van daarover te klagen, stelt hij het <strong>zwakke denken</strong> voor: een filosofie die afziet van sterke en definitieve waarheden, die vaak geweld en autoritarisme rechtvaardigen. Het aanvaarden van de <strong>pluraliteit van interpretaties</strong> leidt tot een ethiek van tolerantie en dialoog. In <em>De transparante samenleving</em> analyseerde hij hoe de media de wereldbeelden vermenigvuldigen en het idee van één enkele werkelijkheid verzwakken.</p>\n<p>Zijn voorstel maakt deel uit van het debat over de postmoderniteit samen met Lyotard, Derrida of Foucault. Tegenover Habermas, die een universele rede wil reconstrueren, ziet Vattimo in de verzwakking van de waarheid een emanciperende kans. In zijn latere werken herinterpreteerde hij het christendom vanuit ditzelfde perspectief.</p>",
+  "obras": [
+   "Het zwakke denken (1983, met Pier Aldo Rovatti)",
+   "Het einde van de moderniteit (1985)",
+   "De transparante samenleving (1989)",
+   "Geloven te geloven (1996)"
+  ],
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
+ "ingham": {
+  "name": "Geoffrey Ingham",
+  "dates": "geb. 1942",
+  "born": 1942,
+  "died": null,
+  "place": "",
+  "role": "Brits socioloog en politiek econoom",
+  "idea": "Geld is geen eenvoudige waar, maar een sociaal gecreëerde belofte tot betaling, vooral als bankkrediet, en het is een pijler van het kapitalisme.",
+  "bio": "<p>Geoffrey Ingham is een Britse socioloog, geboren in 1942. Hij studeerde sociologie aan de Universiteit van Leicester en promoveerde in Cambridge, waar hij hoogleraar sociologie en politieke economie is geweest en lid van Christ's College. Hij is emeritus hoogleraar van die universiteit.</p>\n<p>Zijn werk richt zich op de aard van geld en kapitalisme. In <em>The Nature of Money</em> (2004) verdedigt hij dat geld een <strong>sociale en politieke constructie</strong> is: een betalingsbelofte, geen object met eigen waarde. In <em>Capitalism</em> (2008) betoogt hij dat het kapitalisme in al zijn fasen drie elementen behoudt: een monetair systeem dat geld schept als <strong>bankkrediet</strong>, de marktruil en de particuliere onderneming die goederen produceert. Hij komt voor in het curriculum om uit te leggen wat er in het kapitalisme door de geschiedenis heen blijft bestaan.</p>",
+  "obras": [
+   "The Nature of Money (2004)",
+   "Capitalism (2008)"
+  ],
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
   ]
  },
  "nussbaum": {
@@ -3661,6 +4721,28 @@ const BIOGRAFIAS = {
    "fil-grandes-preguntas"
   ]
  },
+ "herrero": {
+  "name": "Yayo Herrero",
+  "dates": "geb. 1965",
+  "born": 1965,
+  "died": null,
+  "place": "Madrid",
+  "role": "antropologe en ecofeministisch activiste",
+  "idea": "Mensen zijn eco-afhankelijk en onderling afhankelijk, dus economie en politiek moeten het leven en de zorg centraal stellen.",
+  "bio": "<p>Yayo Herrero werd in 1965 in Madrid geboren. Ze is landbouwkundig ingenieur, antropologe en sociaal pedagoog, en ze promoveerde in de sociale en politieke wetenschappen aan de Universiteit van Baskenland. Ze was nationaal coördinator van Ecologistas en Acción en heeft gewerkt als onderzoeker en docent op het gebied van politieke ecologie, ecofeminisme en onderwijs voor duurzaamheid. Ze is een van de bekendste stemmen van het ecologisme in Spanje.</p>\n<p>Vanuit het <strong>ecofeminisme</strong>, dat de ecologische crisis in verband brengt met de ongelijkheid van vrouwen, herinnert Herrero aan twee basisfeiten. We zijn <strong>ecologisch afhankelijk</strong>, omdat we voor ons leven afhankelijk zijn van de natuur, en <strong>onderling afhankelijk</strong>, omdat we gedurende ons hele leven zorg van andere mensen nodig hebben. Onze economie vergeet beide zaken: ze groeit alsof de planeet oneindig is en waardeert de <strong>zorg</strong> niet, die vooral door vrouwen en op onzichtbare wijze wordt verricht. Daarom stelt ze dat het huidige systeem vijandig staat tegenover het leven. Ze stelt voor om het leven en de zorg centraal te stellen in de politiek en de economie, en de menselijke kwetsbaarheid te erkennen.</p>\n<p>Haar denken is verbonden met de zorgethiek, met degrowth en met andere kritieken op het huidige kapitalisme. Met Martha Nussbaum deelt ze het idee dat welzijn niet wordt gemeten aan economische groei.</p>",
+  "obras": [
+   "Los cinco elementos (2021)",
+   "Ausencias y extravíos (2021)",
+   "Toma de tierra (2023)"
+  ],
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
  "chalmers": {
   "name": "David Chalmers",
   "dates": "geb. 1966",
@@ -3685,6 +4767,52 @@ const BIOGRAFIAS = {
    "fil-t2",
    "fil-metafisica",
    "fil-grandes-preguntas"
+  ]
+ },
+ "klein": {
+  "name": "Naomi Klein",
+  "dates": "geb. 1970",
+  "born": 1970,
+  "died": null,
+  "place": "Montreal (Canada)",
+  "role": "Canadees journaliste en essayiste",
+  "idea": "Het rampkapitalisme maakt gebruik van de schok van crises, oorlogen en rampen om neoliberale hervormingen op te leggen die in normale tijden zouden worden afgewezen.",
+  "bio": "<p>Naomi Klein werd in 1970 in Montreal geboren. Ze is journalist, essayist en activiste. Ze werd bekend met <em>No Logo</em> (2000), dat een referentiewerk werd van de antiglobaliseringsbeweging van die jaren. Ze heeft in talrijke internationale media geschreven en is hoogleraar aan de University of British Columbia in Canada.</p>\n<p>In <em>No Logo</em> analyseert ze de macht van grote <strong>merken</strong>: ze verkopen niet langer alleen objecten, maar identiteiten en levensstijlen, terwijl ze de productie verplaatsen naar landen met lage lonen. In <em>The Shock Doctrine</em> (2007) beschrijft ze het <strong>rampkapitalisme</strong>. Volgens Klein maken overheden en grote bedrijven gebruik van de verwarring die crises veroorzaken, zoals oorlogen, staatsgrepen of natuurrampen, om <strong>neoliberale hervormingen</strong> op te leggen: privatiseringen, bezuinigingen en deregulering. De bevolking, in shocktoestand, kan zich niet verzetten. In <em>Esto lo cambia todo</em> (2014) brengt ze de klimaatcrisis in verband met het economische model dat gebaseerd is op onbeperkte groei.</p>\n<p>Haar werk maakt deel uit van de hedendaagse kritiek op de neoliberale globalisering, samen met auteurs als Noam Chomsky en Zygmunt Bauman. Haar analyse van de klimaatcrisis brengt haar ook dicht bij ecologische denkers zoals Yayo Herrero.</p>",
+  "obras": [
+   "No Logo (2000)",
+   "De shockdoctrine (2007)",
+   "Dit verandert alles (2014)"
+  ],
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3",
+   "fil-t6"
+  ]
+ },
+ "preciado": {
+  "name": "Paul B. Preciado",
+  "dates": "geb. 1970",
+  "born": 1970,
+  "died": null,
+  "place": "Burgos",
+  "role": "filosoof en kunstcurator",
+  "idea": "In het farmacopornografische tijdperk beheerst het kapitalisme de lichamen door middel van medicijnen, hormonen en beelden, maar het lichaam kan een ruimte van verzet worden.",
+  "bio": "<p>Paul B. Preciado werd in 1970 in Burgos geboren. Hij studeerde filosofie in Madrid en aan de New School for Social Research in New York, waar hij een leerling was van Jacques Derrida, en promoveerde in de architectuurtheorie aan de Princeton-universiteit. Hij is hoogleraar geweest, curator van kunsttentoonstellingen en columnist, en woont in Parijs. In 2015 maakte hij zijn gendertransitie openbaar en nam de naam Paul aan.</p>\n<p>In <em>Manifiesto contrasexual</em> (2000) bekritiseert hij dat sekse en gender als natuurlijk worden voorgesteld. In <em>Testo yonqui</em> (2008), geschreven terwijl hij zich testosteron toediende, beschrijft hij het <strong>farmacopornografische tijdperk</strong>. Volgens Preciado controleert het kapitalisme sinds het midden van de 20e eeuw de lichamen niet langer alleen met externe disciplines, maar van binnenuit: door middel van <strong>geneesmiddelen en hormonen</strong>, zoals de anticonceptiepil, en door de beeldindustrie en de pornografie. Seksuele identiteit wordt technisch gefabriceerd. Daarom kan het lichaam een ruimte van <strong>politiek verzet</strong> worden, waar identiteiten worden geëxperimenteerd die het binarisme man-vrouw doorbreken.</p>\n<p>Zijn denken zet de analyse van Foucaults biomacht en de performativiteitstheorie van Judith Butler voort. Hij is een van de invloedrijkste stemmen van de <strong>queertheorie</strong> en van de transbewegingen. In 2023 regisseerde hij de documentaire <em>Orlando, mi biografía política</em>.</p>",
+  "obras": [
+   "Manifiesto contrasexual (2000)",
+   "Testo yonqui (2008)",
+   "Un apartamento en Urano (2019)",
+   "Je suis un monstre qui vous parle (2020)"
+  ],
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
   ]
  },
  "bostrom": {
