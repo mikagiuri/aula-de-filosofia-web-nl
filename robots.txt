@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mikagiuri.github.io/aula-de-filosofia-web-nl/sitemap.xml

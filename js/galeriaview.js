@@ -1,0 +1,213 @@
+"use strict";
+/* ===== Vista Galería ===== depende de: galeria.js =====
+   Rejilla de ilustraciones del libro (material propio, generado). Filtro por bloque
+   y visor a pantalla (lightbox) con anterior/siguiente. Estilos propios con tokens de tema. */
+
+const GAL_EPOCAS = { ant: "Oudheid", med: "Middeleeuws", mod: "Moderne tijd", ilu: "Verlichting", con: "Hedendaags" };
+/* grupos no-HF (Filosofía 1.º, Arte y pensamiento crítico, Cuentos…): etiquetas dinámicas, las añade galAddIlus */
+const GAL_BLOCKS = {};
+/* Filosofía 1.º: suma las ilustraciones de tema (dominio público) como grupo propio «F1»
+   de la Galería. Depende de ilustraciones_fil.js (cargado antes). El crédito va en el pie. */
+function galAddIlus(list, bloque, nombre){
+  GAL_BLOCKS[bloque] = nombre;
+  list.forEach(function (x){
+    GALERIA.push({ f: x.f, t: x.t, pie: x.pie, bloque: bloque,
+      unidad: nombre + " · " + (x.license || "Publiek domein") + " · Wikimedia Commons" });
+  });
+}
+/* (08-10) Filosofía 1.º: un grupo por tema, en el orden del curso (antes, las ilustraciones iban todas juntas en «F1»).
+   Las que no traigan tema conocido van a «F1». */
+const GAL_FIL_TEMAS = [
+  ["fil-t1", "T1 · Wat is filosofie?"], ["fil-presocraticos", "T1 · De presocraten"], ["fil-t2", "T2 · De mens"],
+  ["fil-t3", "T3 · Kennis"], ["fil-metafisica", "M · De werkelijkheid (Metafysica)"], ["fil-t4", "T4 · Logica en argumentatie"],
+  ["fil-t5", "T5 · Ethiek"], ["fil-helenismo", "T5 · De hellenistische scholen"], ["fil-t6", "T6 · Politiek"], ["fil-t7", "T7 · Esthetica"]];
+if (typeof ILUSTRACIONES !== "undefined" && Array.isArray(GALERIA)){
+  GAL_FIL_TEMAS.forEach(function (p){
+    galAddIlus(ILUSTRACIONES.filter(function (x){ return x.tema === p[0]; }), p[0], p[1]);
+  });
+  const sinTema = ILUSTRACIONES.filter(function (x){ return !GAL_FIL_TEMAS.some(function (p){ return p[0] === x.tema; }); });
+  if (sinTema.length) galAddIlus(sinTema, "F1", "Filosofie 1e");
+}
+/* 1.º y 2.º de Bachillerato: «Arte y pensamiento crítico» (galeria_pensar.js), grupo «PC». */
+if (typeof GALERIA_PENSAR !== "undefined" && Array.isArray(GALERIA)) galAddIlus(GALERIA_PENSAR, "PC", "Kunst en kritisch denken");
+/* 2.º ESO: la Galería son los dibujos de los «Cuentos para pensar», sacados del propio texto de cada
+   cuento (MATERIALS ipc-lec-*, primer <img> + su <figcaption>). En Bachillerato MATERIALS llega vacío. */
+if (typeof MATERIALS !== "undefined" && Array.isArray(GALERIA)){
+  const cu = Object.keys(MATERIALS).filter(function (k){ return /^ipc-lec-/.test(k) && !/soluciones/.test(k); });
+  cu.forEach(function (k){
+    const html = String(MATERIALS[k].html || "");
+    const img = html.match(/<img[^>]*\ssrc="([^"]+)"[^>]*>/);
+    if (!img) return;
+    const cap = html.match(/<figcaption[^>]*>([\s\S]*?)<\/figcaption>/);
+    const alt = img[0].match(/\salt="([^"]*)"/);
+    GAL_BLOCKS.CU = "Verhalen om over na te denken";
+    GALERIA.push({ f: img[1], t: MATERIALS[k].title, pie: (cap ? cap[1] : (alt ? alt[1] : "")).replace(/<[^>]+>/g, ""),
+      bloque: "CU", unidad: "Verhalen om over na te denken" });
+  });
+}
+/* (12-10) época de una ilustración de HF por su contenido (unidad = autor/tema); las no-HF (F1/PC/CU/temas)
+   no tienen época. Los grupos de museo/contexto genéricos (sin autor) caen por bloque: A→Antigua, B→«medmod»
+   (abarca Medieval y Moderna, solo con «Todos»), C→Contemporánea. EDITABLE: una unidad nueva se apunta aquí.
+   (25-10) Desde GAL_FOTO_EP ninguna imagen de HF cae ya en «medmod»: una imagen nueva de museo se apunta allí por su ruta. */
+const GAL_UNIDAD_EP = {
+  "Augustinus van Hippo": "med", "Avicenna": "med", "Ockham": "med", "Thomas van Aquino": "med",
+  "Van de middeleeuwen naar de moderniteit": "mod", "Renaissance en wetenschap": "mod", "Descartes": "mod", "Rationalisme en empirisme": "mod",
+  "Het moderne metafysische debat": "mod", "Samenleving en macht": "mod", "Hume": "mod", "Utilitarisme en liberalisme": "mod",
+  "De Verlichting": "ilu", "De filosofie van Kant": "ilu",
+  "De crisis van de moderniteit": "con", "Het existentialisme": "con", "Het feminisme": "con", "Hannah Arendt": "con",
+  "De strijd na het marxisme": "con", "De meesters van de argwaan": "con", "Marx": "con"
+};
+/* (25-10, orden del profesor) cada imagen de museo en UNA sola época, por su contenido (autor u obra y fecha),
+   y la Ilustración aparte de la Moderna y de la Contemporánea. Se busca el fragmento en la ruta de la imagen (g.f); manda sobre lo demás. */
+const GAL_FOTO_EP = [
+  /* retratos de galeria_retratos_museo.js: su bloque sale del nombre, que en fr y ar llega traducido; por la ruta no falla */
+  ...["alcibiades","alejandro","aristoteles","aspasia","diogenes","delfos","epicuro","hipatia","academia","caverna","escuela-atenas",
+      "muerte-socrates","marco-aurelio","platon","seneca","socrates"].map(function (s){ return ["retratos/museo/" + s + ".", "ant"]; }),
+  ...["agustin","averroes","aquino"].map(function (s){ return ["retratos/museo/" + s + ".", "med"]; }),
+  ...["hume","descartes","galileo","newton","locke","copernico","spinoza"].map(function (s){ return ["retratos/museo/" + s + ".", "mod"]; }),
+  ...["kant","wollstonecraft","gouges","rousseau"].map(function (s){ return ["retratos/museo/" + s + ".", "ilu"]; }),
+  ...["einstein","darwin","cassirer","arendt","hegel","dewey","mill","marx","popper","zambrano","curie","nietzsche","ortega","franklin",
+      "schopenhauer","beauvoir","kuhn","james","wittgenstein"].map(function (s){ return ["retratos/museo/" + s + ".", "con"]; }),
+  ["museo/agustin","med"],["averroes","med"],["museo/aquino","med"],["al_andalus","med"],["edad_media","med"],["anselmo","med"],["boecio","med"],
+  ["duns-escoto","med"],["museo2/ockham","med"],["maimonides","med"],["cristina-pizan","med"],["europa-hacia-el-ano-1000","med"],["mapa-europa-medieval","med"],
+  ["t-o-map","med"],["psalter-world-map","med"],["hereford","med"],["ebstorfer","med"],["tabula-rogeriana","med"],["atlas-catalan","med"],["fra-mauro","med"],
+  ["kopistak","med"],["erdi_aroko_unibertsitatea","med"],["ibn_rushd_aristotelesen_transmisioa","med"],
+  ["renacimiento_","mod"],["reforma_","mod"],["revolucion_cientifica","mod"],["poder_moderno","mod"],["Drawing_of_frontispiece_of_Leviathan","mod"],
+  ["Two_Treatises_of_Government","mod"],["museo/descartes","mod"],["museo/locke","mod"],["museo/spinoza","mod"],["museo/hume","mod"],["berkeley","mod"],
+  ["museo2/bacon","mod"],["museo2/hobbes","mod"],["leibniz","mod"],["maquiavelo","mod"],["montaigne","mod"],["pascal","mod"],["erasmo","mod"],["gassendi","mod"],
+  ["kepler","mod"],["tomas-moro","mod"],["isabel-bohemia","mod"],["botticelli","mod"],["durero","mod"],["rafael-la-disputa","mod"],["vermeer","mod"],
+  ["mapa-1507","mod"],["juan-de-la-cosa","mod"],["ortelius","mod"],["nova-et-aucta","mod"],["mapa-celeste","mod"],["map-of-london","mod"],
+  ["copernico","mod"],["galileo","mod"],["newton","mod"],
+  ["museo/rousseau","ilu"],["Contrat_Social","ilu"],["montesquieu","ilu"],["emilie-chatelet","ilu"],["adam-smith","ilu"],["voltaire","ilu"],["diderot","ilu"],
+  ["dalembert","ilu"],["museo/kant","ilu"],["ilustracion_","ilu"],["revolucion_francesa","ilu"],["wollstonecraft","ilu"],["museo/gouges","ilu"],
+  ["Olympe_de_Gouges","ilu"],["wright-of-derby","ilu"],["europa-de-la-ilustracion","ilu"],["juramento-de-los-horacios","ilu"],["goya-el-sueno","ilu"],
+  ["revolucion_industrial","ilu"],["industrializacion_Philipp_Jakob_Loutherbourg","ilu"],["Panopticon","ilu"],["museo2/bentham","ilu"],
+  ["b6_kontratu_soziala","ilu"],["b7_ongizate_komuna","ilu"],
+  ["museo/darwin","con"],["museo/curie","con"],["museo/franklin","con"],["utilitarismo_Bpt6k","con"],["b7_justizia","con"],["b7_askatasuna","con"]
+];
+function galEpoca(g){
+  for (const [k, e] of GAL_FOTO_EP){ if (String(g.f || "").indexOf(k) >= 0) return e; }
+  if (GAL_UNIDAD_EP[g.unidad]) return GAL_UNIDAD_EP[g.unidad];
+  /* (20-10) en las webs traducidas, la clave (ui) y el nombre del grupo (tm) pueden diferir en el apóstrofo o en una palabra */
+  const u = String(g.unidad || "").replace(/[’‘]/g, "'");
+  for (const k in GAL_UNIDAD_EP){ const kk = k.replace(/[’‘]/g, "'"); if (kk === u || (kk.length > 3 && u.indexOf(kk) >= 0)) return GAL_UNIDAD_EP[k]; }
+  return ({ A: "ant", B: "medmod", C: "con" })[g.bloque] || null;
+}
+/* épocas y grupos con alguna imagen (en las webs por materia GALERIA llega ya filtrada: 1.º trae «F1» y «PC»; ESO, «CU») */
+function galEpocasPresent(){ return Object.keys(GAL_EPOCAS).filter(function (b){ return GALERIA.some(function (g){ return galEpoca(g) === b; }); }); }
+function galGruposPresent(){ return Object.keys(GAL_BLOCKS).filter(function (b){ return GALERIA.some(function (g){ return g.bloque === b; }); }); }
+let galBloque = galEpocasPresent().concat(galGruposPresent())[0] || "all";  /* época/grupo concreto por defecto, nunca «Todos» */
+let galList = [];
+let galPos = 0;
+
+const GAL_CSS = `
+#galeria .galgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(170px,100%),1fr));gap:12px;margin-top:12px}
+#galeria .galcard{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface);cursor:zoom-in;box-shadow:var(--shadow);text-align:left;padding:0;font:inherit;color:inherit}
+#galeria .galcard img{display:block;width:100%;height:150px;object-fit:cover;background:var(--surface-2)}
+#galeria .galcard .cap{padding:8px 11px;font-size:13px;line-height:1.35;color:var(--ink)}
+#galeria .galcard:hover{border-color:var(--accent)}
+#galeria .galcount{color:var(--muted);font-size:13px;margin:10px 0}
+.gallb{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;align-items:center;justify-content:center;padding:16px;z-index:200}
+.gallb[hidden]{display:none}
+.gallb .box{position:relative;max-width:min(940px,96vw);max-height:94vh;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.gallb img{max-width:100%;max-height:72vh;object-fit:contain;background:var(--surface-2)}
+.gallb .meta{padding:12px 16px}
+.gallb .meta h4{margin:0 0 3px;font-family:var(--serif);font-size:18px;color:var(--ink)}
+.gallb .meta p{margin:0;color:var(--muted);font-size:13.5px}
+.gallb .close{position:absolute;top:8px;right:10px;width:40px;height:40px;font-size:24px;line-height:1;background:rgba(0,0,0,.35);border:0;color:#fff;border-radius:10px;cursor:pointer}
+.gallb .nav{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:60px;font-size:26px;background:rgba(0,0,0,.35);border:0;color:#fff;cursor:pointer}
+.gallb .prev{left:6px;border-radius:0 10px 10px 0}
+.gallb .next{right:6px;border-radius:10px 0 0 10px}
+@media (max-width:520px){ #galeria .galgrid{grid-template-columns:repeat(auto-fill,minmax(min(140px,100%),1fr))} #galeria .galcard img{height:120px} }
+`;
+let _galCss = false, _lb = null, _galPrev = null;
+function galInject(){
+  if (_galCss) return;
+  const s = document.createElement("style"); s.textContent = GAL_CSS; document.head.appendChild(s);
+  _lb = document.createElement("div"); _lb.className = "gallb"; _lb.hidden = true;
+  _lb.setAttribute("role", "dialog"); _lb.setAttribute("aria-modal", "true"); _lb.setAttribute("aria-label", "Visor de la galería");
+  _lb.innerHTML = '<div class="box"><button class="nav prev" aria-label="Vorige">‹</button>' +
+    '<img id="gallbimg" alt=""><div class="meta"><h4 id="gallbt"></h4><p id="gallbp"></p></div>' +
+    '<button class="nav next" aria-label="Volgende">›</button><button class="close" aria-label="Sluiten">×</button></div>';
+  document.body.appendChild(_lb);
+  _lb.querySelector(".close").addEventListener("click", galClose);
+  _lb.querySelector(".prev").addEventListener("click", function (e){ e.stopPropagation(); galStep(-1); });
+  _lb.querySelector(".next").addEventListener("click", function (e){ e.stopPropagation(); galStep(1); });
+  _lb.addEventListener("click", function (e){ if (e.target === _lb) galClose(); });
+  document.addEventListener("keydown", function (e){
+    if (_lb.hidden) return;
+    if (e.key === "Escape") galClose();
+    else if (e.key === "ArrowLeft") galStep(-1);
+    else if (e.key === "ArrowRight") galStep(1);
+    else if (e.key === "Tab"){   // atrapar el foco dentro del visor
+      const f = _lb.querySelectorAll("button"); if (!f.length) return;
+      const first = f[0], last = f[f.length - 1], a = document.activeElement;
+      if (e.shiftKey && (a === first || !_lb.contains(a))){ e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && (a === last || !_lb.contains(a))){ e.preventDefault(); first.focus(); }
+    }
+  });
+  _galCss = true;
+}
+
+function galFiltered(){ return GALERIA.filter(function (g){ return galBloque === "all" || galEpoca(g) === galBloque || g.bloque === galBloque; }); }
+
+function renderGalFilter(){
+  const box = document.getElementById("galfilter");
+  if (!box) return;
+  galInject();
+  const present = galEpocasPresent().concat(galGruposPresent());
+  const label = function (b){ return GAL_EPOCAS[b] || GAL_BLOCKS[b] || b; };
+  if (present.length < 2){ box.innerHTML = ""; return; }   /* un solo grupo: sin filtro */
+  /* (08-10) más de 6 grupos (Galería de 1.º por temas): lista de temas (.chips), que compacto.js pliega
+     en una línea con el elegido, también en escritorio; con pocos, la fila de filtros de siempre */
+  let chips = document.getElementById("galchips");
+  if (present.length > 6){
+    if (!chips){
+      chips = document.createElement("div"); chips.className = "chips"; chips.id = "galchips";
+      chips.setAttribute("role", "group"); chips.setAttribute("aria-label", "Thema kiezen");
+      box.parentNode.insertBefore(chips, box);
+    }
+    box.innerHTML = "";
+    chips.innerHTML = present.map(function (b){
+      return '<button class="chip" data-era="' + b + '" aria-pressed="' + (b === galBloque) + '">' + label(b) + '</button>'; }).join("");
+  } else {
+    if (chips) chips.remove();
+    box.innerHTML = '<div class="fgroup"><span class="flabel">Periode</span>' +
+      ["all"].concat(present).map(function (b){
+        return '<button class="fbtn" data-era="' + b + '" aria-pressed="' + (b === galBloque) + '">' +
+          (b === "all" ? "Alle" : label(b)) + '</button>'; }).join("") + '</div>';
+  }
+  (chips && present.length > 6 ? chips : box).querySelectorAll("[data-era]").forEach(function (b){ b.addEventListener("click", function (){
+    galBloque = b.dataset.era; renderGalFilter(); renderGalGrid(); }); });
+}
+
+function renderGalGrid(){
+  const grid = document.getElementById("galgrid");
+  const cnt = document.getElementById("galcount");
+  if (!grid) return;
+  galList = galFiltered();
+  if (cnt) cnt.textContent = galList.length + (galList.length === 1 ? " illustratie" : " illustraties") +
+    (galList.length !== GALERIA.length ? " (van " + GALERIA.length + ")" : "");
+  grid.innerHTML = galList.map(function (g, i){
+    return '<button class="galcard" data-i="' + i + '"><img loading="lazy" src="' + g.f + '" alt=""><div class="cap">' + g.t + '</div></button>';
+  }).join("");
+  grid.querySelectorAll(".galcard").forEach(function (b){ b.addEventListener("click", function (){ galOpen(+b.dataset.i); }); });
+}
+
+function galEsc(s){ return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+function galShow(){
+  const g = galList[galPos]; if (!g) return;
+  const im = document.getElementById("gallbimg"); im.src = g.f; im.alt = g.t || "";
+  document.getElementById("gallbt").textContent = g.t;
+  const cred = (g.pie ? g.pie + " · " : "") + (g.unidad || "");
+  document.getElementById("gallbp").innerHTML = galEsc(cred) +
+    (g.page ? ' · <a href="' + galEsc(g.page) + '" target="_blank" rel="noopener">Bron bekijken</a>' : "");
+}
+function galOpen(i){ galInject(); _galPrev = document.activeElement; galPos = i; galShow(); _lb.hidden = false;
+  const c = _lb.querySelector(".close"); if (c) c.focus(); }
+function galClose(){ if (_lb) _lb.hidden = true;
+  if (_galPrev && _galPrev.focus){ try { _galPrev.focus(); } catch (e){} } _galPrev = null; }
+function galStep(d){ galPos = (galPos + d + galList.length) % galList.length; galShow(); }
+
+renderGalFilter();
+renderGalGrid();

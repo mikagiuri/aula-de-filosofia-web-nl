@@ -1,0 +1,175 @@
+"use strict";
+/* ===== Vista "Samenvattingen" (antes «Esquemas de autor») ===== depende de: resumenes.js (HF) y/o resumenes_fil.js (Filosofía 1.º) =====
+   Muestra los esquemas por tema/autor (mapas ds-* del departamento) en formato
+   textual limpio, imprimible. Complementa la vista "Schema’s" (grafos mermaid). */
+
+let eaBlock = "all";
+const EA_EPOCAS = { ant: "Oudheid", med: "Middeleeuws", mod: "Moderne tijd", ilu: "Verlichting", con: "Hedendaags" };
+/* (12-10) etiquetas de bloque (A/B/C/F1), solo para la tabla «Sinóptica» por ejes (esquemas_ejes.js) */
+const EA_BLOQUE_LABEL = { A: "Oudheid", B: "Middeleeuws-Modern", C: "Hedendaags", F1: "Filosofie 1e" };
+/* (12-10) HF (RESUMENES) y Filosofía 1.º (RESUMENES_FIL): cada web publicada trae solo los suyos; la del profesor, los dos */
+const EA_LIST = (typeof RESUMENES !== "undefined" ? RESUMENES : []).concat(typeof RESUMENES_FIL !== "undefined" ? RESUMENES_FIL : []);
+/* (12-10) época del resumen de HF por su título (tema), no por el bloque. El introductorio («Métodos y herramientas
+   del filósofo», T1-T2) va a «int» (solo con «Todos»). EDITABLE: un resumen nuevo se apunta aquí. */
+const EA_EPOCA_TITULO = {
+  "Métodos y herramientas del filósofo": "int",
+  "El nacimiento de la filosofía en Grecia": "ant", "Presocráticos: la búsqueda del arché": "ant", "Los sofistas y Sócrates": "ant",
+  "Platón y Aristóteles": "ant", "Antropología clásica: la psique": "ant", "El debate ético": "ant", "El debate político": "ant", "Las escuelas helenísticas": "ant",
+  "La filosofía medieval": "med", "Geloof en rede": "med",
+  "El Renacimiento": "mod", "Rationalisme en empirisme": "mod", "El debate moderno sobre la sustancia": "mod", "El contrato social": "mod", "Utilitarismo, liberalismo y capitalismo": "mod",
+  "La Ilustración: razón y derechos": "ilu", "La filosofía crítica de Kant": "ilu", "Ética: Kant frente al utilitarismo": "ilu",
+  "De filosofen van de argwaan": "con", "La crítica del capitalismo": "con", "Nietzsche y la postmodernidad": "con", "La filosofía del lenguaje": "con", "Het existentialisme": "con", "Simone de Beauvoir: el feminismo": "con"
+};
+function eaEpoca(e){ return e.subject === "hf" ? (EA_EPOCA_TITULO[e.title] || null) : null; }
+const EA_HAS = ["ant", "med", "mod", "ilu", "con"].filter(function (b){ return EA_LIST.some(function (e){ return eaEpoca(e) === b; }); });
+/* (07-10) formato: esquema (listas), tabla por autor o tabla sinóptica del bloque (una fila por autor) */
+let eaFmt = "esq";
+try { const f = localStorage.getItem("eaFmt"); if (f === "tab" || f === "sin") eaFmt = f; } catch (e) {}
+const EA_FMTS = { esq: "Schema’s", tab: "Tabellen", sin: "Synoptisch" };
+
+const EA_CSS = `
+#resumenes .ea-actions{display:flex;align-items:center;gap:12px;margin:6px 0 16px;flex-wrap:wrap}
+#resumenes .ea-print{background:var(--accent);color:var(--on-accent);border:0;border-radius:10px;
+  padding:9px 16px;font-size:.92rem;font-weight:600}
+#resumenes .ea-print:hover{background:var(--accent-2)}
+#resumenes .easchema{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 20px;margin:0 0 14px;break-inside:avoid}
+#resumenes .easchema h2{font-family:var(--serif);font-weight:600;font-size:1.25rem;margin:0 0 10px;color:var(--ink)}
+#resumenes .easchema h3{font-family:var(--serif);font-weight:600;font-size:1.02rem;margin:14px 0 6px;color:var(--hf)}
+#resumenes .easchema ul{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+#resumenes .easchema li{font-size:.94rem;color:var(--ink);padding-left:16px;position:relative}
+#resumenes .easchema li::before{content:"";position:absolute;left:2px;top:.55em;width:6px;height:6px;
+  border-radius:50%;background:var(--ipc)}
+#resumenes .easchema li ul{margin:4px 0 2px;gap:3px}
+#resumenes .easchema li li::before{background:var(--line);width:5px;height:5px}
+#resumenes .ea-q{font-family:var(--serif);font-style:italic;color:var(--muted);margin:-4px 0 8px}
+#resumenes .ea-d{margin:0 0 6px;font-size:.94rem}
+#resumenes .ea-a{color:var(--muted);font-style:italic}
+#resumenes .ea-idea{margin:14px 0 0;padding:10px 12px;border-left:4px solid var(--hf);background:var(--surface-2);border-radius:8px;font-size:.94rem}
+#resumenes .ea-tw{overflow-x:auto;margin:4px 0 0}
+#resumenes table.ea-tab{width:100%;border-collapse:collapse;font-size:.9rem;line-height:1.45}
+#resumenes table.ea-tab th,#resumenes table.ea-tab td{border:1px solid var(--line);padding:7px 9px;vertical-align:top;text-align:left}
+#resumenes table.ea-tab thead th{background:var(--surface-2);color:var(--ink);font-weight:600}
+#resumenes table.ea-tab td:first-child{font-weight:600;color:var(--hf);width:20%}
+#resumenes table.ea-tab ul{list-style:none;margin:0;padding:0;display:grid;gap:3px}
+#resumenes table.ea-tab li{padding-left:0}
+#resumenes table.ea-tab li::before{display:none}
+#resumenes table.ea-sin{min-width:760px}
+#resumenes table.ea-sin td:first-child{width:16%}
+#resumenes table.ea-sin td:nth-child(2){width:22%;font-style:italic;color:var(--muted)}
+#resumenes table.ea-ejes{min-width:1100px;table-layout:fixed}
+#resumenes table.ea-ejes td:first-child{width:11%}
+#resumenes table.ea-ejes td:nth-child(2){width:auto;font-style:normal;color:var(--ink)}
+#resumenes table.ea-ejes td,#resumenes table.ea-ejes th{font-size:.84rem}
+/* Solo cuando esta vista es la activa: este script se carga en todas las vistas y un
+   body *{visibility:hidden} sin acotar dejaba en blanco la impresión de las demás. */
+@media print{
+  body:has(#resumenes.active) *{visibility:hidden}
+  body:has(#resumenes.active) #resumenes, body:has(#resumenes.active) #resumenes *{visibility:visible}
+  #resumenes{position:absolute;left:0;top:0;width:100%;padding:0;margin:0}
+  #resumenes .ea-actions, #resumenes .filterbar, #resumenes .eyebrow, #resumenes .lead{display:none}
+  #resumenes .easchema{border:1px solid #ccc;box-shadow:none;break-inside:avoid}
+}
+`;
+let _eaCss = false;
+function eaInjectCss(){ if (_eaCss) return; const s = document.createElement("style"); s.textContent = EA_CSS; document.head.appendChild(s); _eaCss = true; }
+
+function eaEsc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+function renderEAFilter(){
+  const box = document.getElementById("eafilter");
+  if (!box) return;
+  box.innerHTML = (EA_HAS.length < 2 ? '' : '<div class="fgroup"><span class="flabel">Periode</span>' +
+    ["all"].concat(EA_HAS).map(function (b){
+      return '<button class="fbtn" data-era="' + b + '" aria-pressed="' + (b === eaBlock) + '">' +
+        (b === "all" ? "Alle" : EA_EPOCAS[b]) + '</button>'; }).join("") + '</div>') +
+    '<div class="fgroup"><span class="flabel">Formaat</span>' +
+    Object.keys(EA_FMTS).map(function (f){
+      return '<button class="fbtn" data-ef="' + f + '" aria-pressed="' + (f === eaFmt) + '">' + EA_FMTS[f] + '</button>'; }).join("") + '</div>' +
+    /* (12-10, rediseño Lote 3 · H5) «Esquema del tema» con cambio grafo ⇄ texto */
+    '<button class="fbtn ea-toggle" type="button" title="' + 'Bekijk als graaf (Schema’s)' + '">' + 'Bekijken als graaf' + '</button>';
+  box.querySelectorAll("[data-era]").forEach(function (b){ b.addEventListener("click", function (){
+    eaBlock = b.dataset.era; renderEAFilter(); renderEABody(); }); });
+  box.querySelectorAll("[data-ef]").forEach(function (b){ b.addEventListener("click", function (){
+    eaFmt = b.dataset.ef; try { localStorage.setItem("eaFmt", eaFmt); } catch (e) {}
+    renderEAFilter(); renderEABody(); }); });
+  const tog = box.querySelector(".ea-toggle");
+  if (tog) tog.addEventListener("click", function (){ if (typeof window.show === "function") window.show("esquemas"); });
+}
+
+function renderEABody(){
+  const box = document.getElementById("eabody");
+  if (!box) return;
+  const list = EA_LIST.filter(function (e){ return eaBlock === "all" || eaEpoca(e) === eaBlock; });
+  /* ítems: texto (formato antiguo) u objeto {t, d, a, c} (desde el 25-09, sacados de los esquemas v2) */
+  function item(i){
+    if (typeof i === "string") return '<li>' + eaEsc(i) + '</li>';
+    return '<li><strong>' + eaEsc(i.t) + '</strong>' + (i.d ? ': ' + eaEsc(i.d) : '') +
+      (i.a ? ' <span class="ea-a">(' + eaEsc(i.a) + ')</span>' : '') +
+      (Array.isArray(i.c) && i.c.length ? '<ul>' + i.c.map(item).join("") + '</ul>' : '') + '</li>';
+  }
+  /* Sinóptica: una fila por autor/tema del bloque (o de todos), columnas comunes */
+  /* (08-10) con ejes comunes (esquemas_ejes.js): una tabla por bloque, una fila por tema y una columna por eje */
+  if (eaFmt === "sin" && typeof EA_EJES !== "undefined" && typeof RESUMENES !== "undefined" && eaBlock !== "F1"){
+    box.innerHTML = ["A", "B", "C"].filter(function (b){ return EA_EJES[b]; }).map(function (b){
+      const E = EA_EJES[b];
+      return '<article class="easchema"><h2>' + eaEsc(EA_BLOQUE_LABEL[b]) + '</h2><div class="ea-tw"><table class="ea-tab ea-sin ea-ejes"><thead><tr><th>Thema</th>' +
+        E.ejes.map(function (x){ return '<th>' + eaEsc(x) + '</th>'; }).join("") + '</tr></thead><tbody>' +
+        E.filas.map(function (f){
+          const sch = RESUMENES[f.i] || {};
+          return '<tr><td>' + eaEsc(sch.title || "") + '</td>' + f.c.map(function (x){ return '<td>' + eaEsc(x) + '</td>'; }).join("") + '</tr>';
+        }).join("") + '</tbody></table></div></article>';
+    }).join("") + (eaBlock === "all" && list.some(function (e){ return e.block === "F1"; }) ?
+      '<h2>' + eaEsc(EA_BLOQUE_LABEL.F1) + '</h2>' + sinGen(list.filter(function (e){ return e.block === "F1"; })) : '');
+    eaIlu();
+    return;
+  }
+  function sinGen(lst){ return '<article class="easchema"><div class="ea-tw"><table class="ea-tab ea-sin"><thead><tr>' +
+      '<th>Auteur of onderwerp</th><th>Vraag</th><th>Onderdelen</th><th>Kernidee</th></tr></thead><tbody>' +
+      lst.map(function (sch){
+        const heads = (sch.sections || []).filter(function (s){ return s.heading; }).map(function (s){
+          return '<li><strong>' + eaEsc(s.heading) + '</strong>' + (s.d ? ': ' + eaEsc(s.d) : '') + '</li>'; }).join("");
+        return '<tr><td>' + eaEsc(sch.title) + '</td><td>' + eaEsc(sch.pregunta || "") + '</td><td>' +
+          (heads ? '<ul>' + heads + '</ul>' : '') + '</td><td>' + eaEsc(sch.idea || "") + '</td></tr>';
+      }).join("") + '</tbody></table></div></article>'; }
+  if (eaFmt === "sin"){ box.innerHTML = sinGen(list); eaIlu(); return; }
+  box.innerHTML = list.map(function (sch){
+    if (eaFmt === "tab"){   /* tabla por autor: una fila por apartado */
+      const rows = (sch.sections || []).map(function (s){
+        const items = (s.items || []).map(item).join("");
+        return '<tr><td>' + eaEsc(s.heading || "") + '</td><td>' + (s.d ? eaEsc(s.d) : '') +
+          (s.a ? ' <span class="ea-a">(' + eaEsc(s.a) + ')</span>' : '') + '</td><td>' + (items ? '<ul>' + items + '</ul>' : '') + '</td></tr>';
+      }).join("");
+      return '<article class="easchema"><h2>' + eaEsc(sch.title) + '</h2>' +
+        (sch.pregunta ? '<p class="ea-q">' + eaEsc(sch.pregunta) + '</p>' : '') +
+        '<div class="ea-tw"><table class="ea-tab"><thead><tr><th>Onderdeel</th><th>Idee</th><th>Concepten en auteurs</th></tr></thead><tbody>' +
+        rows + '</tbody></table></div>' +
+        (sch.idea ? '<p class="ea-idea"><strong>Kernidee:</strong> ' + eaEsc(sch.idea) + '</p>' : '') + '</article>';
+    }
+    const secs = (sch.sections || []).map(function (s){
+      const h = s.heading ? '<h3>' + eaEsc(s.heading) + '</h3>' : '';
+      const d = s.d || s.a ? '<p class="ea-d">' + (s.d ? eaEsc(s.d) : '') + (s.a ? ' <span class="ea-a">(' + eaEsc(s.a) + ')</span>' : '') + '</p>' : '';
+      const items = (s.items || []).map(item).join("");
+      return h + d + (items ? '<ul>' + items + '</ul>' : '');
+    }).join("");
+    return '<article class="easchema"><h2>' + eaEsc(sch.title) + '</h2>' +
+      (sch.pregunta ? '<p class="ea-q">' + eaEsc(sch.pregunta) + '</p>' : '') + secs +
+      (sch.idea ? '<p class="ea-idea"><strong>Kernidee:</strong> ' + eaEsc(sch.idea) + '</p>' : '') + '</article>';
+  }).join("");
+  eaIlu();
+}
+
+/* (29-09) Nombres de pensadores → su ficha en «Biografías», con el mismo enlazador que los
+   cronogramas (cronoIlu, en cronogramasview.js, que se carga después: de ahí el DOMContentLoaded). */
+function eaIlu(){ if (typeof cronoIlu === "function") try { cronoIlu(document.getElementById("eabody")); } catch (e) {} }
+document.addEventListener("DOMContentLoaded", eaIlu);
+
+eaInjectCss();
+renderEAFilter();
+renderEABody();
+
+/* Botón imprimir (se conecta en index.html o aquí por id). */
+(function(){
+  const b = document.getElementById("eaprint");
+  if (b) b.addEventListener("click", function(){ void 0 /* sin imprimir en la web de alumnado */; });
+})();
