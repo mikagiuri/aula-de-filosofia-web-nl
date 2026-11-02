@@ -79,9 +79,9 @@ const WEEK = [
 const SUBJECTS = {
  "fil": {
   "name": "Filosofie",
-  "kick": "1e jaar Bachillerato · Thema's 1-3",
+  "kick": "1e jaar Bachillerato",
   "color": "var(--fil)",
-  "intro": "“Wat is filosofie?”: de verwondering, van mythe naar logos, kenmerken, takken, filosofie en andere kennisgebieden, en de methode (lezen en argumenteren). Drie lessen die de groepen C, D en G op dezelfde manier krijgen.",
+  "intro": "",
   "mats": [],
   "tools": [
    [
