@@ -182,6 +182,52 @@ const BIOGRAFIAS = {
    "fil-grandes-preguntas"
   ]
  },
+ "lao_zi": {
+  "name": "Lao Zi",
+  "dates": "6e-4e eeuw v.Chr. (volgens de overlevering)",
+  "born": -570,
+  "died": -480,
+  "place": "Staat Chu (China)",
+  "role": "Chinese wijze, aan wie de Daodejing wordt toegeschreven",
+  "idea": "De Dao, de weg van de natuur, handelt zonder te forceren: de wijze volgt dat voorbeeld, verkiest het nederige en het flexibele, en bestuurt door zo min mogelijk in te grijpen (wu wei).",
+  "bio": "<p>Lao Zi (ook geschreven als Laozi of Lao Tse) betekent “de oude meester”. Volgens de overlevering was hij een archivaris aan het hof van Zhou, iets ouder dan Confucius, die hij zou hebben ontvangen. Maar historici betwijfelen of hij als concrete persoon heeft bestaan: het boek dat aan hem wordt toegeschreven, de <em>Daodejing</em> (<em>Boek van de Weg en de Deugd</em>), lijkt een verzameling uitspraken die haar vorm kreeg rond de 4e-3e eeuw v.Chr. Het is een van de grondteksten van het <strong>taoïsme</strong> en een van de meest vertaalde boeken ter wereld.</p>\n<p>Centraal staat de <strong>Dao</strong>, “de weg”: de naamloze oorsprong van alle dingen, die niet met woorden te definiëren is. De wijze imiteert de Dao door <strong>wu wei</strong> te beoefenen, het “niet-handelen”: niet stilzitten, maar handelen zonder te forceren, zoals water, dat het zachtste ter wereld is en toch steen uitslijt. Het buigzame overwint het starre. Tegenover Confucius, die vertrouwt op riten en opvoeding, wantrouwt Lao Zi regels en een teveel aan bestuur: hoe meer wetten en verboden, hoe meer dieven er zullen zijn. Daarom is het soms gelezen als een lofzang op de natuur en de eenvoud tegenover de beschaving.</p>",
+  "obras": [
+   "Daodejing of Tao Te Ching (toegeschreven)"
+  ],
+  "anecdota": "<p>De historicus Sima Qian vertelt dat Lao Zi, toen hij het verval van het hof zag, besloot naar het westen te vertrekken. Bij de grenspas aangekomen vroeg de wachter, Yin Xi, hem niet te vertrekken zonder zijn wijsheid op schrift te stellen. Lao Zi schreef toen een boek van ongeveer vijfduizend karakters, in twee delen, over de weg en de deugd, en vertrok; niemand wist waar hij zijn dagen eindigde. De latere traditie voegde eraan toe dat hij op een os reed. Het is een legende, maar verklaart de oorsprong die de Chinezen eeuwenlang aan de <em>Daodejing</em> toeschreven.</p>",
+  "fuente": "Sima Qian, Optekeningen van de historicus, hoofdstuk 63 (1e eeuw v.Chr.)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1"
+  ]
+ },
+ "confucio": {
+  "name": "Confucius",
+  "dates": "551 – 479 v.Chr.",
+  "born": -551,
+  "died": -479,
+  "place": "Staat Lu (het huidige Qufu, China)",
+  "role": "Chinese leraar en moreel denker",
+  "idea": "Een goede samenleving ontstaat uit goed gevormde mensen: de menselijkheid (ren), het respect voor de riten (li) en het voorbeeld van wie regeert, tellen meer dan straf.",
+  "bio": "<p>Kong Qiu, die door zijn leerlingen Kongzi of Kong Fuzi werd genoemd (“meester Kong”, waar “Confucius” vandaan komt), werd geboren in de kleine staat Lu, in een China dat verdeeld was in rivaliserende koninkrijken. Als kind vaderloos en uit een verarmde familie, werkte hij in bescheiden functies en verwierf faam als leraar: hij accepteerde leerlingen van elke afkomst als ze zin hadden om te leren. Jarenlang trok hij door andere staten op zoek naar een heerser die zijn ideeën in praktijk zou brengen, zonder succes, en keerde terug naar Lu om les te geven tot zijn dood.</p>\n<p>Hij schreef geen verhandeling: zijn leer komt tot ons in de <em>Gesprekken</em> (<em>Lunyu</em>), uitspraken en gesprekken die zijn leerlingen verzamelden. Centraal staat <strong>ren</strong>, menselijkheid of welwillendheid, en <strong>li</strong>, het geheel van riten en beleefdheidsvormen die het gemeenschapsleven in goede banen leiden. Het ideaal is de <strong>junzi</strong>, de “edele persoon”, edel door zijn karakter en niet door zijn afkomst. Op de vraag of er één woord is dat als leidraad voor het hele leven kan dienen, antwoordt hij met een gulden regel in negatieve vorm: “Wat je niet voor jezelf wilt, doe dat ook een ander niet aan.” Voor Confucius moet wie regeert dat doen met het goede voorbeeld, zoals de wind die het gras buigt, en niet met angst voor straf.</p>",
+  "obras": [
+   "Analecten (Lunyu), samengesteld door zijn leerlingen"
+  ],
+  "anecdota": "<p>In de <em>Gesprekken</em> vat Confucius zijn eigen leven in een paar regels samen: op zijn vijftiende nam hij zich voor te leren; op zijn dertigste stond hij stevig; op zijn veertigste twijfelde hij niet meer; op zijn vijftigste kende hij het mandaat van de Hemel; op zijn zestigste luisterde zijn oor volgzaam; en op zijn zeventigste kon hij de verlangens van zijn hart volgen zonder het juiste te overschrijden. Het is een van de eerste beschrijvingen van een heel leven als een vormingstraject.</p>",
+  "fuente": "Analecten II, 4",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1"
+  ]
+ },
  "heraclito": {
   "name": "Heraclitus van Efeze",
   "dates": "c. 540 – c. 480 v.Chr.",
@@ -397,6 +443,30 @@ const BIOGRAFIAS = {
    "fil-grandes-preguntas"
   ]
  },
+ "buda": {
+  "name": "Siddhartha Gautama, de Boeddha",
+  "dates": "5e eeuw v.Chr. (onzekere datering)",
+  "born": -480,
+  "died": -400,
+  "place": "Lumbini (het huidige Nepal)",
+  "role": "Indiase spirituele leraar, grondlegger van het boeddhisme",
+  "idea": "Het leven is doortrokken van lijden, dat voortkomt uit verlangen en gehechtheid; dat lijden kan worden gedoofd door een oprecht en gematigd levenspad te volgen.",
+  "bio": "<p>Siddhartha Gautama werd geboren in het noorden van India, in een adellijke familie van de clan van de Sakya’s. Zijn data zijn onzeker: de traditie plaatst hem in de 6e eeuw v.Chr., en veel historici tegenwoordig richting de 5e eeuw v.Chr. Volgens de traditionele verhalen verliet hij op 29-jarige leeftijd het leven in het paleis om een einde aan het lijden te zoeken; hij beproefde jarenlang een extreme ascese, tot hij bijna verhongerde, en verwierp die ten gunste van een <strong>middenweg</strong> tussen genot en zelfkastijding. Mediterend onder een boom in Bodh Gaya bereikte hij het “ontwaken”: “Boeddha” betekent “de ontwaakte”. Hij bracht de rest van zijn leven door met onderwijzen en stierf rond zijn 80e.</p>\n<p>Zijn leer wordt samengevat in de <strong>vier edele waarheden</strong>: het leven wordt gekenmerkt door lijden (<em>dukkha</em>); dat lijden komt voort uit begeerte en gehechtheid; het kan worden uitgedoofd (het <strong>nirvana</strong>); en er is een pad om dat te bereiken, het edele achtvoudige pad (juist inzicht, juiste intentie, juist spreken, juist handelen en juiste levenswijze, juiste inspanning, juiste aandacht en juiste concentratie). Alles is <strong>vergankelijk</strong>, en er is ook geen vast en permanent zelf om je aan vast te klampen. Boeddha schreef niets; zijn leerredes werden mondeling doorgegeven en eeuwen later op schrift gesteld. Zijn denken bereikte Europa in de 19e eeuw en had grote invloed op Schopenhauer.</p>",
+  "obras": [
+   "Hij schreef niets: zijn leer is vastgelegd in de Pali-canon (Tripitaka) en in de Dhammapada"
+  ],
+  "anecdota": "<p>Volgens de legende voedde zijn vader hem op in luxe, zodat hij nooit met pijn kennis zou maken. Maar op een dag, toen hij het paleis verliet, zag Siddhartha een oude man, daarna een zieke en vervolgens een lijk, en begreep hij dat ouderdom, ziekte en dood iedereen te wachten staan. Ten slotte kwam hij een serene asceet tegen en besloot hij die weg te volgen. Dit zijn de “vier ontmoetingen”, een verhaal dat veel later dan zijn leven is ontstaan en dat, meer dan een historisch feit, het uitgangspunt van zijn leer uitdrukt.</p>",
+  "fuente": "Asvaghosa, Leven van de Boeddha (Buddhacarita, 1e-2e eeuw n.Chr.)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1",
+   "fil-metafisica"
+  ]
+ },
  "socrates": {
   "name": "Socrates",
   "dates": "470/469 – 399 v.Chr.",
@@ -426,6 +496,27 @@ const BIOGRAFIAS = {
    "fil-grandes-preguntas",
    "fil-comunidades-perseguidos",
    "fil-montaigne-ensayos"
+  ]
+ },
+ "aspasia": {
+  "name": "Aspasia van Milete",
+  "dates": "ca. 470 – ca. 400 v.Chr.",
+  "born": -470,
+  "died": -400,
+  "place": "Milete (Ionië, huidig Turkije)",
+  "role": "redenaarster en lerares in de retorica",
+  "idea": "Een vrouw kon de woordkunst en het politieke denken even goed beheersen als mannen, en retorica onderwijzen aan de invloedrijkste burgers van Athene.",
+  "bio": "<p>Aspasia werd geboren in Milete, een Griekse stad aan de kust van Ionië, en verhuisde naar Athene, waar ze als ingezeten vreemdelinge leefde. Ze was de levensgezellin van <strong>Perikles</strong>, met wie ze een zoon kreeg, en haar huis werd een ontmoetingsplaats voor politici, kunstenaars en filosofen. Omdat in het klassieke Athene alleen vrije mannen burger waren, was haar aanwezigheid in het openbare leven uitzonderlijk en leverde het haar ook aanvallen en spot van de komedieschrijvers op.</p>\n<p>Er is geen enkel geschrift van haar bewaard gebleven: we weten over haar via getuigenissen van andere auteurs, zoals Plato, Xenophon en Plutarchus, wat ons dwingt om de feiten van de legende te scheiden. Deze bronnen stellen haar voor als een briljante redenaarster en een lerares in de <strong>retorica</strong>, de kunst van het overtuigen. In Plato’s <em>Menexenus</em> noemt Socrates haar zijn lerares en schrijft hij haar een lijkrede toe; volgens de overlevering zou ze zelfs Pericles hebben geholpen bij het voorbereiden van zijn toespraken.</p>\n<p>Aspasia komt in het leerplan voor als voorbeeld van de weinige vrouwen die een plaats verwierven in de antieke filosofie. Haar figuur toont de grenzen van de Atheense democratie, die vrouwen uitsloot van de <strong>isonomia</strong> en isegoria, en de moeilijkheid om een vrouwelijk denken te achterhalen waarvan nauwelijks sporen bewaard zijn gebleven. Ze wordt in verband gebracht met Socrates en met de kringen van de sofisten.</p>",
+  "obras": [],
+  "anecdota": "<p>In een verloren gegane dialoog van de socratische filosoof Aeschines, waarvan Cicero een fragment bewaarde, ondervraagt Aspasia de vrouw van Xenophon: als haar buurvrouw betere sieraden had dan zijzelf, zou ze dan die van de buurvrouw verkiezen? Ja, antwoordt ze. En als die betere kleding had? Ook. En als die een betere echtgenoot had dan zijzelf? De vrouw zwijgt. Aspasia doet daarna hetzelfde met Xenophon en concludeert dat ieder ernaar moet streven de best mogelijke partner te zijn. Cicero haalt de scène aan als voorbeeld van redeneren door inductie: dezelfde methode die aan Socrates wordt toegeschreven.</p>",
+  "fuente": "Aeschines van Sphettos, Aspasia (fragment overgeleverd door Cicero, Over de retorische vinding I)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1"
   ]
  },
  "democrito": {
@@ -655,6 +746,28 @@ const BIOGRAFIAS = {
    "fil-montaigne-ensayos"
   ]
  },
+ "teofrasto": {
+  "name": "Theophrastus van Eresus",
+  "dates": "ca. 371 – ca. 287 v.Chr.",
+  "born": -371,
+  "died": -287,
+  "place": "Eresus (eiland Lesbos)",
+  "role": "peripatetisch filosoof en natuuronderzoeker",
+  "idea": "Om de natuur te begrijpen moet je haar nauwkeurig observeren en classificeren, plant voor plant en karakter voor karakter.",
+  "bio": "<p>Theophrastus werd geboren op het eiland Lesbos en was decennialang medewerker van <strong>Aristoteles</strong>. Volgens de overlevering was zijn echte naam Tyrtamos en was het Aristoteles die hem Theophrastus noemde, “degene met goddelijke spraak”, vanwege zijn welsprekendheid. Toen Aristoteles Athene in 322 v.Chr. verliet, nam Theophrastus de leiding van het <strong>Lyceum</strong> over, dat hij ongeveer 35 jaar leidde en waar hij honderden leerlingen kreeg.</p>\n<p>Hij volgde de methode van zijn leermeester, gebaseerd op observatie, en paste die toe op planten: zijn <em>Historia plantarum</em> maakt hem tot de grondlegger van de <strong>plantkunde</strong>. Hij schreef ook de <em>Karaktertypen</em>, een reeks korte en amusante portretten van menselijke types (de vleier, de kletskous, de gierigaard…) die veel latere schrijvers inspireerden. Bovendien verzamelde hij de opvattingen van eerdere filosofen, en dankzij dat werk kennen we een groot deel van wat de presocraten dachten.</p>",
+  "obras": [
+   "Historia plantarum",
+   "De causis plantarum",
+   "Karakters"
+  ],
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-helenismo"
+  ]
+ },
  "crates": {
   "name": "Crates van Thebe",
   "dates": "ca. 365 – ca. 285 v.Chr.",
@@ -747,6 +860,26 @@ const BIOGRAFIAS = {
    "fil-helenismo"
   ]
  },
+ "cleantes": {
+  "name": "Cleanthes van Assos",
+  "dates": "ca. 331 – ca. 232 v.Chr.",
+  "born": -331,
+  "died": -232,
+  "place": "Assos (Klein-Azië)",
+  "role": "stoïcijns filosoof",
+  "idea": "Eén en dezelfde lógos, de goddelijke rede, bestuurt het universum; goed leven is leven in overeenstemming met die lógos en het lot aanvaarden.",
+  "bio": "<p>Cleanthes was bokser geweest en kwam bijna zonder geld in Athene aan. Om de lessen van <strong>Zeno van Citium</strong> te kunnen betalen, putte hij ’s nachts water uit de bronnen in de tuinen, en daarom kreeg hij de bijnaam “de waterdrager”. Hij was een trage maar volhardende leerling, en na de dood van Zeno, in 262 v.Chr., werd hij het tweede hoofd van de <strong>Stoa</strong>.</p>\n<p>Zijn bekendste werk is de <em>Hymne aan Zeus</em>, een van de weinige oude stoïcijnse teksten die volledig bewaard zijn gebleven. Daarin is Zeus de <strong>lógos</strong>, de rede die het hele universum ordent, en de mens is alleen gelukkig als hij die orde aanvaardt en <strong>in overeenstemming met de natuur</strong> leeft. Eeuwen later vertaalde Seneca een paar van zijn verzen over het lot in het Latijn en vatte ze samen in een beroemd geworden uitspraak: “het lot leidt wie het aanvaardt en sleept wie zich verzet mee”.</p>",
+  "obras": [
+   "Hymne aan Zeus"
+  ],
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-helenismo"
+  ]
+ },
  "timon": {
   "name": "Timon van Phlius",
   "dates": "ca. 320 – ca. 230 v.Chr.",
@@ -765,6 +898,26 @@ const BIOGRAFIAS = {
   ],
   "temas": [
    "fil-t3"
+  ]
+ },
+ "crisipo": {
+  "name": "Chrysippus van Soli",
+  "dates": "ca. 279 – ca. 206 v.Chr.",
+  "born": -279,
+  "died": -206,
+  "place": "Soloi (Cilicië, Klein-Azië)",
+  "role": "stoïcijns filosoof",
+  "idea": "Alles gebeurt volgens het lot, maar wat we doen hangt ook van onszelf af, zoals een cilinder die rolt volgens zijn vorm wanneer iemand hem duwt.",
+  "bio": "<p>Chrysippus werd geboren in Soloi, in het huidige Turkije, en volgde Cleanthes op als derde hoofd van de <strong>Stoa</strong>. Hij was degene die het stoïcisme tot een volledig en goed onderbouwd systeem maakte, zozeer zelfs dat men in de oudheid zei: “als Chrysippus niet had bestaan, zou de Stoa niet hebben bestaan”. Hij schreef meer dan zevenhonderd werken, die allemaal verloren zijn gegaan.</p>\n<p>Chrysippus ontwikkelde een eigen <strong>logica</strong>, gebaseerd op de relaties tussen proposities (“als het dag is, is er licht”), die die van Aristoteles aanvulde. Hij probeerde ook het <strong>lot</strong> te verzoenen met de menselijke verantwoordelijkheid aan de hand van het beeld van de cilinder: iemand duwt hem, maar dat hij rolt komt door zijn eigen vorm. Op dezelfde manier duwen de omstandigheden ons, maar hoe we reageren hangt af van ons karakter.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-metafisica",
+   "fil-t5",
+   "fil-helenismo"
   ]
  },
  "carneades": {
@@ -1549,6 +1702,31 @@ const BIOGRAFIAS = {
    "fil-grandes-preguntas"
   ]
  },
+ "sepulveda": {
+  "name": "Juan Ginés de Sepúlveda",
+  "dates": "ca. 1490 – 1573",
+  "born": 1490,
+  "died": 1573,
+  "place": "Pozoblanco (Córdoba)",
+  "role": "humanist, koninklijk kroniekschrijver en vertaler van Aristoteles",
+  "idea": "Zich baserend op Aristoteles verdedigde hij dat sommige volken van nature geschikter zijn om te heersen en andere om te gehoorzamen, en dat daarom de oorlog tegen de inheemse bevolking rechtvaardig kon zijn.",
+  "bio": "<p>Juan Ginés de Sepúlveda werd rond 1490 nabij Córdoba geboren en studeerde in Italië, waar hij een groot kenner van het Grieks en een bewonderd vertaler van <strong>Aristoteles</strong> in het Latijn werd. Hij was officieel kroniekschrijver van keizer Karel V en een van de meest gerespecteerde Spaanse humanisten van zijn tijd. Tegenwoordig wordt hij vooral herinnerd als de grote rivaal van Bartolomé de las Casas in het debat over de verovering van Amerika, waardoor zijn waarde als filoloog en vertaler soms wordt vergeten.</p>\n<p>In zijn werk <em>Democrates secundus</em> verdedigde hij dat de oorlog tegen de inheemse bevolking <strong>rechtvaardig</strong> kon zijn. Daarvoor gebruikte hij het aristotelische idee dat er mensen en volkeren zijn die “van nature slaven” zijn, geschikter om te gehoorzamen dan om zichzelf te besturen, en hij voegde eraan toe dat onderwerping diende om een einde te maken aan mensenoffers en om hen het christendom te laten ontvangen. Zijn argumenten zijn tegenwoordig moeilijk te aanvaarden, maar destijds steunden ze op hooggewaardeerde autoriteiten, zoals Aristoteles en het oorlogsrecht. Begrijpen waarom een ontwikkeld persoon zoiets kon verdedigen, en wat men hem antwoordde, helpt in te zien dat onrechtvaardige ideeën niet altijd van onwetende mensen komen: daarom moet je de redenen onderzoeken, niet alleen de bedoelingen.</p>",
+  "obras": [
+   "Democrates alter, of Over de rechtvaardige oorzaken van de oorlog tegen de indianen (Democrates alter, ca. 1544)",
+   "Latijnse vertalingen van Aristoteles (onder andere Politica)",
+   "Kronieken van Karel V"
+  ],
+  "anecdota": "<p>Het boek waarin Sepúlveda de oorlog tegen de inheemse bevolking verdedigde, <em>Democrates secundus</em>, werd tijdens het leven van de auteur niet gepubliceerd. Toen hij officiële toestemming vroeg om het te drukken, werd de zaak naar de universiteiten van Salamanca en Alcalá gestuurd, en de theologen adviseerden <strong>het niet toe te staan</strong>. Dat is een veelzeggend detail: hoewel we die tijd tegenwoordig met onverdraagzaamheid associëren, overtuigden Sepúlveda’s ideeën ook niet alle geleerden van zijn eigen land, en stuitten ze binnen Spanje op tegenstand. De volledige tekst werd pas vele jaren na zijn dood uitgegeven.</p>",
+  "fuente": "Geschiedenis van de censuur van Democrates alter: de adviezen van Salamanca en Alcalá (omstreeks 1548) ontraadden de druk ervan, opgenomen in de moderne edities van het werk",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2"
+  ]
+ },
  "calvino": {
   "name": "Johannes Calvijn",
   "dates": "1509 – 1564",
@@ -1691,6 +1869,30 @@ const BIOGRAFIAS = {
   "temas": [
    "fil-t3",
    "fil-comunidades-perseguidos"
+  ]
+ },
+ "campanella": {
+  "name": "Tommaso Campanella",
+  "dates": "1568 – 1639",
+  "born": 1568,
+  "died": 1639,
+  "place": "Stilo (Calabrië, Italië)",
+  "role": "dominicaanse monnik, filosoof en utopisch schrijver",
+  "idea": "In een rechtvaardige samenleving zou er geen privébezit zijn: de goederen zouden gemeenschappelijk zijn en iedereen zou een paar uur per dag werken.",
+  "bio": "<p>Tommaso Campanella werd in 1568 geboren in Stilo, in Calabrië. Hij trad op jonge leeftijd toe tot de orde van de dominicanen en kwam al snel in conflict met de Kerk vanwege zijn filosofische ideeën, die ingingen tegen Aristoteles. In 1599 werd hij gearresteerd omdat hij deelnam aan een samenzwering tegen de Spaanse overheersing in Calabrië, en hij bracht ongeveer 27 jaar door in de gevangenissen van Napels. Daar schreef hij een groot deel van zijn werk. Na zijn vrijlating in 1626 week hij uiteindelijk uit naar Frankrijk, waar hij in 1639 in Parijs stierf.</p>\n<p>Zijn bekendste werk is <em>De stad van de Zon</em>, geschreven in de gevangenis in 1602 en in 1623 in het Latijn gepubliceerd. Het beschrijft een ideale stad zonder <strong>privébezit</strong>, waar alles gemeenschappelijk is, niemand rijk of arm is en iedereen ongeveer vier uur per dag werkt, zodat er tijd overblijft om te leren. Het volgt de traditie van de <em>Staat</em> van Plato en de <em>Utopia</em> van Thomas More. Daarom wordt hij gerekend tot de klassieken van het <strong>utopisch communisme</strong>: de socialisten van de 19e eeuw, zoals Marx, lazen hem als een voorloper die al een samenleving zonder privébezit had bedacht.</p>",
+  "obras": [
+   "De Zonnestad (1602; gepubliceerd in 1623)",
+   "Apologie van Galileo (1622)"
+  ],
+  "anecdota": "<p>In 1600 werd Campanella beschuldigd van samenzwering en ketterij, en hij kon op de brandstapel eindigen. Omdat de wet niet toestond een krankzinnige te executeren, begon hij te doen alsof hij zijn verstand had verloren: hij sprak wartaal en stak zelfs zijn matras in brand. De rechters wilden nagaan of hij deed alsof en onderwierpen hem in 1601 aan een marteling die “de kaars” werd genoemd, waarbij hij ongeveer 36 uur hing zonder te slapen. Hij hield vol zonder uit zijn rol te vallen. Daardoor redde hij zijn leven, hoewel hij tot levenslange gevangenisstraf werd veroordeeld.</p>",
+  "fuente": "Akten van het proces van Napels (1601); biografieën van Campanella die daarop gebaseerd zijn",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
   ]
  },
  "kepler": {
@@ -2380,6 +2582,32 @@ const BIOGRAFIAS = {
    "fil-montaigne-ensayos"
   ]
  },
+ "lessing": {
+  "name": "Gotthold Ephraim Lessing",
+  "dates": "1729 – 1781",
+  "born": 1729,
+  "died": 1781,
+  "place": "Kamenz (Duitsland)",
+  "role": "toneelschrijver, criticus en verlichtingsfilosoof",
+  "idea": "Geen enkele religie kan aantonen dat zij de hele waarheid bezit; haar waarde blijkt uit het gedrag van degenen die haar praktiseren, vooral uit de verdraagzaamheid.",
+  "bio": "<p>Gotthold Ephraim Lessing werd in 1729 geboren in Kamenz, in Saksen, als zoon van een protestantse predikant. Hij studeerde theologie en geneeskunde in Leipzig, maar wijdde zich aan het schrijven: hij was een van de eerste Duitsers die probeerden van de pen te leven. Hij vernieuwde het Duitse theater met komedies en drama’s zoals <em>Minna von Barnhelm</em> en verdedigde als criticus Shakespeare tegen de regels van het Franse theater. Vanaf 1770 was hij bibliothecaris van de hertog van Brunswijk in Wolfenbüttel. Hij stierf in 1781 in Brunswijk.</p>\n<p>Lessing vond dat de waarheid meer gezocht wordt dan dat men haar bezit. Hij publiceerde fragmenten van een anoniem manuscript, het werk van Hermann Samuel Reimarus, dat kritiek had op de Bijbel, en dat bracht hem in conflict met dominee Goeze. In <em>Nathan de Wijze</em> verdedigt hij de <strong>religieuze tolerantie</strong> met de parabel van de drie ringen, en in <em>De opvoeding van het menselijk geslacht</em> stelt hij de religies voor als etappes in het leren van de mensheid. Voor het personage Nathan liet hij zich inspireren door zijn vriend Moses Mendelssohn. Na zijn dood vertelde Jacobi dat Lessing hem in 1780 had toevertrouwd een aanhanger van Spinoza te zijn, met de Griekse formule “Hen kai pan”, “één en al”. Toen hij dat in 1785 publiceerde, brak de <strong>pantheïsmecontroverse</strong> uit.</p>",
+  "obras": [
+   "Laokoon (1766)",
+   "Minna von Barnhelm (1767)",
+   "Nathan de Wijze (1779)",
+   "De opvoeding van het menselijk geslacht (1780)"
+  ],
+  "anecdota": "<p>In de controverse met dominee Goeze schreef Lessing zo snel en met zoveel ironie dat zijn tegenstanders naar de autoriteiten stapten. In de zomer van 1778 trok de hertog van Brunswijk zijn vergunning in om zonder censuur te publiceren en verbood hij hem verder over religie te schrijven. Lessing gaf niet op. In een brief van september 1778 aan Elise Reimarus, dochter van de auteur van de fragmenten, legde hij uit dat hij zou uitproberen of ze hem tenminste rustig lieten preken vanaf zijn oude preekstoel: het theater. Het jaar daarop publiceerde hij <em>Nathan de Wijze</em>, een drama in verzen over een jood, een moslimsultan en een christelijke ridder. De censuur had voor hem de deur van de theologie gesloten, en hij kwam binnen via die van het toneel.</p>",
+  "fuente": "Brief van Lessing aan Elise Reimarus (6 september 1778)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t7"
+  ]
+ },
  "hamann": {
   "name": "Johann Georg Hamann",
   "dates": "1730 – 1788",
@@ -2641,6 +2869,58 @@ const BIOGRAFIAS = {
    "fil-t7"
   ]
  },
+ "saint-simon": {
+  "name": "Henri de Saint-Simon",
+  "dates": "1760 – 1825",
+  "born": 1760,
+  "died": 1825,
+  "place": "Parijs",
+  "role": "sociaal denker en hervormer",
+  "idea": "De moderne samenleving moet geleid worden door degenen die produceren, wetenschappers, industriëlen en arbeiders, en zich organiseren om het leven van de armste klasse te verbeteren.",
+  "bio": "<p>Claude-Henri de Rouvroy, graaf van Saint-Simon, werd in 1760 in Parijs geboren in een adellijke familie. Op zeventienjarige leeftijd nam hij dienst om te vechten in de Amerikaanse Onafhankelijkheidsoorlog. Tijdens de Franse Revolutie werd hij rijk door nationale goederen te kopen, bracht hij enige tijd in de gevangenis door als verdachte en verloor hij uiteindelijk zijn fortuin. De rest van zijn leven wijdde hij aan het schrijven, bijna altijd met geldgebrek. Hij stierf in 1825 in Parijs.</p>\n<p>Saint-Simon zag dat de Revolutie een nieuw tijdperk had geopend: dat van de <strong>industriële samenleving</strong>. Daarin moeten de producenten het voor het zeggen hebben, dat wil zeggen geleerden, industriëlen, ambachtslieden en arbeiders, en niet de edelen, militairen en hovelingen, die hij als leeglopers beschouwde. De politiek moest veranderen in het beheer van de productie. In zijn laatste boek, <em>Nouveau Christianisme</em>, vroeg hij de hele samenleving zich te organiseren om het lot van de armste klasse te verbeteren. Zijn discipelen stichtten het <strong>saint-simonisme</strong>, een zeer invloedrijke beweging. Het <em>Het communistisch manifest</em> (1848) rekent hem, samen met Fourier en Owen, tot het <strong>kritisch-utopisch socialisme</strong>: zij hadden terechte kritiek op de samenleving van hun tijd, maar vertrouwden meer op ideale plannen dan op de strijd van de arbeidersklasse.</p>",
+  "obras": [
+   "Brieven van een inwoner van Genève aan zijn tijdgenoten (1803)",
+   "De organisator (1819-1820)",
+   "Catechismus van de industriëlen (1823-1824)",
+   "Nieuw christendom (1825)"
+  ],
+  "anecdota": "<p>In 1819 publiceerde Saint-Simon in zijn tijdschrift <em>L’Organisateur</em> een “parabel”. Hij stelde voor je voor te stellen dat Frankrijk in één klap zijn drieduizend beste wetenschappers, kunstenaars en ambachtslieden zou verliezen: het land zou een generatie lang ontwricht zijn. Vervolgens stelde hij zich voor dat het land de leden van de koninklijke familie zou verliezen, onder wie de hertog van Berry, en de ministers, bisschoppen en grootgrondbezitters: men zou het uit menselijkheid betreuren, maar het land zou net zo blijven functioneren. In februari 1820 werd de hertog van Berry vermoord en werd Saint-Simon voor de rechter gebracht alsof zijn tekst tot de misdaad had aangezet. De rechtbank sprak hem vrij.</p>",
+  "fuente": "Saint-Simon, De organisator (1819); proces voor de strafrechtbank (1820)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
+ "fichte": {
+  "name": "Johann Gottlieb Fichte",
+  "dates": "1762 – 1814",
+  "born": 1762,
+  "died": 1814,
+  "place": "Rammenau (Duitsland)",
+  "role": "idealistisch filosoof",
+  "idea": "Alles vertrekt vanuit de activiteit van het ik, dat zichzelf stelt en tegenover zich de wereld stelt als het obstakel waarin het zijn vrijheid uitoefent.",
+  "bio": "<p>Johann Gottlieb Fichte werd in 1762 geboren in Rammenau, een dorp in Saksen, in een gezin van arme wevers. Een edelman uit de streek betaalde zijn opleiding, en daarna werkte hij jarenlang als huisleraar. Rond 1790 las hij Kant, en die lectuur veranderde zijn leven. Zijn eerste boek, <em>Versuch einer Kritik aller Offenbarung</em> (1792), verscheen zonder zijn naam en velen hielden het voor een werk van Kant. In 1794 kreeg hij een leerstoel in Jena, die hij in 1799 verloor op beschuldiging van atheïsme. Hij vestigde zich in Berlijn en stierf daar in 1814.</p>\n<p>Fichte presenteerde zich als voortzetter van Kant, maar zette een stap die Kant niet wilde zetten: het opheffen van het Ding an sich. Voor hem vertrekt alles vanuit het <strong>ik</strong>, niet opgevat als een ding maar als een vrije activiteit die zichzelf stelt en tegenover zich de wereld stelt, het niet-ik, als het obstakel waarin zij haar vrijheid uitoefent. Zo ontstaat het <strong>Duitse idealisme</strong>. Kant verwierp deze filosofie in 1799 openlijk. Tijdens de Franse bezetting hield Fichte in Berlijn de <em>Reden an die deutsche Nation</em> (1807-1808), die van hem een figuur van het Duitse nationalisme maakten.</p>",
+  "obras": [
+   "Proeve ener critiek van alle openbaring (1792)",
+   "Grondslag van de gehele wetenschapsleer (1794-1795)",
+   "De bestemming van de mens (1800)",
+   "Redevoeringen aan de Duitse natie (1808)"
+  ],
+  "anecdota": "<p>In 1791 reisde Fichte naar Koningsbergen om Kant te ontmoeten, en het bezoek viel hem tegen: de oude professor ontving hem koeltjes. Om zijn aandacht te trekken schreef hij in enkele weken een essay over de openbaring waarin hij de kritische filosofie toepaste, en stuurde het hem toe. Kort daarna, zonder geld om naar huis terug te keren, durfde hij hem om een lening te vragen. Kant gaf hem die niet, maar hielp hem het manuscript te publiceren bij zijn eigen uitgever. Het boek verscheen in 1792 zonder de naam van de auteur en zonder zijn voorwoord, en een tijdschrift uit Jena nam zonder meer aan dat het van Kant was. Toen Kant openbaar maakte dat de auteur een zekere Fichte was, werd die onbekende huisleraar van de ene op de andere dag beroemd.</p>",
+  "fuente": "Correspondentie tussen Fichte en Kant (1791); verklaring van Kant in de Allgemeine Literatur-Zeitung van Jena (1792)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
+  ]
+ },
  "schleiermacher": {
   "name": "Friedrich Schleiermacher",
   "dates": "1768 – 1834",
@@ -2697,6 +2977,58 @@ const BIOGRAFIAS = {
    "fil-montaigne-ensayos"
   ]
  },
+ "owen": {
+  "name": "Robert Owen",
+  "dates": "1771 – 1858",
+  "born": 1771,
+  "died": 1858,
+  "place": "Newtown (Wales)",
+  "role": "ondernemer en socialistisch hervormer",
+  "idea": "Het karakter van mensen wordt gevormd door de omstandigheden waarin ze leven; als die omstandigheden verbeteren, met onderwijs en waardig werk, verbeteren de mensen.",
+  "bio": "<p>Robert Owen werd in 1771 geboren in Newtown, in Wales, als zoon van een ambachtsman. Op tienjarige leeftijd begon hij te werken als leerjongen bij een lakenhandelaar en toen hij net twintig was, leidde hij al een spinnerij in Manchester. In 1800 nam hij de leiding over de katoenfabrieken van New Lanark in Schotland, die hij tot een in heel Europa beroemd voorbeeld maakte. Hij stierf in zijn geboortedorp in 1858.</p>\n<p>In New Lanark verkortte Owen de werktijd, nam hij geen jonge kinderen meer in dienst, verbeterde hij de woningen en opende hij scholen, waaronder een van de eerste voor zeer jonge kinderen. Hij ging uit van een idee: het <strong>karakter</strong> hangt niet af van elk individu, maar van de <strong>omstandigheden</strong> waarin men opgroeit. In 1825 stichtte hij in de Verenigde Staten de gemeenschap New Harmony, die binnen twee jaar mislukte. Daarna stimuleerde hij de <strong>coöperaties</strong> en de Britse vakbonden. Het <em>Communistisch manifest</em> (1848) rekent hem, samen met Saint-Simon en Fourier, tot het <strong>kritisch-utopisch socialisme</strong>, en Engels bewonderde hem als de hervormer die in Engeland het meest deed voor de arbeidersklasse.</p>",
+  "obras": [
+   "Een nieuwe visie op de samenleving (1813)",
+   "Verslag aan het graafschap Lanark (1821)",
+   "Het boek van de nieuwe morele wereld (1836-1844)",
+   "Het leven van Robert Owen (1857)"
+  ],
+  "anecdota": "<p>In 1806 stopten de Verenigde Staten met het sturen van katoen naar Groot-Brittannië en moesten veel fabrieken stilgelegd worden. Die van New Lanark zaten vier maanden bijna zonder werk. Normaal gesproken zouden de arbeiders ontslagen zijn of zouden ze niet meer betaald worden, maar Owen overtuigde zijn partners om de volledige lonen te blijven betalen gedurende die hele tijd, alleen om de machines schoon en in orde te houden. Dat gebaar leverde hem het vertrouwen op van de arbeiders, die tot dan toe wantrouwig tegenover hem stonden, en stelde hem in staat zijn hervormingen door te voeren.</p>",
+  "fuente": "Robert Owen, Het leven van Robert Owen door hemzelf geschreven (1857)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
+ "fourier": {
+  "name": "Charles Fourier",
+  "dates": "1772 – 1837",
+  "born": 1772,
+  "died": 1837,
+  "place": "Besançon (Frankrijk)",
+  "role": "utopisch socialistisch denker",
+  "idea": "Arbeid kan aangenaam zijn als de samenleving wordt georganiseerd volgens de menselijke passies, in vrije gemeenschappen die falanstères worden genoemd.",
+  "bio": "<p>Charles Fourier werd in 1772 in Besançon geboren als zoon van een lakenhandelaar. Hij verloor een groot deel van zijn erfenis tijdens het beleg van Lyon in 1793, tijdens de Revolutie, en verdiende zijn brood bijna altijd als klerk en handelsreiziger, een beroep dat hij verafschuwde. Hij leefde alleen en met weinig middelen, en schreef boeken die in zijn tijd weinig werden gelezen. Hij stierf in 1837 in Parijs.</p>\n<p>Fourier hekelde de samenleving van zijn tijd, die hij “beschaving” noemde, vanwege de wanorde en het bedrog van de handel en vanwege de ellende die zij voortbracht naast de rijkdom. Hij stelde voor haar te vervangen door gemeenschappen van ongeveer 1.600 personen, de <strong>falanstères</strong>, waarin iedereen meerdere keren per dag van taak zou wisselen naar gelang zijn voorkeuren. Zo zou arbeid ophouden een straf te zijn en <strong>aantrekkelijke arbeid</strong> worden. Hij verdedigde ook de vrijheid van de vrouw en stelde dat de mate van emancipatie van de vrouw de vooruitgang van een samenleving meet. Het <em>communistisch manifest</em> (1848) plaatst hem, samen met Saint-Simon en Owen, in het <strong>kritisch-utopisch socialisme</strong>; zijn volgelingen, aangevoerd door Victor Considerant, verspreidden zijn ideeën over Europa en Amerika.</p>",
+  "obras": [
+   "Theorie van de vier bewegingen (1808)",
+   "Verhandeling over de huishoudelijk-agrarische associatie (1822)",
+   "De nieuwe industriële en societaire wereld (1829)",
+   "De valse industrie (1835)"
+  ],
+  "anecdota": "<p>Fourier vertelde dat zijn grote ontdekking begon met een appel. Net aangekomen in Parijs vanuit Rouen, zag hij in een restaurant dat een enkele appel veel duurder werd betaald dan een hele hoop appels op het platteland kostte. Dat leek hem het bewijs dat de handel een absurd systeem was, dat de tussenpersonen verrijkte ten koste van iedereen. Sindsdien sprak hij over de vier beroemde appels uit de geschiedenis: die van Adam en Eva, die van Paris, die de Trojaanse oorlog veroorzaakte, die van Newton… en de zijne, die hem de wanorde van de samenleving had onthuld.</p>",
+  "fuente": "Manuscripten van Fourier, na zijn dood door zijn school gepubliceerd",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
  "thompson": {
   "name": "William Thompson",
   "dates": "1775 – 1833",
@@ -2720,6 +3052,31 @@ const BIOGRAFIAS = {
   ],
   "temas": [
    "fil-marxismos"
+  ]
+ },
+ "schelling": {
+  "name": "Friedrich Wilhelm Joseph Schelling",
+  "dates": "1775 – 1854",
+  "born": 1775,
+  "died": 1854,
+  "place": "Leonberg (Duitsland)",
+  "role": "idealistisch filosoof",
+  "idea": "De natuur en de geest zijn twee zijden van één en dezelfde absolute werkelijkheid: de natuur is geest die zichzelf nog niet kent.",
+  "bio": "<p>Friedrich Wilhelm Joseph Schelling werd in 1775 in Leonberg, in Württemberg, geboren. Hij was een vroegrijpe student: op vijftienjarige leeftijd ging hij naar het seminarie van Tübingen, waar hij een kamer deelde met Hegel en Hölderlin. In 1795 schreef hij aan Hegel: “Ik ben spinozist geworden”, en legde hem het verschil uit: voor Spinoza was de wereld alles; voor hem was het ik. Op slechts drieëntwintigjarige leeftijd werd hij benoemd tot hoogleraar in Jena. Daarna doceerde hij in Würzburg, München en Berlijn, en hij stierf in 1854 in het Zwitserse kuuroord Bad Ragaz.</p>\n<p>Schelling ging uit van Fichte, maar verweet hem al snel dat hij de natuur reduceerde tot een eenvoudig obstakel voor het ik. Voor hem is de natuur levend en heeft zij haar eigen geschiedenis: zij is <strong>slapende geest</strong>, die in de mens ontwaakt en tot zelfkennis komt. Daarom verdedigde hij een <strong>natuurfilosofie</strong> en de fundamentele <strong>identiteit</strong> tussen natuur en geest. Bovendien zag hij in de kunst de hoogste manier om toegang te krijgen tot het absolute, een idee dat de romantici in vervoering bracht. In zijn latere jaren hield hij zich bezig met de menselijke vrijheid, het kwaad en de religie.</p>",
+  "obras": [
+   "Ideeën voor een filosofie van de natuur (1797)",
+   "Systeem van het transcendentaal idealisme (1800)",
+   "Filosofische onderzoekingen over het wezen van de menselijke vrijheid (1809)"
+  ],
+  "anecdota": "<p>In 1841, na de dood van Hegel, riep de koning van Pruisen Schelling naar Berlijn om de invloed van de hegelianen tegen te gaan. Zijn eerste colleges waren een gebeurtenis: in de collegezaal zaten Kierkegaard, Engels, Bakoenin en de historicus Jacob Burckhardt bij elkaar. Kierkegaard was speciaal vanuit Kopenhagen gekomen om hem te horen. Aanvankelijk schreef hij enthousiast dat hij een schok van vreugde had gevoeld toen Schelling het woord ‘werkelijkheid’ uitsprak. Een paar maanden later klaagde hij in brieven aan een vriend dat Schelling onuitstaanbare onzin uitkraamde, en hij keerde terug naar Denemarken voordat de cursus was afgelopen. Engels schreef op zijn beurt pamfletten tegen hem.</p>",
+  "fuente": "Brieven en dagboeken van Søren Kierkegaard (1841-1842)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3"
   ]
  },
  "schopenhauer": {
@@ -3590,6 +3947,33 @@ const BIOGRAFIAS = {
    "fil-t6"
   ]
  },
+ "jaspers": {
+  "name": "Karl Jaspers",
+  "dates": "1883 – 1969",
+  "born": 1883,
+  "died": 1969,
+  "place": "Oldenburg (Duitsland)",
+  "role": "Duits psychiater en existentialistisch filosoof",
+  "idea": "In grenssituaties (de dood, het lijden, de strijd, de schuld) ontdekt de mens zijn eigen bestaan en zijn vrijheid, en leert hij werkelijk met anderen te communiceren.",
+  "bio": "<p>Karl Jaspers studeerde geneeskunde en werkte als psychiater in Heidelberg; zijn <em>Algemene psychopathologie</em> (1913) was een standaardwerk in de psychiatrie. Daarna wijdde hij zich aan de filosofie. Hij was getrouwd met Gertrud Mayer, uit een joodse familie, werd in 1937 door de nazi’s uit zijn leerstoel gezet en mocht niet meer publiceren. Na de oorlog keerde hij terug naar de universiteit, schreef <em>De schuldvraag</em> (1946) over de verantwoordelijkheid van de Duitsers, en verhuisde in 1948 naar Bazel in Zwitserland, waar hij tot zijn dood bleef wonen. Hij was leermeester en vriend van Hannah Arendt.</p>\n<p>Jaspers is een van de grondleggers van de existentiefilosofie. De wetenschap verklaart de wereld, maar kan ons niet zeggen wie we zijn of hoe we moeten leven. Dat ontdekken we in de <strong>grenssituaties</strong>, de situaties waaraan we niet kunnen ontsnappen: de dood, het lijden, de strijd, de schuld. Daardoor wordt de mens zich bewust van zijn bestaan en van zijn vrijheid. Volgens Jaspers wordt waarheid bereikt in de <strong>communicatie</strong> met anderen, en niet in afzondering. Hij introduceerde ook het idee van een <strong>as-tijd</strong>: tussen 800 en 200 v.Chr. verschenen in China, India, Perzië, Israël en Griekenland vrijwel gelijktijdig Confucius en Lao Zi, Boeddha, de profeten en de Griekse filosofen, en met hen de grote vragen over de mens.</p>",
+  "obras": [
+   "Algemene psychopathologie (1913)",
+   "Filosofie (1932)",
+   "De schuldvraag (1946)",
+   "Oorsprong en doel van de geschiedenis (1949)"
+  ],
+  "anecdota": "<p>Tijdens de laatste oorlogsjaren leefden Jaspers en zijn vrouw Gertrud in Heidelberg in voortdurende angst dat zij naar een vernietigingskamp zou worden gedeporteerd. Ze hadden besloten dat, als ze haar kwamen halen, ze samen een einde aan hun leven zouden maken, en ze bewaarden gif in huis voor dat moment. Ze hoorden dat haar deportatie gepland was voor medio april 1945. Op 30 maart trokken Amerikaanse troepen Heidelberg binnen en is het zover niet gekomen.</p>",
+  "fuente": "K. Jaspers, Filosofische autobiografie (1957); brieven met Hannah Arendt",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1",
+   "fil-t2"
+  ]
+ },
  "sapir": {
   "name": "Edward Sapir",
   "dates": "1884 – 1939",
@@ -4058,6 +4442,31 @@ const BIOGRAFIAS = {
    "fil-grandes-preguntas"
   ]
  },
+ "copleston": {
+  "name": "Frederick Copleston",
+  "dates": "1907 – 1994",
+  "born": 1907,
+  "died": 1994,
+  "place": "Trull, nabij Taunton (Engeland)",
+  "role": "jezuïetenpriester en historicus van de filosofie",
+  "idea": "Als alles wat er in de wereld is ook niet had kunnen bestaan, verklaart de wereld zichzelf niet: er is een wezen nodig dat uit zichzelf bestaat en de reden is dat er iets bestaat.",
+  "bio": "<p>Frederick Charles Copleston werd in 1907 geboren in de buurt van Taunton, in een anglicaanse familie. Op achttienjarige leeftijd werd hij katholiek en na zijn studie in Oxford trad hij in 1930 toe tot de jezuïetenorde. Hij doceerde filosofie aan het Heythrop College in Engeland en aan de Gregoriaanse Universiteit in Rome.</p>\n<p>Zijn grote werk is een <em>Geschiedenis van de filosofie</em> in negen delen (1946-1975), helder en evenwichtig, waarmee generaties studenten over de hele wereld hebben gestudeerd en dat in het Spaans is vertaald. In 1948 discussieerde hij op de BBC-radio met Bertrand Russell over het bestaan van God. Copleston verdedigde het contingentieargument, in de lijn van de derde weg van Thomas, en Russell antwoordde dat de vraag naar de oorzaak van het hele universum geen zin heeft. Het jaar daarop debatteerde hij op dezelfde radio met A. J. Ayer over het logisch positivisme.</p>",
+  "obras": [
+   "Geschiedenis van de filosofie (9 delen, 1946-1975)",
+   "Aquinas (1955)",
+   "Debat met Bertrand Russell over het bestaan van God (BBC, 1948)"
+  ],
+  "anecdota": "<p>In het debat van 1948, toen Russell volhield dat het geen zin had om naar de oorzaak van het hele universum te vragen (voor hem is het universum “er gewoon, en dat is alles”), antwoordde Copleston met een schaakbeeld: als iemand weigert aan het bord te gaan zitten en een stuk te verzetten, is het onmogelijk hem schaakmat te zetten. Hij bedoelde dat Russell het argument niet weerlegde: hij weigerde de vraag te stellen. Russell van zijn kant dacht dat die vraag alleen maar zin leek te hebben.</p>",
+  "fuente": "Transcriptie van het debat Russell-Copleston (BBC, 28 januari 1948), gepubliceerd in B. Russell, Waarom ik geen christen ben (1957)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-metafisica"
+  ]
+ },
  "beauvoir": {
   "name": "Simone de Beauvoir",
   "dates": "1908 – 1986",
@@ -4086,6 +4495,32 @@ const BIOGRAFIAS = {
    "fil-t6",
    "fil-t1-filosofia-mujer",
    "fil-grandes-preguntas"
+  ]
+ },
+ "weil": {
+  "name": "Simone Weil",
+  "dates": "1909 – 1943",
+  "born": 1909,
+  "died": 1943,
+  "place": "Parijs (Frankrijk)",
+  "role": "Franse filosofe",
+  "idea": "Vóór de rechten komen de verplichtingen jegens anderen; werkelijk aandacht schenken aan wie lijdt is de hoogste vorm van rechtvaardigheid en respect voor diens waardigheid.",
+  "bio": "<p>Simone Weil werd in 1909 in Parijs geboren, in een ontwikkelde en welgestelde joodse familie; haar broer, André Weil, was een beroemd wiskundige. Als briljante studente behaalde ze in 1931 de agrégation filosofie en gaf ze les op verschillende middelbare scholen. Bezorgd om de situatie van de arbeiders vroeg ze in 1934 verlof om als arbeidster in fabrieken in Parijs te gaan werken. In 1936 nam ze enkele maanden deel aan de Spaanse Burgeroorlog, in een anarchistische colonne. Tijdens de Tweede Wereldoorlog ging ze met haar familie in ballingschap en kwam ze uiteindelijk in Londen terecht, waar ze meewerkte met de Vrije Fransen. Ze stierf in 1943 op 34-jarige leeftijd in Ashford (Engeland) aan tuberculose, verzwakt omdat ze nauwelijks meer at dan wat de Fransen volgens haar onder de bezetting kregen.</p>\n<p>Weil is een denker die moeilijk in te delen is, tussen filosofie, politiek engagement en mystiek. Ze stelde dat vóór de rechten de <strong>plichten</strong> jegens anderen komen, en dat ieder mens respect verdient alleen al omdat hij mens is. Ze gaf een centrale plaats aan de <strong>aandacht</strong>: werkelijk naar de ander kunnen kijken, vooral naar wie onder het <strong>ongeluk</strong> lijdt (wat zij <em>malheur</em> noemde), een rampspoed die vernedert en isoleert. Ze dacht ook na over arbeid, onderdrukking en vrijheid, en in haar laatste fase over het heilige en de noodzaak om <strong>wortel te schieten</strong> in een gemeenschap. Ze staat in deze sectie omdat ze een van de meest originele stemmen van het denken van de 20e eeuw is, die ethische en politieke reflectie verbindt met de persoonlijk doorleefde ervaring.</p>",
+  "obras": [
+   "Réflexions sur les causes de la liberté et de l’oppression sociale (geschreven in 1934; gepubliceerd in 1955)",
+   "La pesanteur et la grâce (1947)",
+   "L’enracinement (1949)",
+   "Attente de Dieu (1950)"
+  ],
+  "anecdota": "<p>In 1934 vroeg Simone Weil, die een briljante filosofiedocente was, verlof om als ongeschoolde arbeidster in fabrieken in Parijs te gaan werken, waaronder een van Renault. Ze wilde van binnenuit leren kennen, en niet alleen uit boeken, wat vermoeidheid, de lopende band en de onderwerping aan de bazen betekenden. Bijna een jaar lang doorstond ze uitputtend werk en noteerde ze dagelijks wat ze meemaakte in een schrift, haar “fabrieksdagboek”. Die ervaring heeft haar manier van denken over onderdrukking en de waardigheid van arbeid voorgoed getekend.</p>",
+  "fuente": "Simone Pétrement, La vie de Simone Weil (1973); Simone Weil, La condition ouvrière (fabrieksdagboek, 1934-1935)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
   ]
  },
  "turing": {
@@ -4395,6 +4830,34 @@ const BIOGRAFIAS = {
    "fil-t7"
   ]
  },
+ "foucault": {
+  "name": "Michel Foucault",
+  "dates": "1926 – 1984",
+  "born": 1926,
+  "died": 1984,
+  "place": "Poitiers (Frankrijk)",
+  "role": "Frans filosoof en historicus",
+  "idea": "Het subject is niet iets natuurlijks, maar een constructie van discoursen en machtsrelaties; alle kennis produceert macht, en macht produceert vormen van kennis.",
+  "bio": "<p>Michel Foucault werd geboren in Poitiers, als zoon van een chirurg. Hij studeerde aan de École Normale Supérieure in Parijs en raakte al vroeg geïnteresseerd in psychologie en psychiatrie. Hij werkte in Zweden, Polen, Duitsland en Tunesië voordat hij in 1970 een leerstoel kreeg aan het Collège de France, die hij de titel Geschiedenis van de denksystemen gaf. Hij nam deel aan bewegingen ten gunste van gevangenen. Hij stierf in 1984 in Parijs aan aids.</p>\n<p>Foucault bestudeerde de geschiedenis van instellingen zoals het gekkenhuis, het ziekenhuis of de gevangenis om te laten zien dat concepten die we natuurlijk vinden, zoals waanzin, ziekte of criminaliteit, historisch geconstrueerd zijn. Geïnspireerd door Nietzsche beoefende hij een <strong>genealogie</strong> die <strong>kennis en macht</strong> verbindt: geneeskunde, psychiatrie of recht beschrijven mensen niet alleen, maar classificeren ze, houden ze in de gaten en normaliseren ze. In <em>Discipline en straf</em> (1975) beschrijft hij de <strong>disciplinaire maatschappij</strong>, gesymboliseerd door het panopticum, een gevangenis waarin de gevangene zich altijd bekeken weet. Aan het eind van <em>De woorden en de dingen</em> (1966) kondigt hij de dood van de mens aan, die in het curriculum wordt gepresenteerd als <strong>dood van het subject</strong>: het ik is een product van vertogen en machtsnetwerken.</p>\n<p>Hij is een van de breukdenkers die zich tegen Habermas verzetten, want hij wantrouwt elke rede die zich als universeel voordoet. Zijn invloed is enorm: op Judith Butler, Paul B. Preciado of op het idee van Byung-Chul Han dat we zijn overgegaan van de disciplinaire maatschappij naar de prestatiemaatschappij.</p>",
+  "obras": [
+   "Histoire de la folie à l’âge classique (1961)",
+   "Les mots et les choses (1966)",
+   "Surveiller et punir (1975)",
+   "Histoire de la sexualité (1976-1984)"
+  ],
+  "anecdota": "<p>In november 1971 zette de Nederlandse televisie Foucault en Noam Chomsky tegenover elkaar om te debatteren over de menselijke natuur. Chomsky verdedigde dat er een menselijke natuur bestaat, met aangeboren vermogens zoals taal, en dat daarop een idee van rechtvaardigheid kan steunen. Foucault wantrouwde dat: voor hem zijn concepten als menselijke natuur of rechtvaardigheid binnen onze samenleving gevormd en dienen ze ook om macht uit te oefenen. De twee gingen beleefd met elkaar om, maar werden het nauwelijks eens. Het debat werd een klassieker.</p>",
+  "fuente": "Televisiedebat Chomsky-Foucault (Eindhoven, 1971), gepubliceerd als Human Nature: Justice versus Power",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t3",
+   "fil-metafisica",
+   "fil-t6"
+  ]
+ },
  "dickie": {
   "name": "George Dickie",
   "dates": "1926 – 2020",
@@ -4620,6 +5083,29 @@ const BIOGRAFIAS = {
   ],
   "temas": [
    "fil-t3"
+  ]
+ },
+ "azurmendi": {
+  "name": "Joxe Azurmendi",
+  "dates": "1941 – 2025",
+  "born": 1941,
+  "died": 2025,
+  "place": "Zegama (Gipuzkoa)",
+  "role": "Baskisch filosoof en essayist",
+  "idea": "Waarden hangen af van de historische en culturele context, maar dat maakt ze niet willekeurig: zijn relatieve relativisme verwerpt absolute waarden zonder in nihilisme te vervallen.",
+  "bio": "<p>Joxe Azurmendi werd in 1941 in Zegama geboren. Hij werd opgeleid aan het franciscaner college van Arantzazu, trad in bij de orde en studeerde Filosofie in Duitsland en Theologie in Rome. Vanaf de jaren zestig was hij een van de drijvende krachten achter de culturele beweging rond het tijdschrift <em>Jakin</em>. In de jaren tachtig verliet hij de orde en werd hij hoogleraar aan de Faculteit Filosofie van de Universiteit van Baskenland in San Sebastián. Hij schreef bijna zijn hele werk in het Baskisch. Hij overleed in San Sebastián in 2025.</p>\n<p>Azurmendi verwerpt de absolute fundamenten van de moderne ethiek: noch God noch de rede kunnen een universele moraal funderen. Dat betekent echter niet dat alles evenveel waard is. Waarden zijn relatief ten opzichte van hun context, maar binnen elke gemeenschap krijgen ze een bijna absolute geldigheid. Dat is zijn <strong>relatief relativisme</strong>, dat vereist dat er geval per geval wordt geoordeeld, waarbij, zoals Max Weber, de <strong>ethiek van de overtuiging</strong> en de <strong>ethiek van de verantwoordelijkheid</strong> worden gecombineerd. Bovendien bekritiseert hij het <strong>sociaal darwinisme</strong> en benadrukt hij, zich baserend op Kropotkin en de bioloog Edward O. Wilson, dat de moraal voortkomt uit het gemeenschapsgevoel en uit <strong>samenwerking</strong>.</p>\n<p>Zijn werk gaat in dialoog met Kant, Nietzsche, Humboldt en het Duitse denken over taal en natie. Hij is een van de referentiepunten van het hedendaagse Baskische denken.</p>",
+  "obras": [
+   "Gizona abere hutsa da (1975)",
+   "Espainolak eta euskaldunak (1992)",
+   "Humboldt: hizkuntza eta pentsamendua (2007)",
+   "Historia, arraza, nazioa (2014)"
+  ],
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-discriminacion"
   ]
  },
  "ingham": {

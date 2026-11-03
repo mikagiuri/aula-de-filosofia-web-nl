@@ -837,6 +837,51 @@ const DICCIONARIO = [
  },
  {
   "subject": "fil",
+  "t": "Staat",
+  "id": "g-fil-estado",
+  "et": "Van het Latijnse *status*, “toestand, manier van staan”, van *stare*, “staan”. Machiavelli begon *lo stato* te gebruiken voor de georganiseerde macht van een stad of een koninkrijk.",
+  "area": "Politiek",
+  "tema": "Filosofie · Thema 6",
+  "def": "Politieke organisatie die op een grondgebied en over de bevolking ervan de wetten maakt die voor iedereen gelden en het legitieme gebruik van geweld voor zichzelf houdt. Max Weber definieerde de staat door dat monopolie."
+ },
+ {
+  "subject": "fil",
+  "t": "Macht",
+  "id": "g-fil-poder",
+  "et": "Van het Vulgair-Latijnse *potere*, dat het klassieke *posse*, “in staat zijn”, verving.",
+  "area": "Politiek",
+  "tema": "Filosofie · Thema 6",
+  "def": "Het vermogen om anderen te laten handelen zoals jij wilt, zelfs tegen hun wil. Het is niet hetzelfde als gezag, dat je gehoorzaamt omdat je het als geldig erkent."
+ },
+ {
+  "subject": "fil",
+  "t": "Legitimiteit",
+  "id": "g-fil-legitimidad",
+  "et": "Van het Latijnse *legitimus*, “in overeenstemming met de wet”, van *lex, legis*, “wet”.",
+  "area": "Politiek",
+  "tema": "Filosofie · Thema 6",
+  "def": "Eigenschap van macht die als rechtvaardig of terecht wordt aanvaard, en niet alleen als met geweld opgelegd. Weber onderscheidde drie bronnen: de traditie, het charisma van wie de macht heeft en de wettelijke regels."
+ },
+ {
+  "subject": "fil",
+  "t": "Maatschappelijk verdrag",
+  "id": "g-fil-contrato-social",
+  "et": "*Contract*, van het Latijnse *contractus*, “overeenkomst”, van *contrahere*, “samentrekken, verbinden”. De uitdrukking werd beroemd door *Het maatschappelijk verdrag* (1762) van Rousseau.",
+  "area": "Politiek",
+  "tema": "Filosofie · Thema 6",
+  "def": "Theorie volgens welke de politieke samenleving ontstaat uit een overeenkomst tussen individuen die, om de natuurtoestand te verlaten, een deel van hun vrijheid opgeven in ruil voor veiligheid en rechten. Hobbes, Locke en Rousseau verdedigden haar, ieder op zijn eigen manier."
+ },
+ {
+  "subject": "fil",
+  "t": "Democratie",
+  "id": "g-fil-democracia",
+  "et": "Van het Griekse δημοκρατία (*demokratía*): δῆμος (*dêmos*), “volk”, en κράτος (*krátos*), “macht”.",
+  "area": "Politiek",
+  "tema": "Filosofie · Thema 6",
+  "def": "Regeringsvorm waarin de macht bij de burgers ligt, die rechtstreeks beslissen of hun vertegenwoordigers kiezen. De liberale democratie voegt daar de scheiding der machten, respect voor minderheden en de grondrechten aan toe."
+ },
+ {
+  "subject": "fil",
   "t": "Schoonheid",
   "id": "g-fil-belleza",
   "et": "Van het Latijn *bellus*, “mooi”, een verkleinwoord van *bonus*, “goed”. Het Grieks zei κάλλος (*kállos*): vandaar *kalligrafie*, “mooi schrift”.",
@@ -889,7 +934,7 @@ const DICCIONARIO = [
   "id": "g-fil-argumento",
   "et": "Van het Latijn *argumentum*, van *arguere*, “verduidelijken, bewijzen”. In het Grieks λόγος (*lógos*); het dialectische argument werd ἐπιχείρημα (*epikheírema*) genoemd.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Een geheel van redenen (premissen) die worden aangevoerd om een conclusie te ondersteunen."
  },
  {
@@ -898,7 +943,7 @@ const DICCIONARIO = [
   "id": "g-fil-premisa",
   "et": "Van het Latijn *praemissa*, “ervoor geplaatst” (*prae* + *mittere*, “zenden, plaatsen”). Komt overeen met het Grieks πρότασις (*prótasis*), “wat voorop wordt gesteld”, een term van Aristoteles.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Elk van de redenen of beweringen waarvan een argument uitgaat."
  },
  {
@@ -907,7 +952,7 @@ const DICCIONARIO = [
   "id": "g-fil-conclusion",
   "et": "Van het Latijn *concludere*, “sluiten”. Vertaalt het Grieks συμπέρασμα (*sympérasma*), “wat gesloten wordt”, een term van Aristoteles.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "De bewering die men met de premissen wil onderbouwen."
  },
  {
@@ -916,7 +961,7 @@ const DICCIONARIO = [
   "id": "g-fil-argumento-deductivo",
   "et": "*Deductie*, van het Latijn *deducere*, “leiden vanuit, uithalen”. De Griekse voorloper is de συλλογισμός (*syllogismós*) van Aristoteles.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Een argument dat, als de premissen waar zijn, de waarheid van de conclusie garandeert."
  },
  {
@@ -925,7 +970,7 @@ const DICCIONARIO = [
   "id": "g-fil-argumento-inductivo",
   "et": "*Inductie*, van het Latijn *inducere*, “leiden naar”: van de gevallen naar de regel. *Inductie* vertaalt het Griekse ἐπαγωγή (*epagogé*).",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Een argument dat de conclusie met een zekere waarschijnlijkheid ondersteunt, zonder haar te garanderen."
  },
  {
@@ -934,7 +979,7 @@ const DICCIONARIO = [
   "id": "g-fil-validez",
   "et": "Van het Latijn *validus*, “sterk”, van *valere*, “kracht hebben”. De stoïcijnen noemden συνακτικός (*synaktikós*), “dat concludeert”, een geldig argument, en ἀσύνακτος (*asýnaktos*) een ongeldig argument.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Formele eigenschap van het deductieve argument: als de premissen waar zijn, kan de conclusie niet onwaar zijn."
  },
  {
@@ -943,7 +988,7 @@ const DICCIONARIO = [
   "id": "g-fil-falacia",
   "et": "Van het Latijn *fallacia*, “bedrog”, van *fallere*, “bedriegen”. In het Grieks, σόφισμα (*sóphisma*) of παραλογισμός (*paralogismós*), in de *Sophistische weerleggingen* van Aristoteles.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Een redenering die geldig lijkt maar het niet is; een argumentatiefout die kan misleiden."
  },
  {
@@ -952,7 +997,7 @@ const DICCIONARIO = [
   "id": "g-fil-ad-hominem",
   "et": "Van het Latijn: “tegen de mens”, dat wil zeggen tegen de persoon en niet tegen wat hij zegt. Aristoteles onderscheidt al tussen antwoorden πρὸς τὸν λόγον (*pròs tòn lógon*), “op het argument”, en πρὸς τὸν ἄνθρωπον (*pròs tòn ánthropon*), “op de persoon” (*Sophistische weerleggingen* 22), hoewel het daar gaat om zich tot de gesprekspartner te richten, niet om hem aan te vallen.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "De persoon aanvallen die argumenteert in plaats van zijn redenen te weerleggen."
  },
  {
@@ -961,7 +1006,7 @@ const DICCIONARIO = [
   "id": "g-fil-hombre-de-paja",
   "et": "Vertaalt het Engelse *straw man*, “stroman”: een verzonnen tegenstander, makkelijk omver te werpen.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "De positie van de tegenstander verdraaien om een verzwakte versie ervan aan te vallen."
  },
  {
@@ -970,7 +1015,7 @@ const DICCIONARIO = [
   "id": "g-fil-apelacion-a-la-autoridad",
   "et": "In het Latijn heet dit *ad verecundiam*, “naar de schaamte” of naar het respect: het is gênant om iemand die men respecteert tegen te spreken.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Iets als waar aannemen alleen omdat een autoriteit het zegt, zonder de redenen te onderzoeken."
  },
  {
@@ -979,7 +1024,7 @@ const DICCIONARIO = [
   "id": "g-fil-pendiente-resbaladiza",
   "et": "Vertaalt het Engelse *slippery slope*.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Beweren dat een stap onvermijdelijk zal leiden tot een reeks extreme gevolgen, zonder dat te rechtvaardigen."
  },
  {
@@ -988,7 +1033,7 @@ const DICCIONARIO = [
   "id": "g-fil-falso-dilema",
   "et": "*Dilemma*, van het Grieks δίλημμα (*dílemma*): δι- (*di-*) “twee” + λῆμμα (*lêmma*) “premisse, wat men aanneemt”.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Slechts twee opties presenteren terwijl er in werkelijkheid meer zijn."
  },
  {
@@ -997,7 +1042,7 @@ const DICCIONARIO = [
   "id": "g-fil-generalizacion-apresurada",
   "et": "*Generaliseren*, van het Latijn *genus, generis*, “klasse, soort”. Men brengt het vaak in verband met de drogreden die Aristoteles παρὰ τὸ ἁπλῶς ἢ μὴ ἁπλῶς (*parà tò haplôs è mè haplôs*) noemt: wat in een bepaald geval is gezegd, nemen alsof het zonder meer is gezegd.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Een algemene regel concluderen uit zeer weinig gevallen."
  },
  {
@@ -1006,7 +1051,7 @@ const DICCIONARIO = [
   "id": "g-fil-causa-falsa",
   "et": "In het Latijn, *non causa pro causa*, “als oorzaak nemen wat het niet is”; een variant is *post hoc, ergo propter hoc*, “na dit, dus hierdoor”. In het Grieks noemt Aristoteles haar τὸ μὴ αἴτιον ὡς αἴτιον (*tò mè aítion hos aítion*), “wat geen oorzaak is, als oorzaak”, en in de *Retorica* (II 24) geeft hij het voorbeeld van wat “na dit” komt als oorzaak te nemen.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "De temporele opeenvolging als causaliteit nemen (post hoc): “na dit, dus hierdoor”."
  },
  {
@@ -1015,7 +1060,7 @@ const DICCIONARIO = [
   "id": "g-fil-apelacion-a-la-ignorancia",
   "et": "In het Latijn, *ad ignorantiam*, “naar de onwetendheid”.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Beweren dat iets waar is omdat het tegendeel niet is bewezen."
  },
  {
@@ -1024,7 +1069,7 @@ const DICCIONARIO = [
   "id": "g-fil-apelacion-a-la-mayoria",
   "et": "In het Latijn, *ad populum*, “naar het volk”.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Iets als waar aannemen omdat de meerderheid het gelooft (ad populum)."
  },
  {
@@ -1033,7 +1078,7 @@ const DICCIONARIO = [
   "id": "g-fil-peticion-de-principio",
   "et": "Vertaalt het Latijnse *petitio principii*: “vragen dat men je het uitgangspunt toegeeft”, wat precies is wat men wilde bewijzen. *Petitio principii* vertaalt op zijn beurt het Griekse τὸ ἐν ἀρχῇ αἰτεῖσθαι (*tò en arkhêi aiteîsthai*), van Aristoteles.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "In de premissen dezelfde conclusie als uitgangspunt aannemen die men wil bewijzen (circulariteit)."
  },
  {
@@ -1042,7 +1087,7 @@ const DICCIONARIO = [
   "id": "g-fil-apelacion-a-la-emocion",
   "et": "In het Latijn, *ad misericordiam*, “naar het medelijden”, en *ad baculum*, “naar de stok”, dat wil zeggen naar de dreiging.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Proberen iets aanvaard te krijgen door een emotie op te wekken (verdriet, angst, trots) in plaats van redenen te geven."
  },
  {
@@ -1051,7 +1096,7 @@ const DICCIONARIO = [
   "id": "g-fil-tu-quoque",
   "et": "Van het Latijn: “jij ook”. Het is een variant van de aanval op de persoon (ad hominem).",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Een kritiek afwijzen door erop te wijzen dat degene die haar maakt ook niet doet wat hij vraagt: dat kan inconsistent zijn, maar daardoor wordt de kritiek niet onwaar."
  },
  {
@@ -1060,7 +1105,7 @@ const DICCIONARIO = [
   "id": "g-fil-falsa-analogia",
   "et": "*Analogía*, van het Griekse ἀναλογία (*analogía*), “proportie, overeenkomst”.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Concluderen dat twee dingen in iets overeenkomen omdat ze op andere punten op elkaar lijken, terwijl de relevante verschillen groter zijn dan de overeenkomsten."
  },
  {
@@ -1069,7 +1114,7 @@ const DICCIONARIO = [
   "id": "g-fil-equivoco",
   "et": "Van het Latijnse *aequivocus*, “van gelijke klank”: eenzelfde woord voor verschillende dingen. Aristoteles bestudeert het als παρὰ τὴν ὁμωνυμίαν (*parà tèn homonymían*), “door homonymie” (*Sofistische weerleggingen* 4).",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Eenzelfde woord gebruiken met twee verschillende betekenissen binnen een redenering, alsof het er maar één was."
  },
  {
@@ -1078,7 +1123,7 @@ const DICCIONARIO = [
   "id": "g-fil-pregunta-compleja",
   "et": "Wordt ook *strikvraag* genoemd, van het Latijnse *captiosus*, “die vangt”. Aristoteles spreekt over “van meerdere vragen één maken” (*Sofistische weerleggingen* 5).",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Een vraag stellen die iets veronderstelt dat niet aanvaard is, zodat elk antwoord het toegeeft (“Ben je gestopt met spieken bij examens?”)."
  },
  {
@@ -1087,7 +1132,7 @@ const DICCIONARIO = [
   "id": "g-fil-pista-falsa",
   "et": "Vertaling van het Engelse *red herring*, “rode haring”: volgens de gebruikelijke uitleg een gerookte vis met een sterke geur die jachthonden op een dwaalspoor bracht.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "De discussie naar een ander onderwerp verleggen om niet te antwoorden op de kwestie die aan de orde was."
  },
  {
@@ -1096,7 +1141,7 @@ const DICCIONARIO = [
   "id": "g-fil-disertacion",
   "et": "Van het Latijnse *dissertatio*, van *disserere*, “ordelijk uiteenzetten, redenen aaneenrijgen”.",
   "area": "Logica",
-  "tema": "Argumentatieworkshop",
+  "tema": "Filosofie · Thema 4",
   "def": "Argumentatieve tekst die een stelling verdedigt met redenen, een structuur (inleiding, uitwerking, conclusie) en een persoonlijke beoordeling."
  },
  {

@@ -36,7 +36,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "De eerste tabbladen van het menu zijn onmisbaar: <strong>Studeren</strong> (de theorie en wat je helpt om die te leren), <strong>Oefenen</strong> (controleren wat je weet en trainen), <strong>Logica</strong> (het Logica-hoekje, met zijn oefeningen en zijn laboratorium) en <strong>Schrijven en lezen</strong> (het betoog en de teksten). Na een scheidingslijn komen de aanvullende tabbladen: <strong>Geschiedenis</strong> (de context van de filosofen, met de Pijlers en de Etymologieën) en <strong>Spelletjes</strong>.",
+   "x": "De eerste tabbladen van het menu zijn onmisbaar: <strong>Studeren</strong> (de theorie en wat je helpt om die te leren), <strong>Oefenen</strong> (controleren wat je weet en trainen) en <strong>Redeneren en schrijven</strong> (het Logica-hoekje, het betoog en de teksten). Na een scheidingslijn komen de aanvullende tabbladen: <strong>Geschiedenis</strong> (de context van de filosofen, met de Pijlers en de Etymologieën) en <strong>Spelletjes</strong>.",
    "solo": "fil"
   },
   {
@@ -49,7 +49,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Als je de website opent, kom je op de <strong>pagina van het vak</strong>: de titel, een korte presentatie en de <strong>lijst met thema's</strong>. Klik op een thema om de theorie te openen. Vanaf elke plek kom je hier terug met <strong>Studeren › Theorie</strong> of door linksboven op “Aula de Filosofía” te klikken."
+   "x": "Als je de website opent, kom je op de <strong>pagina van het vak</strong>: de titel en de <strong>lijst met thema's</strong>. Klik op een thema om de theorie te openen. Vanaf elke plek kom je hier terug met <strong>Studeren › Theorie</strong> of door linksboven op “Aula de Filosofía” te klikken."
   },
   {
    "type": "img",
@@ -293,7 +293,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "fil",
-   "x": "Het <strong>Logica-hoekje</strong> heeft nu zijn eigen tabblad. Het verzamelt waarheidstabellen, geldige argumenten, syllogismen met Venn-diagrammen, paradoxen en oefeningen om het redeneren te trainen, en een <strong>traject van nul tot expert</strong> om het in volgorde te doorlopen."
+   "x": "Het <strong>Logica-hoekje</strong> staat in de groep <strong>Redeneren en schrijven</strong>, samen met het betoog en de teksten. Het verzamelt waarheidstabellen, geldige argumenten, syllogismen met Venn-diagrammen, paradoxen en oefeningen om het redeneren te trainen, en een <strong>traject van nul tot expert</strong> om het in volgorde te doorlopen."
   },
   {
    "type": "p",
@@ -345,13 +345,13 @@ const GUIA = {
   },
   {
    "type": "h",
-   "x": "Schrijven en lezen",
+   "x": "Redeneren en schrijven",
    "solo": "fil"
   },
   {
    "type": "img",
    "src": "04_menu_tercera.webp",
-   "cap": "Het menu “Schrijven en lezen”.",
+   "cap": "Het menu “Redeneren en schrijven”.",
    "w": "menu",
    "solo": "fil"
   },
@@ -535,7 +535,7 @@ const GUIA = {
     },
     {
      "titulo": "Bereid het examen voor",
-     "texto": "Schrijven en lezen: betogen en teksten.",
+     "texto": "Redeneren en schrijven: logica, betogen en teksten.",
      "view": "disertaciones",
      "solo": "fil"
     },

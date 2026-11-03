@@ -129,7 +129,7 @@ const SUBJECTS = {
 };
 const DECKS = {
  "fil-que-es": {
-  "name": "Filosofie 1e jaar · Wat is filosofie? (T1)",
+  "name": "Wat is filosofie? (T1)",
   "subject": "fil",
   "cards": [
    [
@@ -185,7 +185,7 @@ const DECKS = {
   ]
  },
  "fil-ramas": {
-  "name": "Filosofie 1e jaar · De takken van de filosofie",
+  "name": "De deelgebieden van de filosofie",
   "subject": "fil",
   "cards": [
    [
@@ -226,7 +226,7 @@ const DECKS = {
   ]
  },
  "fil-ser-humano": {
-  "name": "Filosofie 1e jaar · Wat is de mens? (T2)",
+  "name": "Wat is de mens? (T2)",
   "subject": "fil",
   "cards": [
    [
@@ -287,7 +287,7 @@ const DECKS = {
   ]
  },
  "fil-metafisica": {
-  "name": "Filosofie 1e jaar · De werkelijkheid: metafysica (M)",
+  "name": "De werkelijkheid: metafysica (M)",
   "subject": "fil",
   "cards": [
    [
@@ -413,7 +413,7 @@ const DECKS = {
   ]
  },
  "fil-conocer": {
-  "name": "Filosofie 1e jaar · Kennis, waarheid en wetenschap (T3)",
+  "name": "Kennis, waarheid en wetenschap (T3)",
   "subject": "fil",
   "cards": [
    [
@@ -479,7 +479,7 @@ const DECKS = {
   ]
  },
  "fil-caracteristicas": {
-  "name": "Filosofie 1e jaar · Kenmerken van filosofische kennis (T1)",
+  "name": "Kenmerken van filosofische kennis (T1)",
   "subject": "fil",
   "cards": [
    [
@@ -535,7 +535,7 @@ const DECKS = {
   ]
  },
  "fil-mente": {
-  "name": "Filosofie 1e · Het lichaam en de geest (T2)",
+  "name": "Het lichaam en de geest (T2)",
   "subject": "fil",
   "cards": [
    [
@@ -591,7 +591,7 @@ const DECKS = {
   ]
  },
  "fil-concepciones": {
-  "name": "Filosofie 1e · Opvattingen over de mens (T2)",
+  "name": "Opvattingen over de mens (T2)",
   "subject": "fil",
   "cards": [
    [
@@ -647,7 +647,7 @@ const DECKS = {
   ]
  },
  "fil-verdad": {
-  "name": "Filosofie 1e · Kunnen we de waarheid bereiken? (T3)",
+  "name": "Kunnen we de waarheid bereiken? (T3)",
   "subject": "fil",
   "cards": [
    [
@@ -703,7 +703,7 @@ const DECKS = {
   ]
  },
  "fil-metodo": {
-  "name": "Filosofie 1e · De methode: lezen en argumenteren (T1)",
+  "name": "De methode: lezen en argumenteren (T1)",
   "subject": "fil",
   "cards": [
    [
@@ -759,7 +759,7 @@ const DECKS = {
   ]
  },
  "fil-saberes": {
-  "name": "Filosofie 1e · De soorten weten (T1)",
+  "name": "De soorten weten (T1)",
   "subject": "fil",
   "cards": [
    [
@@ -815,7 +815,7 @@ const DECKS = {
   ]
  },
  "fil-identidad": {
-  "name": "Filosofie 1e · Persoon, identiteit en zin (T2)",
+  "name": "Persoon, identiteit en zin (T2)",
   "subject": "fil",
   "cards": [
    [
@@ -871,7 +871,7 @@ const DECKS = {
   ]
  },
  "fil-ciencia": {
-  "name": "Filosofie 1e jaar · Wetenschappelijke kennis (T3)",
+  "name": "Wetenschappelijke kennis (T3)",
   "subject": "fil",
   "cards": [
    [
@@ -927,7 +927,7 @@ const DECKS = {
   ]
  },
  "fil-posverdad": {
-  "name": "Filosofie 1e jaar · Post-truth en nepnieuws (T3)",
+  "name": "Post-truth en nepnieuws (T3)",
   "subject": "fil",
   "cards": [
    [
@@ -983,7 +983,7 @@ const DECKS = {
   ]
  },
  "fil-etica": {
-  "name": "Filosofie 1e jaar · De vragen van de ethiek (T5)",
+  "name": "De vragen van de ethiek (T5)",
   "subject": "fil",
   "cards": [
    [
@@ -1039,7 +1039,7 @@ const DECKS = {
   ]
  },
  "fil-t5-cuidado-cortina": {
-  "name": "Filosofie 1e jaar · Het morele oordeel, de zorgethiek en Cortina (T5)",
+  "name": "Het morele oordeel, de zorgethiek en Cortina (T5)",
   "subject": "fil",
   "cards": [
    [
@@ -1100,7 +1100,7 @@ const DECKS = {
   ]
  },
  "fil-arte": {
-  "name": "Filosofie 1e jaar · Schoonheid en kunst (T7)",
+  "name": "Schoonheid en kunst (T7)",
   "subject": "fil",
   "cards": [
    [
@@ -1151,7 +1151,7 @@ const DECKS = {
   ]
  },
  "fil-argumentacion": {
-  "name": "Filosofie 1e jaar · Argumenteren en drogredenen herkennen (T4)",
+  "name": "Argumenteren en drogredenen herkennen (T4)",
   "subject": "fil",
   "cards": [
    [
@@ -1207,7 +1207,7 @@ const DECKS = {
   ]
  },
  "fil-etica-teorias": {
-  "name": "Filosofie 1e Bach. · Debatten over de ethiek (T5)",
+  "name": "Debatten over de ethiek (T5)",
   "subject": "fil",
   "cards": [
    [
@@ -1263,7 +1263,7 @@ const DECKS = {
   ]
  },
  "fil-poder": {
-  "name": "Filosofie 1e Bach. · Macht, staat en burgerschap (T6)",
+  "name": "Macht, staat en burgerschap (T6)",
   "subject": "fil",
   "cards": [
    [
@@ -1319,7 +1319,7 @@ const DECKS = {
   ]
  },
  "fil-arte-sociedad": {
-  "name": "Filosofie 1e jaar · Kunst, schoonheid en samenleving (T7)",
+  "name": "Kunst, schoonheid en samenleving (T7)",
   "subject": "fil",
   "cards": [
    [
@@ -1375,7 +1375,7 @@ const DECKS = {
   ]
  },
  "fil-logica": {
-  "name": "Filosofie 1e jaar · Logica: connectieven, Boole en poorten (T4)",
+  "name": "Logica: connectieven, Boole en poorten (T4)",
   "subject": "fil",
   "cards": [
    [
@@ -1431,7 +1431,7 @@ const DECKS = {
   ]
  },
  "fil-politica": {
-  "name": "Filosofie 1e jaar · Het leven in de samenleving: politiek (T6)",
+  "name": "Het leven in de samenleving: politiek (T6)",
   "subject": "fil",
   "cards": [
    [
@@ -1487,7 +1487,7 @@ const DECKS = {
   ]
  },
  "fil-presocraticos": {
-  "name": "Filosofie 1e jaar · De presocraten: de zoektocht naar de arché",
+  "name": "De presocraten: de zoektocht naar de arché",
   "subject": "fil",
   "cards": [
    [
@@ -1543,7 +1543,7 @@ const DECKS = {
   ]
  },
  "fil-helenismo": {
-  "name": "Filosofie 1e jaar · De hellenistische scholen: wegen naar het geluk",
+  "name": "De hellenistische scholen: wegen naar het geluk",
   "subject": "fil",
   "cards": [
    [
@@ -1596,7 +1596,7 @@ const DECKS = {
 };
 const QUIZZES = {
  "fil-t2-ampliacion": {
-  "name": "Samenleven tussen culturen en emoties (Filosofie 1e jaar · T2 · uitbreiding)",
+  "name": "Samenleven tussen culturen en emoties (T2 · uitbreiding)",
   "subject": "fil",
   "items": [
    {
@@ -1712,7 +1712,7 @@ const QUIZZES = {
   ]
  },
  "fil-t3-ampliacion": {
-  "name": "Waarneming, geheugen, post-truth en de vrouw in de wetenschap (Filosofie 1e · T3 · uitbreiding)",
+  "name": "Waarneming, geheugen, post-truth en de vrouw in de wetenschap (T3 · uitbreiding)",
   "subject": "fil",
   "items": [
    {
@@ -1872,7 +1872,7 @@ const QUIZZES = {
   ]
  },
  "fil-metafisica-ampliacion": {
-  "name": "Kunstmatige intelligentie (Filosofie 1e jaar · Thema M · uitbreiding)",
+  "name": "Kunstmatige intelligentie (Thema M · uitbreiding)",
   "subject": "fil",
   "items": [
    {
@@ -1933,7 +1933,7 @@ const QUIZZES = {
   ]
  },
  "fil-t4-ampliacion": {
-  "name": "Cognitieve biases (Filosofie 1e jaar · T4 · uitbreiding)",
+  "name": "Cognitieve biases (T4 · uitbreiding)",
   "subject": "fil",
   "items": [
    {
@@ -2005,7 +2005,7 @@ const QUIZZES = {
   ]
  },
  "fil-t5-ampliacion": {
-  "name": "Deugd, stoïcisme, plicht en toegepaste ethiek (Filosofie 1e jaar · T5 · uitbreiding)",
+  "name": "Deugd, stoïcisme, plicht en toegepaste ethiek (T5 · uitbreiding)",
   "subject": "fil",
   "items": [
    {
@@ -2198,7 +2198,7 @@ const QUIZZES = {
   ]
  },
  "fil-t6-ampliacion": {
-  "name": "Staat en natie, democratie, mensenrechten en sociale bewegingen (Filosofie 1e jaar · T6 · verdieping)",
+  "name": "Staat en natie, democratie, mensenrechten en sociale bewegingen (T6 · verdieping)",
   "subject": "fil",
   "items": [
    {
@@ -2424,7 +2424,7 @@ const QUIZZES = {
   ]
  },
  "fil-t7": {
-  "name": "Wat is kunst? · Esthetica (Filosofie 1e jaar · T7)",
+  "name": "Wat is kunst? · Esthetica (T7)",
   "subject": "fil",
   "items": [
    {
@@ -2595,7 +2595,7 @@ const QUIZZES = {
   ]
  },
  "fil-t1": {
-  "name": "Wat is filosofie? (Filosofie 1e · T1)",
+  "name": "Wat is filosofie? (T1)",
   "subject": "fil",
   "items": [
    {
@@ -2711,7 +2711,7 @@ const QUIZZES = {
   ]
  },
  "fil-t2": {
-  "name": "De mens (Filosofie 1e jaar · T2)",
+  "name": "De mens (T2)",
   "subject": "fil",
   "items": [
    {
@@ -2816,7 +2816,7 @@ const QUIZZES = {
   ]
  },
  "fil-t3": {
-  "name": "Kennis en waarheid (Filosofie 1e · T3)",
+  "name": "Kennis en waarheid (T3)",
   "subject": "fil",
   "items": [
    {
@@ -2921,7 +2921,7 @@ const QUIZZES = {
   ]
  },
  "fil-metodo-q": {
-  "name": "De methode en de soorten kennis (Filosofie 1e · T1)",
+  "name": "De methode en de soorten kennis (T1)",
   "subject": "fil",
   "items": [
    {
@@ -3037,7 +3037,7 @@ const QUIZZES = {
   ]
  },
  "fil-mente-q": {
-  "name": "Lichaam, geest en opvattingen over de mens (Filosofie 1e · T2)",
+  "name": "Lichaam, geest en opvattingen over de mens (T2)",
   "subject": "fil",
   "items": [
    {
@@ -3153,7 +3153,7 @@ const QUIZZES = {
   ]
  },
  "fil-ciencia-q": {
-  "name": "Wetenschap, methode en post-truth (Filosofie 1e · T3)",
+  "name": "Wetenschap, methode en post-truth (T3)",
   "subject": "fil",
   "items": [
    {
@@ -3269,7 +3269,7 @@ const QUIZZES = {
   ]
  },
  "fil-ramas-q": {
-  "name": "De takken van de filosofie (Filosofie 1e jaar · T1)",
+  "name": "De takken van de filosofie (T1)",
   "subject": "fil",
   "items": [
    {
@@ -3407,7 +3407,7 @@ const QUIZZES = {
   ]
  },
  "fil-etica-q": {
-  "name": "Filosofie 1e jaar · Ethiek: theorieën (T5)",
+  "name": "Ethiek: theorieën (T5)",
   "subject": "fil",
   "items": [
    {
@@ -3479,7 +3479,7 @@ const QUIZZES = {
   ]
  },
  "fil-logica-q": {
-  "name": "Filosofie 1e · Waarheidstabellen en logica (T4)",
+  "name": "Waarheidstabellen en logica (T4)",
   "subject": "fil",
   "items": [
    {
@@ -3650,7 +3650,7 @@ const QUIZZES = {
   ]
  },
  "fil-politica-q": {
-  "name": "Filosofie 1e jaar · Het leven in de samenleving: politiek (T6)",
+  "name": "Het leven in de samenleving: politiek (T6)",
   "subject": "fil",
   "items": [
    {
@@ -3733,7 +3733,7 @@ const QUIZZES = {
   ]
  },
  "fil-presocraticos-q": {
-  "name": "Filosofie 1e jaar · De presocraten",
+  "name": "De presocraten",
   "subject": "fil",
   "items": [
    {
@@ -3816,7 +3816,7 @@ const QUIZZES = {
   ]
  },
  "fil-helenismo-q": {
-  "name": "Filosofie 1e jaar · De hellenistische scholen",
+  "name": "De hellenistische scholen",
   "subject": "fil",
   "items": [
    {
@@ -3888,7 +3888,7 @@ const QUIZZES = {
   ]
  },
  "fil-t1-banco": {
-  "name": "Wat is filosofie? (Filosofie 1e · T1 · uitgebreide vragenbank)",
+  "name": "Wat is filosofie?",
   "subject": "fil",
   "items": [
    {
@@ -4334,7 +4334,7 @@ const QUIZZES = {
   ]
  },
  "fil-presocraticos-banco": {
-  "name": "De oorsprong van de filosofie: de presocraten (Filosofie 1e jaar · T1 · uitgebreide bank)",
+  "name": "De oorsprong van de filosofie: de presocraten",
   "subject": "fil",
   "items": [
    {
@@ -4725,7 +4725,7 @@ const QUIZZES = {
   ]
  },
  "fil-t2-banco": {
-  "name": "Wat is de mens? (Filosofie 1e · T2 · uitgebreide vragenbank)",
+  "name": "Wat is de mens?",
   "subject": "fil",
   "items": [
    {
@@ -5171,7 +5171,7 @@ const QUIZZES = {
   ]
  },
  "fil-t3-banco": {
-  "name": "Wat kunnen we kennen? (Filosofie 1e jaar · T3 · uitgebreide vragenbank)",
+  "name": "Wat kunnen we kennen?",
   "subject": "fil",
   "items": [
    {
@@ -5617,7 +5617,7 @@ const QUIZZES = {
   ]
  },
  "fil-t4-banco": {
-  "name": "Logica en argumentatie (Filosofie 1e jaar · T4 · uitgebreide vragenbank)",
+  "name": "Logica en argumentatie",
   "subject": "fil",
   "items": [
    {
@@ -5953,7 +5953,7 @@ const QUIZZES = {
   ]
  },
  "fil-t5-banco": {
-  "name": "De vragen van de ethiek (Filosofie 1e · T5 · uitgebreide vragenbank)",
+  "name": "De vragen van de ethiek",
   "subject": "fil",
   "items": [
    {
@@ -6289,7 +6289,7 @@ const QUIZZES = {
   ]
  },
  "fil-helenismo-banco": {
-  "name": "De hellenistische scholen: hoe bereik je geluk? (Filosofie 1e · T5 · uitgebreide bank)",
+  "name": "De hellenistische scholen: hoe bereik je geluk?",
   "subject": "fil",
   "items": [
    {
@@ -6493,7 +6493,7 @@ const QUIZZES = {
   ]
  },
  "fil-t6-banco": {
-  "name": "Het leven in de samenleving (Politieke filosofie) (Filosofie 1e jaar · T6 · uitgebreide vragenbank)",
+  "name": "Het leven in de samenleving (politieke filosofie)",
   "subject": "fil",
   "items": [
    {
@@ -6829,7 +6829,7 @@ const QUIZZES = {
   ]
  },
  "fil-t7-banco": {
-  "name": "Wat is kunst? (Esthetica) (Filosofie 1e jaar · T7 · uitgebreide vragenbank)",
+  "name": "Wat is kunst? (Esthetica)",
   "subject": "fil",
   "items": [
    {
@@ -7286,7 +7286,7 @@ const QUIZZES = {
   ]
  },
  "fil-t1-repaso": {
-  "name": "Wat is filosofie? (Filosofie 1e jaar · Thema 1 · herhaling)",
+  "name": "Wat is filosofie? (Thema 1 · herhaling)",
   "subject": "fil",
   "items": [
    {
@@ -7468,7 +7468,7 @@ const QUIZZES = {
   ]
  },
  "fil-t2-repaso": {
-  "name": "De mens (Filosofie 1e · T2 · herhaling)",
+  "name": "De mens (T2 · herhaling)",
   "subject": "fil",
   "items": [
    {
@@ -7683,7 +7683,7 @@ const QUIZZES = {
   ]
  },
  "fil-metafisica": {
-  "name": "De werkelijkheid: wat is er en hoe is het? (Filosofie 1e jaar · M)",
+  "name": "De werkelijkheid: wat is er en hoe is het? (M)",
   "subject": "fil",
   "items": [
    {
@@ -7964,7 +7964,7 @@ const QUIZZES = {
   ]
  },
  "fil-t3-repaso": {
-  "name": "Kennis en waarheid (Filosofie 1e jaar · Thema 3 · herhaling)",
+  "name": "Kennis en waarheid (Thema 3 · herhaling)",
   "subject": "fil",
   "items": [
    {
@@ -8179,7 +8179,7 @@ const QUIZZES = {
   ]
  },
  "fil-venn-q": {
-  "name": "Proposities, klassen en Euler- en Venn-diagrammen (Filosofie 1e · Thema 4)",
+  "name": "Proposities, klassen en Euler- en Venn-diagrammen (Thema 4)",
   "subject": "fil",
   "items": [
    {
@@ -8328,7 +8328,7 @@ const QUIZZES = {
   ]
  },
  "fil-validez-q": {
-  "name": "Geldigheid en waarheid, deductie en inductie (Filosofie 1e jaar · T4 · leerroute, niveau 1)",
+  "name": "Geldigheid en waarheid, deductie en inductie (T4 · leerroute, niveau 1)",
   "subject": "fil",
   "items": [
    {
@@ -8466,7 +8466,7 @@ const QUIZZES = {
   ]
  },
  "fil-formalizar-q": {
-  "name": "Formaliseren in propositielogica (Filosofie 1e · T4 · leerroute, niveau 3)",
+  "name": "Formaliseren in propositielogica (T4 · leerroute, niveau 3)",
   "subject": "fil",
   "items": [
    {
@@ -8637,7 +8637,7 @@ const QUIZZES = {
   ]
  },
  "fil-cuantif-q": {
-  "name": "Kwantoren, oppositievierkant en conversie (Filosofie 1e · T4 · leerroute, niveau 6)",
+  "name": "Kwantoren, oppositievierkant en conversie (T4 · leerroute, niveau 6)",
   "subject": "fil",
   "items": [
    {
@@ -8808,7 +8808,7 @@ const QUIZZES = {
   ]
  },
  "fil-boole-q": {
-  "name": "Klassen, verzamelingen en booleaanse algebra: dezelfde wet in vijf talen (Filosofie 1e · T4 · route, niveau 5)",
+  "name": "Klassen, verzamelingen en booleaanse algebra: dezelfde wet in vijf talen (T4 · route, niveau 5)",
   "subject": "fil",
   "items": [
    {
@@ -8946,7 +8946,7 @@ const QUIZZES = {
   ]
  },
  "fil-relaciones-q": {
-  "name": "Eigenschappen van relaties en kleine werelden (Filosofie 1e · T4 · leerroute, niveau 8)",
+  "name": "Eigenschappen van relaties en kleine werelden (T4 · leerroute, niveau 8)",
   "subject": "fil",
   "items": [
    {
@@ -9084,7 +9084,7 @@ const QUIZZES = {
   ]
  },
  "fil-t4-repaso": {
-  "name": "Logica en argumentatie (Filosofie 1e jaar · T4 · herhaling)",
+  "name": "Logica en argumentatie (T4 · herhaling)",
   "subject": "fil",
   "items": [
    {
@@ -9266,7 +9266,7 @@ const QUIZZES = {
   ]
  },
  "fil-t5-repaso": {
-  "name": "Ethiek (Filosofie 1e · Thema 5 · herhaling)",
+  "name": "Ethiek (Thema 5 · herhaling)",
   "subject": "fil",
   "items": [
    {
@@ -9481,7 +9481,7 @@ const QUIZZES = {
   ]
  },
  "fil-t5-cuidado-cortina": {
-  "name": "Het morele oordeel, de zorgethiek en Cortina (Filosofie 1e · T5 · herhaling)",
+  "name": "Het morele oordeel, de zorgethiek en Cortina (T5 · herhaling)",
   "subject": "fil",
   "items": [
    {
@@ -9597,7 +9597,7 @@ const QUIZZES = {
   ]
  },
  "fil-t6-repaso": {
-  "name": "Het leven in de samenleving: politiek (Filosofie 1e · T6 · herhaling)",
+  "name": "Het leven in de samenleving: politiek (T6 · herhaling)",
   "subject": "fil",
   "items": [
    {
@@ -9779,7 +9779,7 @@ const QUIZZES = {
   ]
  },
  "fil-t7-repaso": {
-  "name": "Esthetica: wat is kunst? (Filosofie 1e jaar · T7 · herhaling)",
+  "name": "Esthetica: wat is kunst? (T7 · herhaling)",
   "subject": "fil",
   "items": [
    {
